@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maize">#FFFBCC52</color>
+    <color name="lightSilver">#FFD9D9D9</color>
+    <color name="iguanaGreen">#FF79AC78</color>
+    <color name="calPolyPomonaGreen">#FF29512C</color>
+    <color name="mughalGreen">#FF2D6A32</color>
+    <color name="phtaloGreen">#FF1A3615</color>
+    <color name="middleGreen">#FF57885B</color>
+    <color name="antiFlasWhite">#FFF2F2F2</color>
+    <color name="silverChalice">#FFABABAB</color>
+    <color name="davysGrey">#FF505055</color>
+</resources>
