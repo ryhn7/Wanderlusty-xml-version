@@ -12,4 +12,6 @@
     <string name="section_hidden_gems">Hidden Gems</string>
     <string name="subtitle_hidden_gems">Explore nearby gems and hidden treasures</string>
     <string name="section_favorite_place">Favorite Place</string>
+    <string name="search">Where to?</string>
+    <string name="explore">Explore</string>
 </resources>

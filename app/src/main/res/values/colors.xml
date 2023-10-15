@@ -13,4 +13,6 @@
     <color name="antiFlasWhite">#FFF2F2F2</color>
     <color name="silverChalice">#FFABABAB</color>
     <color name="davysGrey">#FF505055</color>
+    <color name="davysGrey70">#B3505055</color>
+    <color name="transparent">#00000000</color>
 </resources>
