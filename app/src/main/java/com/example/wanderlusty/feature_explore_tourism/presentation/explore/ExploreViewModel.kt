@@ -40,6 +40,70 @@ class ExploreViewModel @Inject constructor(
                             error = null,
                             tourismCategories = it.data
                         )
+
+                        getHiddenGems()
+                    }
+
+                    is ResultState.Error -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = false,
+                            error = it.error ?: "An error occurred"
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    fun getHiddenGems() {
+        viewModelScope.launch {
+            useCases.getHiddenGems().asFlow().collect() {
+                when (it) {
+                    is ResultState.Loading -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = true,
+                            error = null
+                        )
+                    }
+
+                    is ResultState.Success -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = false,
+                            error = null,
+                            hiddenGems = it.data
+                        )
+
+                        getAllFavoritePlace()
+                    }
+
+                    is ResultState.Error -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = false,
+                            error = it.error ?: "An error occurred"
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    fun getAllFavoritePlace() {
+        viewModelScope.launch {
+            useCases.getAllFavoritePlace().asFlow().collect() {
+                when (it) {
+                    is ResultState.Loading -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = true,
+                            error = null
+                        )
+                    }
+
+                    is ResultState.Success -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = false,
+                            error = null,
+                            favoritePlace = it.data
+                        )
                     }
 
                     is ResultState.Error -> {

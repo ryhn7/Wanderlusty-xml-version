@@ -7,7 +7,7 @@ import com.example.wanderlusty.feature_explore_tourism.data.model.TourismEntity
 import com.example.wanderlusty.utils.BaseAdapter
 import com.example.wanderlusty.utils.DiffCallbackListener
 
-class SectionOneAdapter : BaseAdapter<TourismEntity, ItemCardOneBinding>(diffCallbackListener) {
+class SectionTwoAdapter : BaseAdapter<TourismEntity, ItemCardOneBinding>(diffCallbackListener) {
 
     companion object {
         val diffCallbackListener = object : DiffCallbackListener<TourismEntity> {

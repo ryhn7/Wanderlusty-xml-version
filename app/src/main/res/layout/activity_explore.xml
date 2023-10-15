@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".feature_explore_tourism.presentation.explore.ExploreActivity">
 
 
@@ -122,8 +122,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/rv_categories"
-            />
+            app:layout_constraintTop_toBottomOf="@id/rv_categories" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_section_one"
@@ -134,8 +133,26 @@
             app:layout_constraintTop_toBottomOf="@+id/section_one"
             tools:listitem="@layout/item_card_one" />
 
+        <include
+            android:id="@+id/section_two"
+            layout="@layout/text_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rv_section_one" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_section_two"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/section_two"
+            tools:listitem="@layout/item_card_one" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</ScrollView>
