@@ -28,5 +28,9 @@
     <string name="description_location">Write the description</string>
     <string name="hint_description_location">Tell us more about this wonderful gems</string>
     <string name="btn_add_tourism">Submit</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
