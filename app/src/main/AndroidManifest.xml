@@ -16,6 +16,15 @@
         android:theme="@style/Theme.Wanderlusty"
         tools:targetApi="31">
         <activity
+            android:name=".feature_community.presentation.CommunityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature_settings.presentation.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature_plans.presentation.PlansActivity"
+            android:exported="false" />
+        <activity
             android:name=".feature_explore_tourism.presentation.explore.AddTourismActivity"
             android:exported="false" />
         <activity
