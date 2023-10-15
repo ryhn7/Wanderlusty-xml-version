@@ -18,4 +18,7 @@
     <string name="title_promotion">Coastal drives and\nforested hillsides</string>
     <string name="subtitle_promotion">Immerse yourself in the beauty of nature, \nwhere the rugged shoreline meets the\nverdant wilderness</string>
     <string name="button_promotion">Let\'s go</string>
+    <string name="title_add_tourism">Help expand our\nmap of wonders!</string>
+    <string name="cta_add_tourism">Add a hidden gem</string>
+
 </resources>

@@ -166,6 +166,57 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/rv_section_two" />
 
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_add_tourism"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="62dp"
+            android:backgroundTint="@color/calPolyPomonaGreen"
+            android:elevation="0dp"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/section_promotion"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity=""
+                    android:text="@string/title_add_tourism"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/btn_add_tourism"
+                    android:layout_width="240dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="32dp"
+                    android:backgroundTint="@color/black"
+                    android:drawableLeft="@drawable/ic_pin_add"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/cta_add_tourism"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cv_add_tourism" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

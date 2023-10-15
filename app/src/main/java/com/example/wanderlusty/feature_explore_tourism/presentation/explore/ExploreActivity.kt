@@ -1,5 +1,6 @@
 package com.example.wanderlusty.feature_explore_tourism.presentation.explore
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -84,9 +85,21 @@ class ExploreActivity : AppCompatActivity() {
         imgPromotionOne.setImageResource(R.drawable.coastal)
         btnPromotionOne.text = getString(R.string.button_promotion)
         btnPromotionOne.setOnClickListener {
-            val toast = Toast.makeText(applicationContext, "Redirect to promotion", Toast.LENGTH_SHORT)
+            val toast =
+                Toast.makeText(applicationContext, "Redirect to promotion", Toast.LENGTH_SHORT)
             toast.show()
         }
+//        End Section Promotion Config
+
+
+//        Section Add Tourism Config
+        val btnAddTourism = binding.btnAddTourism
+        btnAddTourism.setOnClickListener {
+            val intent = Intent(this, AddTourismActivity::class.java)
+            startActivity(intent)
+        }
+//        End Section Add Tourism Config
+
         val state = viewModel.exploreState.value
 
         if (state.isLoading) {
