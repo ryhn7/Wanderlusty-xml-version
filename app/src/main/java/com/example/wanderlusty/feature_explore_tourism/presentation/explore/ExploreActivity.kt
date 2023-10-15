@@ -62,6 +62,7 @@ class ExploreActivity : AppCompatActivity() {
         setContentView(binding.root)
         initAdapter()
 
+//        Section Tourism/City Config
         val titleSectionOne = binding.sectionOne.tvTitleSection
         val subtitleSectionOne = binding.sectionOne.tvSubtitleSection
         titleSectionOne.text = getString(R.string.section_hidden_gems)
@@ -71,7 +72,21 @@ class ExploreActivity : AppCompatActivity() {
         val subtitleSectionTwo = binding.sectionTwo.tvSubtitleSection
         titleSectionTwo.text = getString(R.string.section_favorite_place)
         subtitleSectionTwo.text = getString(R.string.subtitle_favorite_place)
+//        End Section Tourism/City Config
 
+//        Section Promotion Config
+        val titlePromotionOne = binding.sectionPromotion.tvTitlePromotion
+        val subtitlePromotionOne = binding.sectionPromotion.tvSubtitlePromotion
+        val imgPromotionOne = binding.sectionPromotion.ivPromotion
+        val btnPromotionOne = binding.sectionPromotion.btnPromotion
+        titlePromotionOne.text = getString(R.string.title_promotion)
+        subtitlePromotionOne.text = getString(R.string.subtitle_promotion)
+        imgPromotionOne.setImageResource(R.drawable.coastal)
+        btnPromotionOne.text = getString(R.string.button_promotion)
+        btnPromotionOne.setOnClickListener {
+            val toast = Toast.makeText(applicationContext, "Redirect to promotion", Toast.LENGTH_SHORT)
+            toast.show()
+        }
         val state = viewModel.exploreState.value
 
         if (state.isLoading) {

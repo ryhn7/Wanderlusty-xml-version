@@ -15,4 +15,7 @@
     <string name="section_favorite_place">Favorite Place</string>
     <string name="search">Where to?</string>
     <string name="explore">Explore</string>
+    <string name="title_promotion">Coastal drives and\nforested hillsides</string>
+    <string name="subtitle_promotion">Immerse yourself in the beauty of nature, \nwhere the rugged shoreline meets the\nverdant wilderness</string>
+    <string name="button_promotion">Let\'s go</string>
 </resources>
