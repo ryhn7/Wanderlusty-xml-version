@@ -20,5 +20,13 @@
     <string name="button_promotion">Let\'s go</string>
     <string name="title_add_tourism">Help expand our\nmap of wonders!</string>
     <string name="cta_add_tourism">Add a hidden gem</string>
+    <string name="title_share_photo">Share some photos of location</string>
+    <string name="title_location">Title this location</string>
+    <string name="hint_title_location">Capture the essance in a phrase</string>
+    <string name="add_location">Add location</string>
+    <string name="hint_add_location">Specify the location for easy searching</string>
+    <string name="description_location">Write the description</string>
+    <string name="hint_description_location">Tell us more about this wonderful gems</string>
+    <string name="btn_add_tourism">Submit</string>
 
 </resources>

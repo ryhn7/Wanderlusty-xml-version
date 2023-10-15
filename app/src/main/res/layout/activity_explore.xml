@@ -173,7 +173,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="62dp"
             android:backgroundTint="@color/calPolyPomonaGreen"
-            android:elevation="0dp"
+            app:cardElevation="0dp"
             app:cardCornerRadius="8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/section_promotion"
