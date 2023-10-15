@@ -115,6 +115,16 @@
             app:layout_constraintTop_toBottomOf="@+id/tv_explore"
             tools:listitem="@layout/item_category_card" />
 
+        <include
+            android:id="@+id/section_one"
+            layout="@layout/text_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rv_categories"
+            />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

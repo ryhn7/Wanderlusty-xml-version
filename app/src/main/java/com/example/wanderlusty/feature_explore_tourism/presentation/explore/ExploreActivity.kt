@@ -2,10 +2,13 @@ package com.example.wanderlusty.feature_explore_tourism.presentation.explore
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wanderlusty.databinding.ActivityExploreBinding
+import com.example.wanderlusty.feature_explore_tourism.data.model.Category
+import com.example.wanderlusty.feature_explore_tourism.data.model.Tourism
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -17,7 +20,14 @@ class ExploreActivity : AppCompatActivity() {
     private val viewModel: ExploreViewModel by viewModels()
 
     private val categoryAdapter by lazy {
-        CategoryAdapter()
+        CategoryAdapter().apply {
+            setOnItemClickCallback(object : CategoryAdapter.OnItemClickCallback {
+                override fun onItemClicked(data: Category) {
+                    val toast = Toast.makeText(applicationContext, data.textCategory, Toast.LENGTH_SHORT)
+                    toast.show()
+                }
+            })
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
