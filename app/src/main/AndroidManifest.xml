@@ -17,32 +17,27 @@
         tools:targetApi="31">
         <activity
             android:name=".SplashActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main" />
-        <activity
-            android:name=".feature_community.presentation.CommunityActivity"
-            android:exported="false" />
-        <activity
-            android:name=".feature_account.presentation.SettingsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".feature_plans.presentation.PlansActivity"
-            android:exported="false" />
+
+
         <activity
             android:name=".feature_explore_tourism.presentation.explore.AddTourismActivity"
             android:exported="false" />
         <activity
             android:name=".feature_explore_tourism.presentation.explore.ExploreActivity"
-            android:exported="true"/>
+            android:exported="false" />
     </application>
 
 </manifest>
