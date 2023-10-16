@@ -166,6 +166,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/rv_section_two" />
 
+        <include
+            android:id="@+id/section_city_one"
+            layout="@layout/text_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/section_promotion" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_section_city_one"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/section_city_one"
+            tools:listitem="@layout/item_card_two" />
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cv_add_tourism"
             android:layout_width="match_parent"
@@ -176,7 +196,7 @@
             app:cardElevation="0dp"
             app:cardCornerRadius="8dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/section_promotion"
+            app:layout_constraintTop_toBottomOf="@id/rv_section_city_one"
             app:strokeWidth="0dp">
 
             <LinearLayout

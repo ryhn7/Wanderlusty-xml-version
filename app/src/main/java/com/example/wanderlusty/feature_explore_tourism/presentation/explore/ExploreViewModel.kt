@@ -104,6 +104,38 @@ class ExploreViewModel @Inject constructor(
                             error = null,
                             favoritePlace = it.data
                         )
+
+                        getAllSectionCitiesOne()
+                    }
+
+                    is ResultState.Error -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = false,
+                            error = it.error ?: "An error occurred"
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    fun getAllSectionCitiesOne() {
+        viewModelScope.launch {
+            useCases.getAllSectionCitiesOne().asFlow().collect() {
+                when (it) {
+                    is ResultState.Loading -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = true,
+                            error = null
+                        )
+                    }
+
+                    is ResultState.Success -> {
+                        _exploreState.value = _exploreState.value.copy(
+                            isLoading = false,
+                            error = null,
+                            sectionCitiesOne = it.data
+                        )
                     }
 
                     is ResultState.Error -> {

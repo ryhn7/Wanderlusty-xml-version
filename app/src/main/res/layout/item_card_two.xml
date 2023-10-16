@@ -23,16 +23,23 @@
             android:scaleType="centerCrop"
             android:src="@drawable/example_img" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="228dp"
+            android:background="@color/black30"
+            />
+
         <TextView
             android:id="@+id/tv_title_card_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="9dp"
-            android:layout_marginTop="187dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="176dp"
+            android:letterSpacing="-0.03"
             android:fontFamily="@font/poppins_bold"
             android:text="Semarang"
             android:textColor="@color/white"
-            android:textSize="23sp"
+            android:textSize="24sp"
             />
     </com.google.android.material.card.MaterialCardView>
 

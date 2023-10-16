@@ -14,6 +14,7 @@ import com.example.wanderlusty.R
 import com.example.wanderlusty.databinding.FragmentExploreBinding
 import com.example.wanderlusty.feature_explore_tourism.data.model.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -60,6 +61,18 @@ class ExploreFragment : Fragment() {
         }
     }
 
+    private val sectionCityOneAdapter by lazy {
+        SectionCityOneAdapter().apply {
+            setOnItemClickCallback(object : SectionCityOneAdapter.OnItemClickCallback {
+                override fun onItemClicked(data: CityEntity) {
+                    val toast =
+                        Toast.makeText(requireContext(), data.name, Toast.LENGTH_SHORT)
+                    toast.show()
+                }
+            })
+        }
+    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -78,6 +91,7 @@ class ExploreFragment : Fragment() {
             state.tourismCategories?.let { categoryAdapter.setItems(it) }
             state.hiddenGems?.let { sectionOneAdapter.setItems(it) }
             state.favoritePlace?.let { sectionTwoAdapter.setItems(it) }
+            state.sectionCitiesOne?.let { sectionCityOneAdapter.setItems(it) }
         }
 
         return binding.root
@@ -147,7 +161,11 @@ class ExploreFragment : Fragment() {
             layoutManager =
                 LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         }
+
+        binding.rvSectionCityOne.apply {
+            adapter = sectionCityOneAdapter
+            layoutManager =
+                LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        }
     }
-
-
 }

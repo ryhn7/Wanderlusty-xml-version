@@ -6,6 +6,9 @@ import com.example.wanderlusty.feature_explore_tourism.data.model.dummyHiddenGem
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyCategory
+import com.example.wanderlusty.utils.GetJson
+import com.example.wanderlusty.utils.JsonParser
+import org.json.JSONObject
 
 interface LocalDataSource {
     fun getAllFavoritePlaces(): List<TourismEntity>?
@@ -27,7 +30,44 @@ object TourismDataSource : LocalDataSource {
         return dummyCategory
     }
 
-    override fun getAllSectionCitiesOne(): List<CityEntity>? {
-        TODO("Not yet implemented")
+    override fun getAllSectionCitiesOne(): List<CityEntity> {
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
+
+        val jsonObject = JSONObject(jsonString)
+
+//        val keys = mapOf(
+//            "city_1" to "city_1",
+//            "id" to "id",
+//            "name" to "name",
+//            "image" to "image"
+//        )
+//
+//        val cityJsonMap = JsonParser.parseEntity(jsonString, keys)
+//        return cityJsonMap.values.map {
+//            val cityData = it.split(",")
+//            CityEntity(
+//                id = cityData[0],
+//                name = cityData[1],
+//                image = cityData[2].toInt()
+//            )
+//        }
+
+        val cityList = mutableListOf<CityEntity>()
+
+        // Iterate through each key (which represents a city)
+        for (key in jsonObject.keys()) {
+            val cityData = jsonObject.getJSONObject(key)
+
+            val id = cityData.getString("id")
+            val name = cityData.getString("name")
+            val image = cityData.getString("image")
+
+            // Create a CityEntity and add it to the list
+            val cityEntity = CityEntity(id, name, image)
+            cityList.add(cityEntity)
+        }
+
+        return cityList
     }
 }
+
