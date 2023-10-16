@@ -88,7 +88,22 @@
         "site": "https://thegrandhill.com/statik.php?id=27",
         "sponsored": true,
         "image": ["hotel_thegrandhill.jpeg", "hotel_thegrandhill1.jpeg", "hotel_thegrandhill2.jpeg"]
-      }
+      },
+      {
+        "name": "The Grand Hill",
+        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
+        "phone": "+6285888296259",
+        "email": "groupreservation@thegrandhill.com",
+        "tag": ["located in Bogor", "Hotel in puncak bogor"],
+        "languages": ["English", "Indonesian"],
+        "amenities": ["SUN & MOON POOL"],
+        "rating": 4.4,
+        "review": 2.905,
+        "price1": 625000,
+        "price2": 701250,
+        "site": "https://bogorvalleyhotel.com/",
+        "sponsored": true,
+        "image": ["hotel_thegrandhill.jpeg", "hotel_thegrandhill1.jpeg", "hotel_thegrandhill2.jpeg"]
     ],
 
     "things_todo": [
@@ -124,9 +139,9 @@
 
     "restaurants": [
       {
-        "name": "Restoran 1",
-        "description": "deskripsi restoran",
-        "tag": ["Cafe", "Healthy"],
+        "name": "Roofpark cafe and resto",
+        "description": "it's not good, you don't have to pay",
+        "tag": ["Cafe", "Restaurant", "Billiard" ],
         "feature": ["Delivery", "Takeouts"],
         "phone": "123 123",
         "email": "harris@gmail.com",
@@ -157,36 +172,37 @@
       }
     ]
   },
-  "city_2": {
+  "city2": {
     "name": "Semarang",
-    "subtitle": "Tourism in Bogor",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "subtitle": "Tourism in Semarang",
+    "description": "Semarang city is known as a trade center and service city. On the historical side, this city is famous for the \"Five Day Battle of Semarang\". This city has also been given various nicknames, from Atlas City, Lumpia City, the Venice of Java, the Port of Java, to Semarang, the Enchantment of Asia.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "name": "Saloka Park",
+        "description": "SALOKA is present as one of the Pesona Indonesia tourist destinations in the form of a family thematic recreation park in Central Java which carries the concept of local wisdom. Located at the intersection between the cities of Semarang, Salatiga, Surakarta and the Special Region of Yogyakarta.",
         "image": [
-          "wisata_gunungmas.jpg",
-          "wisata_gunungmas1.jpg",
-          "wisata_gunungmas2.jgp"
+          "wisata_salokapark.jpg",
+          "wisata_salokapark1.jpg",
+          "wisata_salokapark2.jgp"
         ],
-        "rating": 4.7,
-        "review": 6.368,
-        "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.4,
+        "review": 17.111,
+        "type": "Amusement Parks",
+        "location": "Semarang, Jawa Tengah"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "Sam Poo Kong",
+        "description": "The Sam Poo Kong Ancient Building Temple is the former place of transit and first landing of a Muslim Chinese Admiral named Zheng He/Cheng Ho, also known as Sam Poo. Not all of the ship's crew were Muslim.",
         "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
+          "wisata_sampookong.jpg",
+          "wisata_sampookong1.jpg",
+          "wisata_sampookong2.jpg"
         ],
-        "rating": 4.7,
-        "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.5,
+        "review": 24.912,
+        "type": "Worship Place",
+        "location": "Semarang, Jawa Tengah"
       }
     ],
     "hidden_gems": [
