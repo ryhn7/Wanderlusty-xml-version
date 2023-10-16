@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".feature_explore_tourism.presentation.explore.ExploreActivity">
+    tools:context=".feature_explore_tourism.presentation.explore.ExploreFragment">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -80,7 +80,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <SearchView
+
+        <android.widget.SearchView
             android:id="@+id/sv_wanderlusty"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
