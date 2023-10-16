@@ -5,6 +5,6 @@
         android:color="@color/mughalGreen80"/>
 
     <item android:state_checked="false"
-        android:color="@color/silverChalice"/>
+        android:color="@color/davysGrey"/>
 
 </selector>
