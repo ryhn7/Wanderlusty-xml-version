@@ -43,19 +43,38 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/field_email" />
 
-    <EditText
-        android:id="@+id/field_password"
+    <RelativeLayout
         android:layout_width="312dp"
-        android:layout_height="44dp"
-        android:hint="Password"
-        android:textSize="14dp"
-        android:inputType="textPassword"
-        android:paddingHorizontal="14dp"
-        android:fontFamily="@font/poppins_medium"
-        android:textColor="@color/mediumSilver"
-        android:background="@drawable/stroke_form_loginregis"
+        android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/label_password"
-        />
+        app:layout_constraintTop_toBottomOf="@id/label_password">
+
+        <EditText
+            android:id="@+id/field_password"
+            android:layout_width="312dp"
+            android:layout_height="44dp"
+            android:hint="Password"
+            android:textSize="14dp"
+            android:inputType="textPassword"
+            android:paddingHorizontal="14dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/mediumSilver"
+            android:background="@drawable/stroke_form_loginregis"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/show_pass_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:alpha=".5"
+            android:layout_marginRight="5dp"
+            android:onClick="ShowHidePass"
+            android:padding="5dp"
+            android:src="@drawable/ic_eye" />
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
