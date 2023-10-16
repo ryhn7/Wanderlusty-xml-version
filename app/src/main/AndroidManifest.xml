@@ -29,14 +29,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:label="@string/title_activity_main" />
-
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="adjustPan" />
 
         <activity
             android:name=".feature_explore_tourism.presentation.explore.AddTourismActivity"
-            android:exported="false" />
-        <activity
-            android:name=".feature_explore_tourism.presentation.explore.ExploreActivity"
             android:exported="false" />
     </application>
 
