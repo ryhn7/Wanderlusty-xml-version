@@ -31,12 +31,8 @@
             android:exported="false"
             android:label="@string/title_activity_main" />
 
-
         <activity
             android:name=".feature_explore_tourism.presentation.explore.AddTourismActivity"
-            android:exported="false" />
-        <activity
-            android:name=".feature_explore_tourism.presentation.explore.ExploreActivity"
             android:exported="false" />
     </application>
 
