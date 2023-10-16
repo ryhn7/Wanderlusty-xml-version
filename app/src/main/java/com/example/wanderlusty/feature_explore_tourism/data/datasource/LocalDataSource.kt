@@ -31,29 +31,9 @@ object TourismDataSource : LocalDataSource {
 
     override fun getAllSectionCitiesOne(): List<CityEntity> {
         val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
-
         val jsonObject = JSONObject(jsonString)
-
-//        val keys = mapOf(
-//            "city_1" to "city_1",
-//            "id" to "id",
-//            "name" to "name",
-//            "image" to "image"
-//        )
-//
-//        val cityJsonMap = JsonParser.parseEntity(jsonString, keys)
-//        return cityJsonMap.values.map {
-//            val cityData = it.split(",")
-//            CityEntity(
-//                id = cityData[0],
-//                name = cityData[1],
-//                image = cityData[2].toInt()
-//            )
-//        }
-
         val cityList = mutableListOf<CityEntity>()
 
-        // Iterate through each key (which represents a city)
         for (key in jsonObject.keys()) {
             val cityData = jsonObject.getJSONObject(key)
 
@@ -61,11 +41,9 @@ object TourismDataSource : LocalDataSource {
             val name = cityData.getString("name")
             val image = cityData.getString("image")
 
-            // Create a CityEntity and add it to the list
             val cityEntity = CityEntity(id, name, image)
             cityList.add(cityEntity)
         }
-
         return cityList
     }
 }
