@@ -3,29 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_explore">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_explore"
         android:name="com.example.wanderlusty.feature_explore_tourism.presentation.explore.ExploreFragment"
+        android:fontFamily="@font/poppins_medium"
         android:label="@string/title_explore"
+        android:textColor="@color/mughalGreen80"
         tools:layout="@layout/fragment_explore" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.wanderlusty.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_community"
+        android:name="com.example.wanderlusty.feature_community.presentation.CommunityFragment"
+        android:label="@string/title_community"
+        tools:layout="@layout/fragment_community" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.wanderlusty.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_plans"
+        android:name="com.example.wanderlusty.feature_plans.presentation.PlansFragment"
+        android:label="@string/title_plans"
+        tools:layout="@layout/fragment_plans" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.wanderlusty.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_account"
+        android:name="com.example.wanderlusty.feature_account.presentation.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
 </navigation>
