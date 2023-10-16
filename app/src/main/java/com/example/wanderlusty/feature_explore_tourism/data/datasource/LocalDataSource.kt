@@ -7,7 +7,6 @@ import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEnt
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyCategory
 import com.example.wanderlusty.utils.GetJson
-import com.example.wanderlusty.utils.JsonParser
 import org.json.JSONObject
 
 interface LocalDataSource {
