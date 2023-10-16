@@ -11,5 +11,31 @@
     <string name="text_explore">Explore</string>
     <string name="section_hidden_gems">Hidden Gems</string>
     <string name="subtitle_hidden_gems">Explore nearby gems and hidden treasures</string>
+    <string name="subtitle_favorite_place">Designing an Unforgettable Trip</string>
     <string name="section_favorite_place">Favorite Place</string>
+    <string name="search">Where to?</string>
+    <string name="explore">Explore</string>
+    <string name="title_promotion">Coastal drives and\nforested hillsides</string>
+    <string name="subtitle_promotion">Immerse yourself in the beauty of nature, \nwhere the rugged shoreline meets the\nverdant wilderness</string>
+    <string name="button_promotion">Let\'s go</string>
+    <string name="title_add_tourism">Help expand our\nmap of wonders!</string>
+    <string name="cta_add_tourism">Add a hidden gem</string>
+    <string name="title_share_photo">Share some photos of location</string>
+    <string name="title_location">Title this location</string>
+    <string name="hint_title_location">Capture the essance in a phrase</string>
+    <string name="add_location">Add location</string>
+    <string name="hint_add_location">Specify the location for easy searching</string>
+    <string name="description_location">Write the description</string>
+    <string name="hint_description_location">Tell us more about this wonderful gems</string>
+    <string name="btn_add_tourism">Submit</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_community">Community</string>
+    <string name="title_plans">Plans</string>
+    <string name="title_account">Account</string>
+    <string name="logo">logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

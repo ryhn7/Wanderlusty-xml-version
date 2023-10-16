@@ -3,22 +3,23 @@ package com.example.wanderlusty.feature_explore_tourism.data.repository
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.example.wanderlusty.feature_explore_tourism.data.datasource.TourismDataSource
-import com.example.wanderlusty.feature_explore_tourism.data.model.Category
-import com.example.wanderlusty.feature_explore_tourism.data.model.Tourism
+import com.example.wanderlusty.feature_explore_tourism.data.model.TourismEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.interface_repository.TourismRepository
 import com.example.wanderlusty.utils.ResultState
 
 class TourismRepositoryImpl private constructor() : TourismRepository {
-    override suspend fun getAllFavoritePlace(): LiveData<ResultState<List<Tourism>>> = liveData {
-        try {
-            val response = TourismDataSource.getAllFavoritePlaces()
-            emit(ResultState.Success(response))
-        } catch (e: Exception) {
-            emit(ResultState.Error(e.message.toString()))
+    override suspend fun getAllFavoritePlace(): LiveData<ResultState<List<TourismEntity>>> =
+        liveData {
+            try {
+                val response = TourismDataSource.getAllFavoritePlaces()
+                emit(ResultState.Success(response))
+            } catch (e: Exception) {
+                emit(ResultState.Error(e.message.toString()))
+            }
         }
-    }
 
-    override suspend fun getHiddenGems(): LiveData<ResultState<List<Tourism>>> = liveData {
+    override suspend fun getHiddenGems(): LiveData<ResultState<List<TourismEntity>>> = liveData {
         try {
             val response = TourismDataSource.getHiddenGems()
             emit(ResultState.Success(response))
@@ -27,14 +28,15 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
         }
     }
 
-    override suspend fun getAllTourismCategories(): LiveData<ResultState<List<Category>>> = liveData {
-        try {
-            val response = TourismDataSource.getAllTourismCategories()
-            emit(ResultState.Success(response))
-        } catch (e: Exception) {
-            emit(ResultState.Error(e.message.toString()))
+    override suspend fun getAllTourismCategories(): LiveData<ResultState<List<CategoryEntity>>> =
+        liveData {
+            try {
+                val response = TourismDataSource.getAllTourismCategories()
+                emit(ResultState.Success(response))
+            } catch (e: Exception) {
+                emit(ResultState.Error(e.message.toString()))
+            }
         }
-    }
 
     companion object {
         @Volatile

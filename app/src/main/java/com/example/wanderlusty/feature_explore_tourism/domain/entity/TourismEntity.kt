@@ -2,7 +2,7 @@ package com.example.wanderlusty.feature_explore_tourism.data.model
 
 import com.example.wanderlusty.R
 
-data class Tourism(
+data class TourismEntity(
     val id: Long,
     val image: Int,
     val title: String,
@@ -14,7 +14,7 @@ data class Tourism(
 )
 
 val dummyFavoritePlace = listOf(
-    Tourism(
+    TourismEntity(
         id = 1,
         image = R.drawable.nusa_penida,
         title = "Kelingking Beach",
@@ -24,7 +24,7 @@ val dummyFavoritePlace = listOf(
         location = "Nusa Penida, Bali",
         price = null,
     ),
-    Tourism(
+    TourismEntity(
         id = 2,
         image = R.drawable.korod,
         title = "Korod Rice Field",
@@ -34,7 +34,7 @@ val dummyFavoritePlace = listOf(
         location = "Bogor, West Java",
         price = null,
     ),
-    Tourism(
+    TourismEntity(
         id = 3,
         image = R.drawable.samosir_island,
         title = "Samosir Island",
@@ -47,7 +47,7 @@ val dummyFavoritePlace = listOf(
 )
 
 val dummyHiddenGems = listOf(
-    Tourism(
+    TourismEntity(
         id = 4,
         image = R.drawable.wisata_curugbalongendah,
         title = "Balong Endah Waterfall",
@@ -57,7 +57,7 @@ val dummyHiddenGems = listOf(
         location = "Bogor, West Java",
         price = null,
     ),
-    Tourism(
+    TourismEntity(
         id = 5,
         image = R.drawable.brown_canyon,
         title = "Brown Canyon",
@@ -67,7 +67,7 @@ val dummyHiddenGems = listOf(
         location = "Semarang, Central Java",
         price = null,
     ),
-    Tourism(
+    TourismEntity(
         id = 6,
         image = R.drawable.skuleskogen,
         title = "Mudal River Park",
