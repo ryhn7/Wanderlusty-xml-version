@@ -1,11 +1,11 @@
 package com.example.wanderlusty.feature_explore_tourism.data.datasource
 
-import com.example.wanderlusty.feature_explore_tourism.data.model.TourismEntity
-import com.example.wanderlusty.feature_explore_tourism.data.model.dummyFavoritePlace
-import com.example.wanderlusty.feature_explore_tourism.data.model.dummyHiddenGems
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyCategory
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyFavoritePlace
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyHiddenGems
 import com.example.wanderlusty.utils.GetJson
 import org.json.JSONObject
 
