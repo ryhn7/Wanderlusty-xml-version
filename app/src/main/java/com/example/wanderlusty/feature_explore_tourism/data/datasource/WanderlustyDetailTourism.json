@@ -1,0 +1,60 @@
+{
+  "tourism": [
+    {
+      "name": "Lawang Sewu",
+      "description": "deskripsi hotel",
+      "image": "lawangsewu.png",
+      "rating": 4,
+      "review": 120,
+      "price": 120000,
+      "sponsored": true,
+      "type": "Historic Sites",
+      "duration": "2 hours",
+      "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+      "tour_option": [
+        {
+          "name": "tour 1",
+          "rating": 4,
+          "review": 120,
+          "price": 120000,
+          "image": "tour1.png"
+        },
+        {
+          "name": "tour 1",
+          "rating": 4,
+          "review": 120,
+          "price": 120000,
+          "image": "tour1.png"
+        }
+      ]
+    },
+    {
+      "name": "Lawang Sewu",
+      "description": "deskripsi hotel",
+      "image": "lawangsewu.png",
+      "rating": 4,
+      "review": 120,
+      "price": 120000,
+      "sponsored": true,
+      "type": "Historic Sites",
+      "duration": "2 hours",
+      "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+      "tour_option": [
+        {
+          "name": "tour 1",
+          "rating": 4,
+          "review": 120,
+          "price": 120000,
+          "image": "tour1.png"
+        },
+        {
+          "name": "tour 1",
+          "rating": 4,
+          "review": 120,
+          "price": 120000,
+          "image": "tour1.png"
+        }
+      ]
+    }
+  ]
+}
