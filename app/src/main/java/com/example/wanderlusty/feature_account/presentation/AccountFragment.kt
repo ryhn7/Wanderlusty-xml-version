@@ -1,60 +1,75 @@
 package com.example.wanderlusty.feature_account.presentation
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.example.wanderlusty.R
+import com.example.wanderlusty.databinding.FragmentAccountBinding
+import com.example.wanderlusty.feature_explore_tourism.presentation.explore.AddTourismActivity
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [AccountFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class AccountFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
+    private var _binding: FragmentAccountBinding? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        arguments?.let {
-            param1 = it.getString(ARG_PARAM1)
-            param2 = it.getString(ARG_PARAM2)
-        }
-    }
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_account, container, false)
+        _binding = FragmentAccountBinding.inflate(inflater, container, false)
+
+        return binding.root
     }
 
-    companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment AccountFragment.
-         */
-        // TODO: Rename and change types and number of parameters
-        @JvmStatic
-        fun newInstance(param1: String, param2: String) =
-            AccountFragment().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
-            }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        configScreen()
     }
+
+    private fun configScreen() {
+//        Section Preferences
+        val textLanguage = binding.itemLanguage.tvSettingOption
+        val textCurrency = binding.itemCurrency.tvSettingOption
+        val textUnits = binding.itemUnits.tvSettingOption
+        val textNotification = binding.itemNotification.tvSettingOption
+
+        textLanguage.text = getString(R.string.language)
+        textCurrency.text = getString(R.string.currency)
+        textUnits.text = getString(R.string.units)
+        textNotification.text = getString(R.string.notification)
+
+        val lastDivider = binding.itemNotification.divider
+        lastDivider.visibility = View.GONE
+
+        val valueTextLanguage = binding.itemLanguage.tvValueOption
+        val valueTextCurrency = binding.itemCurrency.tvValueOption
+        val valueTextUnits = binding.itemUnits.tvValueOption
+        val valueTextNotification = binding.itemNotification.tvValueOption
+
+        valueTextLanguage.text = getString(R.string.lang_value)
+        valueTextCurrency.text = getString(R.string.currency_value)
+        valueTextUnits.text = getString(R.string.units_value)
+        valueTextNotification.text = ""
+//        End Section Preferences
+
+//        Section Support
+        val textHelp = binding.itemHelpCenter.tvSettingOption
+        val textAppFeedback = binding.itemAppFeedback.tvSettingOption
+        val textPolicy = binding.itemPolicy.tvSettingOption
+
+        textHelp.text = getString(R.string.help_center)
+        textAppFeedback.text = getString(R.string.app_feedback)
+        textPolicy.text = getString(R.string.privacy_policy)
+
+        val lastDividerSupport = binding.itemPolicy.divider
+        lastDividerSupport.visibility = View.GONE
+//        End Section Support
+    }
+
 }
