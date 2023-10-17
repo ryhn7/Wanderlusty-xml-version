@@ -19,6 +19,9 @@
             android:name=".feature_explore_tourism.presentation.detail_city.DetailCityActivity"
             android:exported="false" />
         <activity
+                        android:name=".feature_auth.presentation.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">

@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <include
-        android:id="@+id/include"
+        android:id="@+id/field_activity_login"
         layout="@layout/field_loginregis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,12 +29,12 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_welcome_back" />
 
     <include
-        android:id="@+id/include2"
+        android:id="@+id/btn_activity_login"
         layout="@layout/btn_loginregis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include" />
+        app:layout_constraintTop_toBottomOf="@+id/field_activity_login" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
