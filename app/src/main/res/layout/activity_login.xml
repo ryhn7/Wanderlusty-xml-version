@@ -3,31 +3,38 @@
     android:id="@+id/login_page"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="30dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/btn_back"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="4dp"
-        android:contentDescription="@string/icon"
-        android:src="@drawable/ic_back"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
     <TextView
-        android:id="@+id/welcome_back"
+        android:id="@+id/txt_welcome_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_marginStart="16dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Welcome back."
-        android:textSize="30sp"
+        android:text="@string/welcome_back"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_back" />
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <include
+        android:id="@+id/include"
+        layout="@layout/field_loginregis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_welcome_back" />
 
+    <include
+        android:id="@+id/include2"
+        layout="@layout/btn_loginregis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
