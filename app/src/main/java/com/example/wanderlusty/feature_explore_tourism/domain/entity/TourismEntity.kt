@@ -1,9 +1,6 @@
 package com.example.wanderlusty.feature_explore_tourism.domain.entity
 
-import android.os.Parcelable
-import kotlinx.parcelize.Parcelize
 
-@Parcelize
 data class TourismEntity(
     val id: String,
     val image: String,
@@ -13,4 +10,16 @@ data class TourismEntity(
     val type: String,
     val location: String,
     val price: String? = null,
-) : Parcelable
+    val description: String,
+    val duration: String,
+    val address: String,
+    val tourOption: List<TourOption>? = null,
+)
+
+data class TourOption(
+    val name: String,
+    val rating: Number,
+    val review: Number,
+    val price: Number,
+    val image: String,
+)
