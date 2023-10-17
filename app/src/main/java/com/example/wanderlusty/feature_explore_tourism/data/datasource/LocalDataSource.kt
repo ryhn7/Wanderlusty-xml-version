@@ -4,8 +4,6 @@ import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEnt
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyCategory
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyFavoritePlace
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyHiddenGems
 import com.example.wanderlusty.utils.GetJson
 import org.json.JSONObject
 
@@ -18,11 +16,51 @@ interface LocalDataSource {
 
 object TourismDataSource : LocalDataSource {
     override fun getAllFavoritePlaces(): List<TourismEntity> {
-        return dummyFavoritePlace
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
+        val jsonObject = JSONObject(jsonString)
+        val favoritePlaceList = mutableListOf<TourismEntity>()
+        val tourismArray = jsonObject.getJSONObject("tourism").getJSONArray("section_two")
+
+        for (i in 0 until tourismArray.length()) {
+            val favoritePlaceData = tourismArray.getJSONObject(i)
+
+            val id = favoritePlaceData.getString("id")
+            val image = favoritePlaceData.getString("image")
+            val title = favoritePlaceData.getString("title")
+            val rating = favoritePlaceData.getString("rating").toDouble()
+            val review = favoritePlaceData.getString("review").toInt()
+            val type = favoritePlaceData.getString("type")
+            val location = favoritePlaceData.getString("location")
+
+            val favoritePlaceEntity =
+                TourismEntity(id, image, title, rating, review, type, location)
+            favoritePlaceList.add(favoritePlaceEntity)
+        }
+        return favoritePlaceList
     }
 
     override fun getHiddenGems(): List<TourismEntity> {
-        return dummyHiddenGems
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
+        val jsonObject = JSONObject(jsonString)
+        val hiddenGemsList = mutableListOf<TourismEntity>()
+
+        val tourismArray = jsonObject.getJSONObject("tourism").getJSONArray("section_one")
+
+        for (i in 0 until tourismArray.length()) {
+            val hiddenGemsData = tourismArray.getJSONObject(i)
+
+            val id = hiddenGemsData.getString("id")
+            val image = hiddenGemsData.getString("image")
+            val title = hiddenGemsData.getString("title")
+            val rating = hiddenGemsData.getString("rating").toDouble()
+            val review = hiddenGemsData.getString("review").toInt()
+            val type = hiddenGemsData.getString("type")
+            val location = hiddenGemsData.getString("location")
+
+            val hiddenGemsEntity = TourismEntity(id, image, title, rating, review, type, location)
+            hiddenGemsList.add(hiddenGemsEntity)
+        }
+        return hiddenGemsList
     }
 
     override fun getAllTourismCategories(): List<CategoryEntity> {

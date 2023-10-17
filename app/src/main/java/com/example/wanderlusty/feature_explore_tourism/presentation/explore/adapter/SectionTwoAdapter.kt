@@ -31,7 +31,12 @@ class SectionTwoAdapter : BaseAdapter<TourismEntity, ItemCardOneBinding>(diffCal
         position: Int,
         count: Int
     ) {
-        binding.imgCardOne.setImageResource(item.image)
+        val imageResource = binding.root.context.resources.getIdentifier(
+            item.image,
+            "drawable",
+            binding.root.context.packageName
+        )
+        binding.imgCardOne.setImageResource(imageResource)
         binding.tvTitleCardOne.text = item.title
         binding.tvRating.text = item.rating.toString()
         binding.tvReview.text = item.review.toString()
