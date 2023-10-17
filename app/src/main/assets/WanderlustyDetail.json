@@ -19,10 +19,20 @@
       },
       {
         "name": "Kebun Raya Bogor",
+        "description": "Bogor Botanical Gardens or Bogor Botanical Gardens is a large botanical garden located in Bogor City, Indonesia. This garden is operated by the National Research and Innovation Agency. This garden is located in the center of Bogor city and adjacent to the Bogor Palace presidential palace complex.",
         "image": ["wisata_kebunraya", "wisata_kebunraya1", "wisata_kebunraya2"],
         "rating": 4.7,
         "review": 93.847,
         "type": "Educational Tourism",
+        "location": "Bogor, Jawa Barat"
+      },
+      {
+        "name": "Taman Safari Bogor",
+        "description": "Taman Safari Indonesia - Bogor is a world-class Conservation Center and was named the best conservation site by the Indonesian Ministry of Forestry.",
+        "image": ["wisata_tamansafari", "wisata_tamansafari1", "wisata_tamansafari2"],
+        "rating": 4.7,
+        "review": 59.169,
+        "type": "Zoo",
         "location": "Bogor, Jawa Barat"
       }
     ],
@@ -159,7 +169,7 @@
 
     "rental": [
       {
-        "name": "Rental mobil ahui",
+        "name": "Thalita rent car",
         "description": "deskripsi rental",
         "phone": "123 123",
         "email": "harris@gmail.com",
