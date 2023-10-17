@@ -634,7 +634,7 @@
           "Indonesian"
         ],
         "amenities": [
-          "Airport Transportation, WIFI, Restoran"
+          "Airport Transportation, WIFI, Restaurant"
         ],
         "rating": 4.7,
         "review": 2104,
@@ -642,17 +642,17 @@
         "price2": 2000000,
         "site": "https://jungleinn-bukitlawang.com/",
         "sponsored": false,
-        "image": ["Jungle_InnHotel1, Jungle_InnHotel2, Jungle_InnHotel3"],
+        "image": ["Jungle_Inn1, Jungle_Inn2, Jungle_Inn3"],
         ]
       },
       {
-        "name": "The Grand Hill",
-        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
-        "phone": "+6285888296259",
-        "email": "groupreservation@thegrandhill.com",
+        "name": "Taman Simalem Resort",
+        "description": "Taman Simalem Resort is one of the tourist destinations in Karo Regency. Located in the hilly area west of Lake Toba and is known as a magnificent and luxurious resort around Lake Toba.",
+        "phone": "+62-811-6077-616",
+        "email": "reservation@tamansimalem.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in Danau Toba",
+          "Hotel in Danau Toba"
         ],
         "languages": [
           "English",
@@ -661,16 +661,13 @@
         "amenities": [
           "SUN & MOON POOL"
         ],
-        "rating": 4.4,
+        "rating": 4.9,
         "review": 2.905,
-        "price1": 625000,
-        "price2": 701250,
-        "site": "https://thegrandhill.com",
+        "price1": 1500000,
+        "price2": 2500000,
+        "site": "https://www.tamansimalem.com/contact-us/"
         "sponsored": false,
-        "image": [
-          "hotel_thegrandhill.jpeg",
-          "hotel_thegrandhill1.jpeg",
-          "hotel_thegrandhill2.jpeg"
+        "image": ["taman_simalem1, taman_simalem2, taman_simalem3"],
         ]
       }
     ],
