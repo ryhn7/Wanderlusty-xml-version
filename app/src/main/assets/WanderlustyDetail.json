@@ -11,7 +11,7 @@
       {
         "name": "Mountain Mas",
         "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Gunung Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Gunung Mas is a wise and effective choice with extraordinary benefits.",
-        "image": ["wisata_gunungmas.jpg", "wisata_gunungmas1.jpg", "wisata_gunungmas2.jgp"],
+        "image": ["wisata_gunungmas", "wisata_gunungmas1", "wisata_gunungmas2"],
         "rating": 4.7,
         "review": 6.368,
         "type": "Mountain",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Kebun Raya Bogor",
-        "image": ["wisata_kebunraya.jpg", "wisata_kebunraya1.jpg", "wisata_kebunraya2.jpg"],
+        "image": ["wisata_kebunraya", "wisata_kebunraya1", "wisata_kebunraya2"],
         "rating": 4.7,
         "review": 93.847,
         "type": "Educational Tourism",
@@ -29,16 +29,16 @@
 
     "hidden_gems": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "image": ["wisata_curugbalongendah", "wisata_curugbalongendah1", "wisata_curugbalongendah2"],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
         "sponsored": true,
-        "type": "Historic Sites",
+        "type": "Waterfall",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810",
         "tour_option": [
           {
             "name": "tour 1",
@@ -73,7 +73,7 @@
         "price2": 2473200,
         "site": "https://www.discoverasr.com/en/others/indonesia/the-botanica-sanctuary-bogor?utm_source=google&utm_medium=gmb&utm_campaign=-google-gmb-alwayson-20220101-all-en-id-id-MBCK--&utm_content=--",
         "sponsored": true,
-        "image": ["hotel_botanica.jpeg", "hotel_botanica1.jpeg", "hotel_botanica2.jpeg"]
+        "image": ["hotel_botanica", "hotel_botanica1", "hotel_botanica2"]
       },
       {
         "name": "The Grand Hill",
@@ -89,7 +89,7 @@
         "price2": 701250,
         "site": "https://thegrandhill.com/statik.php?id=27",
         "sponsored": true,
-        "image": ["hotel_thegrandhill.jpeg", "hotel_thegrandhill1.jpeg", "hotel_thegrandhill2.jpeg"]
+        "image": ["hotel_thegrandhill", "hotel_thegrandhill1", "hotel_thegrandhill2"]
       }
     ],
 
@@ -97,7 +97,7 @@
       {
         "name": "Eagle Hill Camp",
         "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
-        "image": ["camp_eaglehillcamp.jpg", "camp_eaglehillcamp1.jpg", "camp_eaglehillcamp2.jpg"],
+        "image": ["camp_eaglehillcamp", "camp_eaglehillcamp1", "camp_eaglehillcamp2"],
         "rating": 4.6,
         "review": 457,
         "price1": 159000,
@@ -110,13 +110,13 @@
       {
         "name": "Paragliding Puncak Bogor",
         "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
-        "image": ["camp_eaglehillcamp.jpg", "camp_eaglehillcamp1.jpg", "camp_eaglehillcamp2.jpg"],
+        "image": ["paralayang_puncakbogor", "paralayang_puncakbogor1", "paralayang_puncakbogor2"],
         "rating": 4.7,
         "review": 1.562,
         "price1": 450000,
         "price2": 750000,
         "sponsored": true,
-        "type": "Montain Tours",  
+        "type": "free flying sport",
         "duration": "1 - 2 hours",
         "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
         "tour_option": [
