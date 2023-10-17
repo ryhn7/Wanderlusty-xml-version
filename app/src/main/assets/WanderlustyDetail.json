@@ -48,7 +48,31 @@
         "sponsored": true,
         "type": "Waterfall",
         "duration": "2 hours",
-        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "image": ["wisata_curugbalongendah", "wisata_curugbalongendah1", "wisata_curugbalongendah2"],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
+        "sponsored": true,
+        "type": "Waterfall",
+        "duration": "2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+        },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
             "name": "tour 1",
@@ -113,9 +137,22 @@
         "price1": 159000,
         "price2": 195000,
         "sponsored": true,
-        "type": "Campaign",
+        "type": "Camp",
         "duration": "2 days 1 night",
         "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770"
+      },
+      {
+        "name": "Rafting Cisadane",
+        "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+        "image": ["rafting_raftcisadane", "rafting_raftcisadane1", "rafting_raftcisadane2"],
+        "rating": 4.9,
+        "review": 60,
+        "price1": 200000,
+        "price2": 725000,
+        "sponsored": true,
+        "type": "Rafting",
+        "duration": "2 hours",
+        "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730"
       },
       {
         "name": "Paragliding Puncak Bogor",
@@ -128,7 +165,48 @@
         "sponsored": true,
         "type": "free flying sport",
         "duration": "1 - 2 hours",
-        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat"
+      },
+      {
+        "name": "Paragliding Puncak Bogor",
+        "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+        "image": ["paralayang_puncakbogor", "paralayang_puncakbogor1", "paralayang_puncakbogor2"],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 450000,
+        "price2": 750000,
+        "sponsored": true,
+        "type": "free flying sport",
+        "duration": "1 - 2 hours",
+        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat"
+      },
+      {
+        "name": "Paragliding Puncak Bogor",
+        "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+        "image": ["paralayang_puncakbogor", "paralayang_puncakbogor1", "paralayang_puncakbogor2"],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 450000,
+        "price2": 750000,
+        "sponsored": true,
+        "type": "free flying sport",
+        "duration": "1 - 2 hours",
+        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat"
+      },
+      {
+        "name": "Paragliding Puncak Bogor",
+        "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+        "image": ["paralayang_puncakbogor", "paralayang_puncakbogor1", "paralayang_puncakbogor2"],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 450000,
+        "price2": 750000,
+        "sponsored": true,
+        "type": "free flying sport",
+        "duration": "1 - 2 hours",
+        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat"
+      },
+      {
         "tour_option": [
           {
             "name": "tour 1",
@@ -194,11 +272,7 @@
       {
         "name": "Saloka Park",
         "description": "SALOKA is present as one of the Pesona Indonesia tourist destinations in the form of a family thematic recreation park in Central Java which carries the concept of local wisdom. Located at the intersection between the cities of Semarang, Salatiga, Surakarta and the Special Region of Yogyakarta.",
-        "image": [
-          "wisata_salokapark.jpg",
-          "wisata_salokapark1.jpg",
-          "wisata_salokapark2.jgp"
-        ],
+        "image": ["wisata_salokapark.jpg", "wisata_salokapark1.jpg", "wisata_salokapark2.jgp"],
         "rating": 4.4,
         "review": 17.111,
         "type": "Amusement Parks",
@@ -207,11 +281,7 @@
       {
         "name": "Sam Poo Kong",
         "description": "The Sam Poo Kong Ancient Building Temple is the former place of transit and first landing of a Muslim Chinese Admiral named Zheng He/Cheng Ho, also known as Sam Poo. Not all of the ship's crew were Muslim.",
-        "image": [
-          "wisata_sampookong.jpg",
-          "wisata_sampookong1.jpg",
-          "wisata_sampookong2.jpg"
-        ],
+        "image": ["wisata_sampookong.jpg", "wisata_sampookong1.jpg", "wisata_sampookong2.jpg"],
         "rating": 4.5,
         "review": 24.912,
         "type": "Worship Place",
@@ -219,6 +289,30 @@
       }
     ],
     "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak"
+      },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak"
+      },
       {
         "name": "Lawang Sewu",
         "description": "deskripsi hotel",
@@ -362,20 +456,22 @@
     ],
     "rental": [
       {
-        "name": "Rental mobil ahui",
-        "description": "deskripsi rental",
-        "phone": "123 123",
-        "email": "harris@gmail.com",
+        "name": "Thalita rent",
+        "description": "Semarang car rental is indeed one of the transportation services that is very popular and sought after by many tourists and those who want to visit the city and district of Semarang, Central Java.\n\nCurrently, traveling is a necessity for everyone. Traveling can refresh your mind which is bored with work. We usually travel in groups, either with friends, family or relatives. You can visit Semarang City as one of the tourist destinations that you must visit.",
+        "phone": "+6281391386711",
+        "email": "fajarsat71@gmail.com",
         "list_vehicle": [
-          "Wuling blabla",
-          "Vario"
+          "Honda Jazz",
+          "Toyota Fortuner",
+          "Honda Civic"
         ],
-        "rating": "5",
-        "review": 120,
-        "price": 120000,
-        "site": "http://haris.com",
+        "rating": 4.1,
+        "review": 247,
+        "price1": 250000,
+        "price2": 3000000,
+        "site": "https://thalita-rentcar.com/",
         "sponsored": false,
-        "image": "haris.png"
+        "image": ["rental_thalitarentjazz", "rental_thalitarentfortuner", "rental_thalitarentcivic"]
       }
     ]
   },
