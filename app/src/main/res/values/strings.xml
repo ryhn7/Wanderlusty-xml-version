@@ -54,6 +54,21 @@
     <string name="austin_nicholas_tham">Austin Nicholas Tham</string>
     <string name="txt_post_subtitle">I found an interesting experience in the city of Pontianak.</string>
     <string name="txt_post_title">Interesting Experience</string>
+    <string name="date_post">5d ago</string>
+    <string name="num_comment">302</string>
+    <string name="txt_like">4,302</string>
+    <string name="title_card_four">Cafe Couscous - Vege</string>
+    <string name="txt_tag_card_four">Cafe • Healty • Vegetarian</string>
+    <string name="txt_review_card_four">(1000)</string>
+    <string name="txt_rating_card_four">4.8</string>
+    <string name="sponsored">Sponsored</string>
+    <string name="official_site">Official Site</string>
+    <string name="contact">Contact</string>
+    <string name="txt_price_card_three">Rp. 484.200,-</string>
+    <string name="txt_rating_card_three">4.8</string>
+    <string name="txt_review_card_three">(1000)</string>
+    <string name="txt_title_card_three">HARRIS Hotel Semarang</string>
+    <string name="txt_title_card_two">Semarang</string>
 
 
 </resources>
