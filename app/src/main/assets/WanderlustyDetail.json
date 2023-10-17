@@ -6,12 +6,15 @@
     "image": "bogor",
     "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
-
     "recommendation": [
       {
         "name": "Mountain Mas",
         "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Gunung Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Gunung Mas is a wise and effective choice with extraordinary benefits.",
-        "image": ["wisata_gunungmas", "wisata_gunungmas1", "wisata_gunungmas2"],
+        "image": [
+          "wisata_gunungmas",
+          "wisata_gunungmas1",
+          "wisata_gunungmas2"
+        ],
         "rating": 4.7,
         "review": 6.368,
         "type": "Mountain",
@@ -19,26 +22,76 @@
       },
       {
         "name": "Kebun Raya Bogor",
-        "image": ["wisata_kebunraya", "wisata_kebunraya1", "wisata_kebunraya2"],
+        "description": "Bogor Botanical Gardens or Bogor Botanical Gardens is a large botanical garden located in Bogor City, Indonesia. This garden is operated by the National Research and Innovation Agency. This garden is located in the center of Bogor city and adjacent to the Bogor Palace presidential palace complex.",
+        "image": [
+          "wisata_kebunraya",
+          "wisata_kebunraya1",
+          "wisata_kebunraya2"
+        ],
         "rating": 4.7,
         "review": 93.847,
         "type": "Educational Tourism",
         "location": "Bogor, Jawa Barat"
+      },
+      {
+        "name": "Taman Safari Bogor",
+        "description": "Taman Safari Indonesia - Bogor is a world-class Conservation Center and was named the best conservation site by the Indonesian Ministry of Forestry.",
+        "image": [
+          "wisata_tamansafari",
+          "wisata_tamansafari1",
+          "wisata_tamansafari2"
+        ],
+        "rating": 4.7,
+        "review": 59.169,
+        "type": "Zoo",
+        "location": "Bogor, Jawa Barat"
       }
     ],
-
     "hidden_gems": [
       {
         "name": "Curug Balong Endah",
         "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
-        "image": ["wisata_curugbalongendah", "wisata_curugbalongendah1", "wisata_curugbalongendah2"],
+        "image": [
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
         "rating": 4.6,
         "review": 608,
         "price": 10000,
         "sponsored": true,
         "type": "Waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
+        "image": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
         "duration": "2 hours",
-        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
             "name": "tour 1",
@@ -57,93 +110,371 @@
         ]
       }
     ],
-
+    "hidden_restaurant": [
+      {
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "image": [
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
+        "sponsored": true,
+        "type": "Waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
+        "image": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
     "hotel": [
       {
         "name": "The Botanica Sanctuary",
         "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
         "phone": "02518217111",
         "email": "reservation-thebotanica@tauzia.com",
-        "tag": ["located in Bogor", "Hotel in puncak bogor"],
-        "languages": ["English", "Indonesian"],
-        "amenities": ["SUN & MOON POOL"],
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
         "rating": 4.7,
         "review": 2104,
         "price1": 1258200,
         "price2": 2473200,
         "site": "https://www.discoverasr.com/en/others/indonesia/the-botanica-sanctuary-bogor?utm_source=google&utm_medium=gmb&utm_campaign=-google-gmb-alwayson-20220101-all-en-id-id-MBCK--&utm_content=--",
         "sponsored": true,
-        "image": ["hotel_botanica", "hotel_botanica1", "hotel_botanica2"]
+        "image": [
+          "hotel_botanica",
+          "hotel_botanica1",
+          "hotel_botanica2"
+        ]
+      },
+      {
+        "name": "THE 1O1 Bogor Suryakancana",
+        "description": "THE 1O1 Bogor Suryakancana Hotel is located in the Bogor Tengah district, a 46-minute drive from Jakarta's Halim Perdana Kusuma airport. All guests can enjoy Wi Fi throughout the property and access to the fitness club.",
+        "phone": "+622517565101",
+        "email": "info.suryakancana@the101hotels.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in surya kencana bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "Outdoor Activities", "Restaurant/Coffee Shop", "Business Services", "Swimming Pool"
+        ],
+        "rating": 4.6,
+        "review": 9481,
+        "price1": 953846,
+        "price2": 2985970,
+        "site": "https://www.phm-hotels.com/hotel/1O1BSK?utm_source=google&utm_medium=mybusiness&utm_campaign=phm",
+        "sponsored": true,
+        "image": [
+          "hotel_suryakencana",
+          "hotel_suryakencana1",
+          "hotel_suryakencana2"
+        ]
       },
       {
         "name": "The Grand Hill",
         "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
         "phone": "+6285888296259",
         "email": "groupreservation@thegrandhill.com",
-        "tag": ["located in Bogor", "Hotel in puncak bogor"],
-        "languages": ["English", "Indonesian"],
-        "amenities": ["SUN & MOON POOL"],
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
         "rating": 4.4,
         "review": 2.905,
         "price1": 625000,
         "price2": 701250,
         "site": "https://thegrandhill.com/statik.php?id=27",
         "sponsored": true,
-        "image": ["hotel_thegrandhill", "hotel_thegrandhill1", "hotel_thegrandhill2"]
-      }
-    ],
-
-    "things_todo": [
-      {
-        "name": "Eagle Hill Camp",
-        "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
-        "image": ["camp_eaglehillcamp", "camp_eaglehillcamp1", "camp_eaglehillcamp2"],
-        "rating": 4.6,
-        "review": 457,
-        "price1": 159000,
-        "price2": 195000,
-        "sponsored": true,
-        "type": "Campaign",
-        "duration": "2 days 1 night",
-        "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770"
-      },
-      {
-        "name": "Paragliding Puncak Bogor",
-        "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
-        "image": ["paralayang_puncakbogor", "paralayang_puncakbogor1", "paralayang_puncakbogor2"],
-        "rating": 4.7,
-        "review": 1.562,
-        "price1": 450000,
-        "price2": 750000,
-        "sponsored": true,
-        "type": "free flying sport",
-        "duration": "1 - 2 hours",
-        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
+        "image": [
+          "hotel_thegrandhill",
+          "hotel_thegrandhill1",
+          "hotel_thegrandhill2"
         ]
       }
     ],
-
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
         "description": "deskripsi restoran",
-        "tag": ["Cafe", "Healthy"],
-        "feature": ["Delivery", "Takeouts"],
+        "tag": [
+          "Cafe",
+          "Healthy"
+        ],
+        "feature": [
+          "Delivery",
+          "Takeouts"
+        ],
         "phone": "123 123",
         "email": "harris@gmail.com",
         "rating": "5",
@@ -156,14 +487,16 @@
         "image": "haris.png"
       }
     ],
-
     "rental": [
       {
-        "name": "Rental mobil ahui",
+        "name": "Thalita rent car",
         "description": "deskripsi rental",
         "phone": "123 123",
         "email": "harris@gmail.com",
-        "list_vehicle": ["Wuling blabla", "Vario"],
+        "list_vehicle": [
+          "Wuling blabla",
+          "Vario"
+        ],
         "rating": "5",
         "review": 120,
         "price": 120000,
@@ -173,41 +506,129 @@
       }
     ]
   },
-  "city_2": {
+  "city2": {
     "id": "2",
     "name": "Semarang",
-    "subtitle": "Tourism in Bogor",
+    "subtitle": "Tourism in Semarang",
     "image": "semarang",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "description": "Semarang city is known as a trade center and service city. On the historical side, this city is famous for the \"Five Day Battle of Semarang\". This city has also been given various nicknames, from Atlas City, Lumpia City, the Venice of Java, the Port of Java, to Semarang, the Enchantment of Asia.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "name": "Saloka Park",
+        "description": "SALOKA is present as one of the Pesona Indonesia tourist destinations in the form of a family thematic recreation park in Central Java which carries the concept of local wisdom. Located at the intersection between the cities of Semarang, Salatiga, Surakarta and the Special Region of Yogyakarta.",
         "image": [
-          "wisata_gunungmas.jpg",
-          "wisata_gunungmas1.jpg",
-          "wisata_gunungmas2.jgp"
+          "wisata_salokapark.jpg",
+          "wisata_salokapark1.jpg",
+          "wisata_salokapark2.jgp"
         ],
-        "rating": 4.7,
-        "review": 6.368,
-        "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.4,
+        "review": 17.111,
+        "type": "Amusement Parks",
+        "location": "Semarang, Jawa Tengah"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "Sam Poo Kong",
+        "description": "The Sam Poo Kong Ancient Building Temple is the former place of transit and first landing of a Muslim Chinese Admiral named Zheng He/Cheng Ho, also known as Sam Poo. Not all of the ship's crew were Muslim.",
         "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
+          "wisata_sampookong.jpg",
+          "wisata_sampookong1.jpg",
+          "wisata_sampookong2.jpg"
         ],
-        "rating": 4.7,
-        "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.5,
+        "review": 24.912,
+        "type": "Worship Place",
+        "location": "Semarang, Jawa Tengah"
       }
     ],
     "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak"
+      },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak"
+      },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "hidden_restaurant": [
+      {
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "image": [
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
+        "sponsored": true,
+        "type": "Waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
+        "image": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
       {
         "name": "Lawang Sewu",
         "description": "deskripsi hotel",
@@ -351,20 +772,26 @@
     ],
     "rental": [
       {
-        "name": "Rental mobil ahui",
-        "description": "deskripsi rental",
-        "phone": "123 123",
-        "email": "harris@gmail.com",
+        "name": "Thalita rent",
+        "description": "Semarang car rental is indeed one of the transportation services that is very popular and sought after by many tourists and those who want to visit the city and district of Semarang, Central Java.\n\nCurrently, traveling is a necessity for everyone. Traveling can refresh your mind which is bored with work. We usually travel in groups, either with friends, family or relatives. You can visit Semarang City as one of the tourist destinations that you must visit.",
+        "phone": "+6281391386711",
+        "email": "fajarsat71@gmail.com",
         "list_vehicle": [
-          "Wuling blabla",
-          "Vario"
+          "Honda Jazz",
+          "Toyota Fortuner",
+          "Honda Civic"
         ],
-        "rating": "5",
-        "review": 120,
-        "price": 120000,
-        "site": "http://haris.com",
+        "rating": 4.1,
+        "review": 247,
+        "price1": 250000,
+        "price2": 3000000,
+        "site": "https://thalita-rentcar.com/",
         "sponsored": false,
-        "image": "haris.png"
+        "image": [
+          "rental_thalitarentjazz",
+          "rental_thalitarentfortuner",
+          "rental_thalitarentcivic"
+        ]
       }
     ]
   },
@@ -403,6 +830,69 @@
       }
     ],
     "hidden_gems": [
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
+    "hidden_restaurant": [
+      {
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "image": [
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
+        "sponsored": true,
+        "type": "Waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
+        "image": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
       {
         "name": "Lawang Sewu",
         "description": "deskripsi hotel",
@@ -490,36 +980,210 @@
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
@@ -627,6 +1291,69 @@
         ]
       }
     ],
+    "hidden_restaurant": [
+      {
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "image": [
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
+        "sponsored": true,
+        "type": "Waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
+        "image": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
+      {
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
+        "rating": 4,
+        "review": 120,
+        "price": 120000,
+        "sponsored": false,
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          },
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
+          }
+        ]
+      }
+    ],
     "hotel": [
       {
         "name": "The Botanica Sanctuary",
@@ -685,36 +1412,210 @@
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
@@ -761,26 +1662,26 @@
   "city_5": {
     "id": "5",
     "name": "Aceh",
-    "subtitle": " unique region in Indonesia",
+    "subtitle": "",
     "image": "aceh",
-    "description": "Aceh is a unique region in Indonesia with a blend of traditional and contemporary elements, making it an intriguing and culturally rich destination for travelers interested in exploring this part of the world.",
+    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "laut tawar lake",
-        "description": "Laut Tawar Lake in Takengon is not only a natural wonder but also a cultural and recreational hub in the Gayo Highlands. Its serene environment and the opportunity to explore local culture and traditions make it a lovely destination for those who appreciate nature and cultural experiences.",
+        "name": "Mountain Mas",
+        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
         "image": [
-          "danau laut tawar 1",
-          "danau laut tawar 2",
-          "danau laut tawar 3"
+          "wisata_gunungmas",
+          "wisata_gunungmas1",
+          "wisata_gunungmas2"
         ],
         "rating": 4.7,
         "review": 6.368,
-        "type": "lake",
-        "location": "takengon, nanggro aceh darusallam"
+        "type": "Mountain",
+        "location": "Bogor, Jawa Barat"
       },
       {
-        "name": "zero kilometer",
+        "name": "Kebun Raya Bogor",
         "image": [
           "wisata_kebunraya.jpg",
           "wisata_kebunraya1.jpg",
@@ -822,76 +1723,51 @@
         ]
       }
     ],
-    "hotel": [
+    "hidden_restaurant": [
       {
-        "name": "parkside gayo petro hotel",
-        "description": "It is located on the Gayo plateau.  parkside Hotels are designed to meet all your travel needs in business and leisure destinations. Choosing hotel accommodation becomes more complex every day so that the vacation you live feels more special",
-        "phone": "62-643-2626363",
-        "email": "reservation@parksidegayopetro.com",
-        "tag": [
-          "located in takengon",
-          "Hotel in bebesen, gayo luwes"
-        ],
-        "languages": [
-          "English",
-          "Indonesian"
-        ],
-        "amenities": [
-          "BREAKFAST & POOL"
-        ],
-        "rating": 4.7,
-        "review": 2104,
-        "price1": 250000,
-        "price2": 300000,
-        "site": "www.parksidehotels.com",
-        "sponsored": false,
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
         "image": [
-          "hotel_botanica.jpeg",
-          "hotel_botanica1.jpeg",
-          "hotel_botanica2.jpeg"
-        ]
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
+        "rating": 4.6,
+        "review": 608,
+        "price": 10000,
+        "sponsored": true,
+        "type": "Waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
       },
       {
-        "name": "The Grand bayu Hill",
-        "description": "The 4-star hotel is located in a very strategic location close to the Central Aceh Government Office Center, and only a few minutes to Lake Lut Tawar, Pantan Terong, Burtelege, River Rafting and other interesting tourist destinations in Takengon.\nGrand Bayu Hill Hotel Takengon offers the perfect accommodation place for business or leisure purposes to explore the culture or typical food of the Tanah Gayo Community.",
-        "phone": "+6282360506212",
-        "email": "groupreservation@thegrandhill.com",
-        "tag": [
-          "located in gayo luwes",
-          "Hotel in bebesen, takengon"
-        ],
-        "languages": [
-          "English",
-          "Indonesian"
-        ],
-        "amenities": [
-          "BREAKFAST & POOL"
-        ],
-        "rating": 4.4,
-        "review": 2.905,
-        "price1": 500000,
-        "price2": 725000,
-        "site": "www.grandbayuhill.com ",
-        "sponsored": false,
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
         "image": [
-          "grand bayu hill 1",
-          "grand bayu hill 2",
-          "grand bayu hill 3"
-        ]
-      }
-    ],
-    "things_todo": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
       {
-        "name": "lukup badak",
-        "description": "Rafting is an outdoor recreational activity that involves navigating a river or other bodies of water using an inflatable raft or boat. It is a thrilling adventure that combines teamwork, physical effort, and an immersive experience in natural surroundings",
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
         "image": "lawangsewu.png",
         "rating": 4,
         "review": 120,
         "price": 120000,
         "sponsored": false,
-        "type": "rafting",
+        "type": "Historic Sites",
         "duration": "2 hours",
-        "address": "kecamatan pegasing, aceh tengah",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
             "name": "tour 1",
@@ -910,6 +1786,268 @@
         ]
       }
     ],
+    "hotel": [
+      {
+        "name": "The Botanica Sanctuary",
+        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
+        "phone": "02518217111",
+        "email": "reservation-thebotanica@tauzia.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.7,
+        "review": 2104,
+        "price1": 1258200,
+        "price2": 2473200,
+        "site": "https://thebotanicapesonaalam.com",
+        "sponsored": false,
+        "image": [
+          "hotel_botanica.jpeg",
+          "hotel_botanica1.jpeg",
+          "hotel_botanica2.jpeg"
+        ]
+      },
+      {
+        "name": "The Grand Hill",
+        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
+        "phone": "+6285888296259",
+        "email": "groupreservation@thegrandhill.com",
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
+        "rating": 4.4,
+        "review": 2.905,
+        "price1": 625000,
+        "price2": 701250,
+        "site": "https://thegrandhill.com",
+        "sponsored": false,
+        "image": [
+          "hotel_thegrandhill.jpeg",
+          "hotel_thegrandhill1.jpeg",
+          "hotel_thegrandhill2.jpeg"
+        ]
+      }
+    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
@@ -936,9 +2074,9 @@
     ],
     "rental": [
       {
-        "name": "Bibes Rental Mobil Takengon",
-        "description": "Providing vehicle rental, ranging from motorbikes to cars, hourly and daily rentals with a guaranteed Identity Card",
-        "phone": "082368529513",
+        "name": "Rental mobil ahui",
+        "description": "deskripsi rental",
+        "phone": "123 123",
         "email": "harris@gmail.com",
         "list_vehicle": [
           "Wuling blabla",
