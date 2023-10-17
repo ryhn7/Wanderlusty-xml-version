@@ -1,7 +1,10 @@
 package com.example.wanderlusty.feature_explore_tourism.presentation.detail_tourism
 
 import android.os.Bundle
+import android.text.SpannableString
+import android.text.style.UnderlineSpan
 import android.util.Log
+import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wanderlusty.databinding.ActivityDetailTourismBinding
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourOption
 import dagger.hilt.android.AndroidEntryPoint
+
 
 @AndroidEntryPoint
 class DetailTourismActivity : AppCompatActivity() {
@@ -39,6 +43,11 @@ class DetailTourismActivity : AppCompatActivity() {
             viewModel.getDetailTourism(it)
         }
 
+        val iconBack = binding.icBack
+        iconBack.setOnClickListener {
+            onBackPressed()
+        }
+
 
         val state = viewModel.detailState.value
 
@@ -56,11 +65,21 @@ class DetailTourismActivity : AppCompatActivity() {
                 )
                 binding.imgTourism.setImageResource(imageResource)
                 binding.tvTitleTourism.text = state.tourism?.title
-                binding.tvReviewValue.text = state.tourism?.review.toString()
+                val reviewValue = state.tourism?.review.toString()
+                val underlinedText = SpannableString(reviewValue)
+                underlinedText.setSpan(UnderlineSpan(), 0, underlinedText.length, 0)
+                binding.tvReviewValue.text = underlinedText
                 binding.tvTypeTourism.text = state.tourism?.type
                 binding.tvDescriptionTourism.text = state.tourism?.description
                 binding.tvDuration.text = state.tourism?.duration
-                binding.tvTitleAddress.text = state.tourism?.address
+                val addressValue = state.tourism?.address
+                val underlinedAddress = SpannableString(addressValue)
+                underlinedAddress.setSpan(UnderlineSpan(), 0, underlinedAddress.length, 0)
+                binding.tvAddressValue.text = underlinedAddress
+                val rating = state.tourism?.rating
+                if (rating != null) {
+                    setRatingStars(rating)
+                }
             }
         }
     }
@@ -71,6 +90,56 @@ class DetailTourismActivity : AppCompatActivity() {
             adapter = tourOptionAdapter
         }
     }
+
+    private fun setRatingStars(rating: Number) {
+        val star1 = binding.icStar1
+        val star2 = binding.icStar2
+        val star3 = binding.icStar3
+        val star4 = binding.icStar4
+        val star5 = binding.icStar5
+        val halfStar = binding.icHalfStar
+
+        // Round the rating to the nearest integer
+        val roundedRating = rating.toInt()
+
+        // Set the stars based on the rounded rating
+        when (roundedRating) {
+            1 -> {
+                star1.visibility = View.VISIBLE
+                halfStar.visibility = View.INVISIBLE
+            }
+
+            2 -> {
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                halfStar.visibility = View.INVISIBLE
+            }
+
+            3 -> {
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                star3.visibility = View.VISIBLE
+                halfStar.visibility = View.INVISIBLE
+            }
+
+            4 -> {
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                star3.visibility = View.VISIBLE
+                star4.visibility = View.VISIBLE
+                halfStar.visibility = View.INVISIBLE
+            }
+
+            5 -> {
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                star3.visibility = View.VISIBLE
+                star4.visibility = View.VISIBLE
+                halfStar.visibility = View.VISIBLE
+            }
+        }
+    }
+
 
     companion object {
         const val EXTRA_TOURISM_ID = "TOURISM_ID"

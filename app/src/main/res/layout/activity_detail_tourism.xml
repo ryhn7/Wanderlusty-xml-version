@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="8dp">
 
 
         <ImageView
@@ -27,8 +27,8 @@
             android:id="@+id/ic_bookmark"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:layout_marginEnd="16dp"
             android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
             android:contentDescription="@string/icon"
             android:src="@drawable/ic_bookmark_1"
             app:layout_constraintEnd_toEndOf="parent"
@@ -38,8 +38,8 @@
             android:id="@+id/ic_share"
             android:layout_width="28dp"
             android:layout_height="28dp"
-            android:layout_marginEnd="20dp"
             android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
             android:contentDescription="@string/icon"
             android:src="@drawable/ic_share_2"
             app:layout_constraintEnd_toStartOf="@id/ic_bookmark"
@@ -109,6 +109,13 @@
 
                 <ImageView
                     android:id="@+id/ic_star_4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_star_fill" />
+
+                <ImageView
+                    android:id="@+id/ic_star_5"
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:contentDescription="@string/icon"
@@ -233,7 +240,7 @@
             android:layout_marginTop="20dp"
             android:contentDescription="@string/dummy_image"
             android:scaleType="centerCrop"
-            android:src="@drawable/dummy_img_map"
+            android:src="@drawable/dummy_map"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tv_section_explore" />
 
@@ -296,7 +303,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="70dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/rv_tour_option" />
 

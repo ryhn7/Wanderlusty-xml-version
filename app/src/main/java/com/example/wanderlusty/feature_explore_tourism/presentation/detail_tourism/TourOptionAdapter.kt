@@ -40,8 +40,8 @@ class TourOptionAdapter : BaseAdapter<TourOption, ItemCardFiveBinding>(diffCallb
         binding.imgCardFive.setImageResource(imageResource)
         binding.tvTitleCardFive.text = item.name
         binding.tvRating.text = item.rating.toString()
-        binding.tvReview.text = item.review.toString()
-        binding.tvPrice.text = item.price.toString()
+        binding.tvReview.text = String.format("(%s)", item.review)
+        binding.tvPrice.text = String.format("from Rp. %s per person", item.price)
     }
 
     interface OnItemClickCallback {
