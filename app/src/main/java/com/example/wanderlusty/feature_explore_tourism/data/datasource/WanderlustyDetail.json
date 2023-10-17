@@ -95,16 +95,30 @@
 
     "things_todo": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "name": "Eagle Hill Camp",
+        "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+        "image": ["camp_eaglehillcamp.jpg", "camp_eaglehillcamp1.jpg", "camp_eaglehillcamp2.jpg"],
+        "rating": 4.6,
+        "review": 457,
+        "price1": 159000,
+        "price2": 195000,
         "sponsored": true,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "type": "Campaign",
+        "duration": "2 days 1 night",
+        "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770"
+      },
+      {
+        "name": "Paragliding Puncak Bogor",
+        "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+        "image": ["camp_eaglehillcamp.jpg", "camp_eaglehillcamp1.jpg", "camp_eaglehillcamp2.jpg"],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 450000,
+        "price2": 750000,
+        "sponsored": true,
+        "type": "Montain Tours",  
+        "duration": "1 - 2 hours",
+        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
         "tour_option": [
           {
             "name": "tour 1",
@@ -153,7 +167,7 @@
         "rating": "5",
         "review": 120,
         "price": 120000,
-        "site": "http://haris.com",
+        "site": "https://thalita-rentcar.com/rental-mobil-bogor/",
         "sponsored": true,
         "image": "haris.png"
       }
