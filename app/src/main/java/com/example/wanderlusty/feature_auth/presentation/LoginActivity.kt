@@ -1,10 +1,9 @@
 package com.example.wanderlusty.feature_auth.presentation
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.wanderlusty.MainActivity
-import com.example.wanderlusty.R
 import com.example.wanderlusty.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
