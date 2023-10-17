@@ -1,7 +1,9 @@
 {
   "city_1": {
+    "id": "1",
     "name": "Bogor",
     "subtitle": "Tourism in Bogor",
+    "image": "bogor",
     "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
 
@@ -158,8 +160,10 @@
     ]
   },
   "city_2": {
+    "id": "2",
     "name": "Semarang",
     "subtitle": "Tourism in Bogor",
+    "image": "semarang",
     "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
     "recommendation": [
@@ -351,8 +355,10 @@
     ]
   },
   "city_3": {
+    "id": "3",
     "name": "Aceh",
     "subtitle": "Tourism in Bogor",
+    "image": "aceh",
     "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
     "recommendation": [

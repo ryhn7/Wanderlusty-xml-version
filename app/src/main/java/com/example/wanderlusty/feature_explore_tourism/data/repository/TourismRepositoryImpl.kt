@@ -3,8 +3,9 @@ package com.example.wanderlusty.feature_explore_tourism.data.repository
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.example.wanderlusty.feature_explore_tourism.data.datasource.TourismDataSource
-import com.example.wanderlusty.feature_explore_tourism.data.model.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.interface_repository.TourismRepository
 import com.example.wanderlusty.utils.ResultState
 
@@ -32,6 +33,16 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
         liveData {
             try {
                 val response = TourismDataSource.getAllTourismCategories()
+                emit(ResultState.Success(response))
+            } catch (e: Exception) {
+                emit(ResultState.Error(e.message.toString()))
+            }
+        }
+
+    override suspend fun getAllSectionCitiesOne(): LiveData<ResultState<List<CityEntity>>> =
+        liveData {
+            try {
+                val response = TourismDataSource.getAllSectionCitiesOne()
                 emit(ResultState.Success(response))
             } catch (e: Exception) {
                 emit(ResultState.Error(e.message.toString()))

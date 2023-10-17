@@ -1,9 +1,9 @@
-package com.example.wanderlusty.feature_explore_tourism.presentation.explore
+package com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.example.wanderlusty.databinding.ItemCardOneBinding
-import com.example.wanderlusty.feature_explore_tourism.data.model.TourismEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.utils.BaseAdapter
 import com.example.wanderlusty.utils.DiffCallbackListener
 
