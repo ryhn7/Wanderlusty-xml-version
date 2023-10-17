@@ -1,4 +1,4 @@
-package com.example.wanderlusty.feature_explore_tourism.presentation.explore
+package com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

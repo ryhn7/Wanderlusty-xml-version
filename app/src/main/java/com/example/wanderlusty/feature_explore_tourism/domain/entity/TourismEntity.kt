@@ -1,4 +1,4 @@
-package com.example.wanderlusty.feature_explore_tourism.data.model
+package com.example.wanderlusty.feature_explore_tourism.domain.entity
 
 import com.example.wanderlusty.R
 
