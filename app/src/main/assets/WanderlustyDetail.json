@@ -761,26 +761,26 @@
   "city_5": {
     "id": "5",
     "name": "Aceh",
-    "subtitle": "Tourism in Bogor",
+    "subtitle": " unique region in Indonesia",
     "image": "aceh",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "description": "Aceh is a unique region in Indonesia with a blend of traditional and contemporary elements, making it an intriguing and culturally rich destination for travelers interested in exploring this part of the world.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "name": "laut tawar lake",
+        "description": "Laut Tawar Lake in Takengon is not only a natural wonder but also a cultural and recreational hub in the Gayo Highlands. Its serene environment and the opportunity to explore local culture and traditions make it a lovely destination for those who appreciate nature and cultural experiences.",
         "image": [
-          "wisata_gunungmas",
-          "wisata_gunungmas1",
-          "wisata_gunungmas2"
+          "danau laut tawar 1",
+          "danau laut tawar 2",
+          "danau laut tawar 3"
         ],
         "rating": 4.7,
         "review": 6.368,
-        "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "type": "lake",
+        "location": "takengon, nanggro aceh darusallam"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "zero kilometer",
         "image": [
           "wisata_kebunraya.jpg",
           "wisata_kebunraya1.jpg",
@@ -824,26 +824,26 @@
     ],
     "hotel": [
       {
-        "name": "The Botanica Sanctuary",
-        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
-        "phone": "02518217111",
-        "email": "reservation-thebotanica@tauzia.com",
+        "name": "parkside gayo petro hotel",
+        "description": "It is located on the Gayo plateau.  parkside Hotels are designed to meet all your travel needs in business and leisure destinations. Choosing hotel accommodation becomes more complex every day so that the vacation you live feels more special",
+        "phone": "62-643-2626363",
+        "email": "reservation@parksidegayopetro.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in takengon",
+          "Hotel in bebesen, gayo luwes"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
         "amenities": [
-          "SUN & MOON POOL"
+          "BREAKFAST & POOL"
         ],
         "rating": 4.7,
         "review": 2104,
-        "price1": 1258200,
-        "price2": 2473200,
-        "site": "https://thebotanicapesonaalam.com",
+        "price1": 250000,
+        "price2": 300000,
+        "site": "www.parksidehotels.com",
         "sponsored": false,
         "image": [
           "hotel_botanica.jpeg",
@@ -852,46 +852,46 @@
         ]
       },
       {
-        "name": "The Grand Hill",
-        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
-        "phone": "+6285888296259",
+        "name": "The Grand bayu Hill",
+        "description": "The 4-star hotel is located in a very strategic location close to the Central Aceh Government Office Center, and only a few minutes to Lake Lut Tawar, Pantan Terong, Burtelege, River Rafting and other interesting tourist destinations in Takengon.\nGrand Bayu Hill Hotel Takengon offers the perfect accommodation place for business or leisure purposes to explore the culture or typical food of the Tanah Gayo Community.",
+        "phone": "+6282360506212",
         "email": "groupreservation@thegrandhill.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in gayo luwes",
+          "Hotel in bebesen, takengon"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
         "amenities": [
-          "SUN & MOON POOL"
+          "BREAKFAST & POOL"
         ],
         "rating": 4.4,
         "review": 2.905,
-        "price1": 625000,
-        "price2": 701250,
-        "site": "https://thegrandhill.com",
+        "price1": 500000,
+        "price2": 725000,
+        "site": "www.grandbayuhill.com ",
         "sponsored": false,
         "image": [
-          "hotel_thegrandhill.jpeg",
-          "hotel_thegrandhill1.jpeg",
-          "hotel_thegrandhill2.jpeg"
+          "grand bayu hill 1",
+          "grand bayu hill 2",
+          "grand bayu hill 3"
         ]
       }
     ],
     "things_todo": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
+        "name": "lukup badak",
+        "description": "Rafting is an outdoor recreational activity that involves navigating a river or other bodies of water using an inflatable raft or boat. It is a thrilling adventure that combines teamwork, physical effort, and an immersive experience in natural surroundings",
         "image": "lawangsewu.png",
         "rating": 4,
         "review": 120,
         "price": 120000,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "rafting",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "kecamatan pegasing, aceh tengah",
         "tour_option": [
           {
             "name": "tour 1",
@@ -936,9 +936,9 @@
     ],
     "rental": [
       {
-        "name": "Rental mobil ahui",
-        "description": "deskripsi rental",
-        "phone": "123 123",
+        "name": "Bibes Rental Mobil Takengon",
+        "description": "Providing vehicle rental, ranging from motorbikes to cars, hourly and daily rentals with a guaranteed Identity Card",
+        "phone": "082368529513",
         "email": "harris@gmail.com",
         "list_vehicle": [
           "Wuling blabla",
