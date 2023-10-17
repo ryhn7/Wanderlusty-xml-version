@@ -141,9 +141,5 @@
         android:text="Contact"
         android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/tv_title_card_three"
-        app:layout_constraintBottom_toBottomOf="@+id/ll_site_card_three"
-        >
-
-
-    </Button>
+        app:layout_constraintBottom_toBottomOf="@+id/ll_site_card_three" />
 </androidx.constraintlayout.widget.ConstraintLayout>
