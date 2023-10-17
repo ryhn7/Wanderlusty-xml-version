@@ -565,95 +565,84 @@
   },
   "city_4": {
     "id": "4",
-    "name": "Aceh",
-    "subtitle": "Tourism in Bogor",
-    "image": "aceh",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "name": "Medan",
+    "subtitle": "Tourism in Medan",
+    "image": "Medan",
+    "description": "The City of Medan, with all its uniqueness, is a city that reflects the diversity of Indonesia and is the center of economic and cultural activities in the North Sumatra region.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
-        "image": [
-          "wisata_gunungmas",
-          "wisata_gunungmas1",
-          "wisata_gunungmas2"
-        ],
-        "rating": 4.7,
-        "review": 6.368,
-        "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "name": "Bukit Lawang",
+        "description": "Bukit Lawang is an attractive tourist destination for nature lovers and wildlife enthusiasts, providing unique experiences through encounters with orangutans and the natural beauty of tropical rainforests.",
+        "image": ["Bukit_Lawang1, Bukit_Lawang2, Bukit_Lawang3"],
+        "rating": 4.8,
+        "review": 925,
+        "type": "Rivers and Jungles",
+        "location": "Langkat, Sumatera Utara"
       },
       {
-        "name": "Kebun Raya Bogor",
-        "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
-        ],
+        "name": "Danau Toba",
+        "image": ["Danau_Toba1, Danau_Toba2, Danau_Toba3"],
         "rating": 4.7,
-        "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "review": 868,
+        "type": "Lake",
+        "location": "Simalungun, Sumatera Utara"
       }
     ],
     "hidden_gems": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "name": "Pemandian Air Panas Pariban",
+        "description": "This hot spring tourism is famous for its natural hot springs which offer beautiful views, comfort and fresh air",
+        "image":["Pariban1, Pariban2, Pariban3"],
+        "rating": 4,6
+        "review": 450,
+        "price": 100000,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "Pool",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "Desa, Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153",
         "tour_option": [
           {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
+            "name": "Mata Air Pesona Sibayak",
+            "rating": 4,3,
+            "review": 465,
             "price": 120000,
-            "image": "tour1.png"
+            "image": "Sibayak.View1"
           },
           {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
+            "name": "Air Terjun Sikulikap",
+            "rating": 4,7,
+            "review": 575,
             "price": 120000,
-            "image": "tour1.png"
+            "image": "Sikulikap1"
           }
         ]
       }
     ],
     "hotel": [
       {
-        "name": "The Botanica Sanctuary",
-        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
-        "phone": "02518217111",
-        "email": "reservation-thebotanica@tauzia.com",
+        "name": "Jungle Inn Hotel",
+        "description": "The Jungle In Hotel in Bukit Lawang Hotel with 2-star accommodation in Bukit Lawang, offering free Wi-Fi, evening entertainment and bicycle/car rental services. Located 117 km from Kualanamu International Airport, with paid shuttle service.",
+        "phone": "082276372436",
+        "email": "junglebukitlawang@gmail.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in Langkat",
+          "Hotel in Langkat"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
         "amenities": [
-          "SUN & MOON POOL"
+          "Airport Transportation, WIFI, Restoran"
         ],
         "rating": 4.7,
         "review": 2104,
-        "price1": 1258200,
-        "price2": 2473200,
-        "site": "https://thebotanicapesonaalam.com",
+        "price1": 1500000,
+        "price2": 2000000,
+        "site": "https://jungleinn-bukitlawang.com/",
         "sponsored": false,
-        "image": [
-          "hotel_botanica.jpeg",
-          "hotel_botanica1.jpeg",
-          "hotel_botanica2.jpeg"
+        "image": ["Jungle_InnHotel1, Jungle_InnHotel2, Jungle_InnHotel3"],
         ]
       },
       {
