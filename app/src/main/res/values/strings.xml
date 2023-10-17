@@ -54,6 +54,11 @@
     <string name="austin_nicholas_tham">Austin Nicholas Tham</string>
     <string name="txt_post_subtitle">I found an interesting experience in the city of Pontianak.</string>
     <string name="txt_post_title">Interesting Experience</string>
+    <string name="review_value"><u>6,417</u></string>
+    <string name="tourism_review"><u> reviews</u></string>
+    <string name="dummy_description">The majestic Cervino, also known as the Matterhorn, stands as an iconic sentinel in the Pennine Alps. Its distinctive pyramid shape pierces the sky, shrouded in eternal snow and ice. Rising 4,478 meters above sea level, it commands awe and reverence from all who gaze upon it. The mountain is a playground for mountaineers and a sanctuary for alpine flora and fauna. Its grandeur and mystique make Cervino a timeless testament to the raw beauty of the natural world.</string>
+    <string name="address_value"><u> Jl. Rahadi Usman, Tengah, Kec. Pontianak
+Kota,\n Kota Pontianak, Kalimantan Barat 78243</u></string>
 
 
 </resources>
