@@ -642,7 +642,7 @@
         "price2": 2000000,
         "site": "https://jungleinn-bukitlawang.com/",
         "sponsored": false,
-        "image": ["Jungle_Inn1, Jungle_Inn2, Jungle_Inn3"],
+        "image": ["Jungle_Inn1, Jungle_Inn2, Jungle_Inn3"]
         ]
       },
       {
@@ -667,22 +667,22 @@
         "price2": 2500000,
         "site": "https://www.tamansimalem.com/contact-us/"
         "sponsored": false,
-        "image": ["taman_simalem1, taman_simalem2, taman_simalem3"],
+        "image": ["taman_simalem1, taman_simalem2, taman_simalem3"]
         ]
       }
     ],
     "things_todo": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
+        "name": "Camping Ground Air Terjun Sikulikap",
+        "description": "The waterfall tourist area also provides a special area for camping (camping ground).\n\nIn this area, you can set up a tent to spend the night and rest.\n\nCamping activities at this tourist location are quite popular with visiting tourists, considering that the atmosphere provided is very calming and refreshing.",
+        "image": "Sikulikap1",
+        "rating": 4,3,
+        "review": 320,
         "price": 120000,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "WaterFall",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "Desa Doulu Kabupaten Tanah Berastagi, Martelu, Kec. Sibolangit, Kabupaten Karo, Sumatera Utara 20357.",
         "tour_option": [
           {
             "name": "tour 1",
