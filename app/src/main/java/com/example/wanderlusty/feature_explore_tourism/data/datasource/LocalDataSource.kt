@@ -13,6 +13,7 @@ interface LocalDataSource {
     fun getHiddenGems(): List<TourismEntity>?
     fun getAllTourismCategories(): List<CategoryEntity>?
     fun getAllSectionCitiesOne(): List<CityEntity>?
+    fun getTourismDetail(id: String): TourismEntity?
 }
 
 object TourismDataSource : LocalDataSource {
@@ -145,6 +146,53 @@ object TourismDataSource : LocalDataSource {
             cityList.add(cityEntity)
         }
         return cityList
+    }
+
+    override fun getTourismDetail(id: String): TourismEntity? {
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
+        val jsonObject = JSONObject(jsonString)
+
+
+        val tourismArray = jsonObject.getJSONObject("tourism")
+
+        for (sectionKey in tourismArray.keys()) {
+            val section = tourismArray.getJSONArray(sectionKey)
+            for (i in 0 until section.length()) {
+                val item = section.getJSONObject(i)
+
+                if (item.getString("id") == id) {
+                    val tourOptionList = item.getJSONArray("tour_option")
+                        .let { options ->
+                            (0 until options.length()).map { j ->
+                                options.getJSONObject(j).run {
+                                    TourOption(
+                                        getString("name"),
+                                        getString("rating").toDouble(),
+                                        getString("review").toInt(),
+                                        getString("price").toDouble(),
+                                        getString("image")
+                                    )
+                                }
+                            }
+                        }
+                    return TourismEntity(
+                        item.getString("id"),
+                        item.getString("image"),
+                        item.getString("title"),
+                        item.getString("rating").toDouble(),
+                        item.getString("review").toInt(),
+                        item.getString("type"),
+                        item.getString("location"),
+                        item.optString("price"),
+                        item.getString("description"),
+                        item.getString("duration"),
+                        item.getString("address"),
+                        tourOptionList
+                    )
+                }
+            }
+        }
+        return null
     }
 }
 
