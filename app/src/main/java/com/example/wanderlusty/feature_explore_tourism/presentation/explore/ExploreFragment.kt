@@ -15,6 +15,7 @@ import com.example.wanderlusty.databinding.FragmentExploreBinding
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
+import com.example.wanderlusty.feature_explore_tourism.presentation.detail_tourism.DetailTourismActivity
 import com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter.CategoryAdapter
 import com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter.SectionCityOneAdapter
 import com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter.SectionOneAdapter
@@ -145,6 +146,12 @@ class ExploreFragment : Fragment() {
             startActivity(intent)
         }
 //        End Section Add Tourism Config
+
+        val avatar = binding.ivUserPicture
+        avatar.setOnClickListener {
+            val intent = Intent(requireContext(), DetailTourismActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun initAdapter() {
