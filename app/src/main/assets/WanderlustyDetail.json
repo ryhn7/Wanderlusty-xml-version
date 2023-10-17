@@ -762,36 +762,210 @@
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
@@ -957,36 +1131,210 @@
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
@@ -1152,36 +1500,210 @@
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "image": [
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
+          ],
+          "rating": 4.6,
+          "review": 457,
+          "price1": 159000,
+          "price2": 195000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "image": [
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
+          ],
+          "rating": 4.9,
+          "review": 60,
+          "price1": 200000,
+          "price2": 725000,
+          "sponsored": true,
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "image": [
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 450000,
+          "price2": 750000,
+          "sponsored": true,
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
