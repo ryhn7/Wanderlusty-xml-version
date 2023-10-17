@@ -183,38 +183,39 @@
       }
     ]
   },
-  "city_2": {
+  "city2": {
     "id": "2",
     "name": "Semarang",
-    "subtitle": "Tourism in Bogor",
+    "subtitle": "Tourism in Semarang",
     "image": "semarang",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "description": "Semarang city is known as a trade center and service city. On the historical side, this city is famous for the \"Five Day Battle of Semarang\". This city has also been given various nicknames, from Atlas City, Lumpia City, the Venice of Java, the Port of Java, to Semarang, the Enchantment of Asia.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "name": "Saloka Park",
+        "description": "SALOKA is present as one of the Pesona Indonesia tourist destinations in the form of a family thematic recreation park in Central Java which carries the concept of local wisdom. Located at the intersection between the cities of Semarang, Salatiga, Surakarta and the Special Region of Yogyakarta.",
         "image": [
-          "wisata_gunungmas.jpg",
-          "wisata_gunungmas1.jpg",
-          "wisata_gunungmas2.jgp"
+          "wisata_salokapark.jpg",
+          "wisata_salokapark1.jpg",
+          "wisata_salokapark2.jgp"
         ],
-        "rating": 4.7,
-        "review": 6.368,
-        "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.4,
+        "review": 17.111,
+        "type": "Amusement Parks",
+        "location": "Semarang, Jawa Tengah"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "Sam Poo Kong",
+        "description": "The Sam Poo Kong Ancient Building Temple is the former place of transit and first landing of a Muslim Chinese Admiral named Zheng He/Cheng Ho, also known as Sam Poo. Not all of the ship's crew were Muslim.",
         "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
+          "wisata_sampookong.jpg",
+          "wisata_sampookong1.jpg",
+          "wisata_sampookong2.jpg"
         ],
-        "rating": 4.7,
-        "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.5,
+        "review": 24.912,
+        "type": "Worship Place",
+        "location": "Semarang, Jawa Tengah"
       }
     ],
     "hidden_gems": [
