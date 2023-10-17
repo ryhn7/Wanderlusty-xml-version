@@ -41,7 +41,7 @@ class SectionTwoAdapter : BaseAdapter<TourismEntity, ItemCardOneBinding>(diffCal
         binding.imgCardOne.setImageResource(imageResource)
         binding.tvTitleCardOne.text = item.title
         binding.tvRating.text = item.rating.toString()
-        binding.tvReview.text = item.review.toString()
+        binding.tvReview.text = String.format("(%s)", item.review)
         binding.typeCardOne.text = item.type
         binding.locationCardOne.text = item.location
         binding.root.setOnClickListener {

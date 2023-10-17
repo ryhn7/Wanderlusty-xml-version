@@ -59,6 +59,7 @@
     <string name="dummy_description">The majestic Cervino, also known as the Matterhorn, stands as an iconic sentinel in the Pennine Alps. Its distinctive pyramid shape pierces the sky, shrouded in eternal snow and ice. Rising 4,478 meters above sea level, it commands awe and reverence from all who gaze upon it. The mountain is a playground for mountaineers and a sanctuary for alpine flora and fauna. Its grandeur and mystique make Cervino a timeless testament to the raw beauty of the natural world.</string>
     <string name="address_value"><u> Jl. Rahadi Usman, Tengah, Kec. Pontianak
 Kota,\n Kota Pontianak, Kalimantan Barat 78243</u></string>
+    <string name="card_one_review_value">(%1$s)</string>
 
 
 </resources>
