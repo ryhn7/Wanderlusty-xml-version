@@ -1681,16 +1681,16 @@
         "location": "bebesen, takengon"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "pantai menye",
         "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
+          "pantai menye 1",
+          "pantai menye 2",
+          "pantai menye 3"
         ],
         "rating": 4.7,
         "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "type": "beach",
+        "location": "takengon, aceh tengah"
       }
     ],
     "hidden_gems": [
@@ -1736,9 +1736,9 @@
         "review": 608,
         "price": 10000,
         "sponsored": true,
-        "type": "Waterfall",
+        "type": "food culinary",
         "duration": "1 - 2 hours",
-        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+        "address": "Sp, Jl. Takengon - Bintang Origon, kec"
       },
       {
         "name": "waterfall Rerebe Kolam Biru",
