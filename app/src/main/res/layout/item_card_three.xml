@@ -41,9 +41,9 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="8dp"
         android:paddingHorizontal="9dp"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:fontFamily="@font/poppins_medium"
-        android:text="Sponsored"
+        android:text="@string/sponsored"
         android:textColor="@color/davysGrey"
         android:background="@drawable/sponsored_corner"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,9 +55,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="6dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="HARRIS Hotel Semarang"
+        android:text="@string/txt_title_card_three"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_sponsored" />
 
@@ -83,13 +83,13 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="2dp"
             android:fontFamily="@font/poppins_semibold"
-            android:text="4.8" />
+            android:text="@string/txt_rating_card_three" />
 
         <TextView
             android:id="@+id/tv_review"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="(1000)" />
+            android:text="@string/txt_review_card_three" />
     </LinearLayout>
 
     <TextView
@@ -98,9 +98,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginTop="4dp"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Rp. 484.200,-"
+        android:text="@string/txt_price_card_three"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ll_rating_card_three" />
 
@@ -120,8 +120,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="1dp"
             android:layout_marginTop="3dp"
-            android:textSize="14dp"
-            android:text="Official Site"
+            android:textSize="14sp"
+            android:text="@string/official_site"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/hotel_price_card_three" />
 
@@ -138,7 +138,7 @@
         android:layout_height="50dp"
         android:backgroundTint="@color/maize"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Contact"
+        android:text="@string/contact"
         android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@+id/tv_title_card_three"
         app:layout_constraintBottom_toBottomOf="@+id/ll_site_card_three" />

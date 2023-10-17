@@ -37,7 +37,7 @@
             android:layout_marginTop="176dp"
             android:letterSpacing="-0.03"
             android:fontFamily="@font/poppins_bold"
-            android:text="Semarang"
+            android:text="@string/txt_title_card_two"
             android:textColor="@color/white"
             android:textSize="24sp"
             />

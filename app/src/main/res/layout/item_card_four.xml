@@ -29,10 +29,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="2dp"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textColor="@color/black"
         android:fontFamily="@font/poppins_medium"
-        android:text="Cafe Couscous - Vege"
+        android:text="@string/title_card_four"
         app:layout_constraintStart_toEndOf="@id/img_container_card_four"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -58,17 +58,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="2dp"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:fontFamily="@font/poppins_semibold"
             android:textColor="@color/black"
-            android:text="4.8" />
+            android:text="@string/txt_rating_card_four" />
 
         <TextView
             android:id="@+id/tv_review"
-            android:textSize="14dp"
+            android:textSize="14sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="(1000)" />
+            android:text="@string/txt_review_card_four" />
     </LinearLayout>
 
     <TextView
@@ -77,10 +77,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="2dp"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textColor="@color/black"
         android:fontFamily="@font/poppins_regular"
-        android:text="Cafe • Healty • Vegetarian"
+        android:text="@string/txt_tag_card_four"
         app:layout_constraintStart_toEndOf="@id/img_container_card_four"
         app:layout_constraintTop_toBottomOf="@id/ll_rating_card_four"/>
 
