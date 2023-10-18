@@ -2846,54 +2846,163 @@
         "location": "bebesen, takengon"
       },
       {
-        "name": "pantai menye",
+        "name": "Pantai Menye",
         "image": [
-          "pantai menye 1",
-          "pantai menye 2",
-          "pantai menye 3"
+          "pantai_menye_1",
+          "pantai_menye_2",
+          "pantai_menye_3"
         ],
         "rating": 4.7,
         "review": 93.847,
         "type": "beach",
-        "location": "takengon, aceh tengah"
+        "location": "Takengon, Aceh Tengah"
+      },
+      {
+        "name": "Goa Loyang Koro",
+        "image": [
+          "gua_loyang_koro_1",
+          "gua_loyang_koro_",
+          "gua_loyang_koro_3"
+        ],
+        "rating": 4.7,
+        "review": 93.847,
+        "type": "cave",
+        "location": "Takengon, Aceh Tengah"
       }
     ],
-    "hidden_gems": {
-      "hidden_tourism": [
-        {
-          "name": "Curug Balong Endah",
-          "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
-          "image": [
-            "wisata_curugbalongendah",
-            "wisata_curugbalongendah1",
-            "wisata_curugbalongendah2"
-          ],
-          "rating": 4.6,
-          "review": 608,
-          "price": 10000,
-          "sponsored": true,
-          "type": "Waterfall",
-          "duration": "1 - 2 hours",
-          "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
-        },
-        {
-          "name": "Telaga Saat",
-          "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
-          "image": [
-            "wisata_telagasaat",
-            "wisata_telagasaat1",
-            "wisata_telagasaat2"
-          ],
-          "rating": 4.3,
-          "review": 4161,
-          "price1": 10000,
-          "price2": 25000,
-          "sponsored": true,
-          "type": "Lake",
-          "duration": "1 - 2 hours",
-          "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
-        },
-        {
+    "hidden_gems": [
+      {
+    "name": "Bintang Village",
+    "description": "Located on the east side of Dana Laut Tawar, Bintang Village often successfully attracts the attention of tourists because of the uniqueness offered. This area is a village where everyone has the opportunity to watch horses in action or even walk down the racetrack.",
+    "image": " bintang",
+    "rating": 4,
+    "review": 120,
+    "price": 120000,
+    "sponsored": false,
+    "type": "countryside",
+    "duration": "1 hours from city",
+    "address": "Kec Bintang, kab Aceh Tengah, Provinsi nanggroe aceh daarusalam",
+    "tour_option": [
+      {
+        "name": "tour 1",
+        "rating": 4,
+        "review": 394,
+        "price": 100000,
+        "image": "bintang 2"
+      },
+      {
+        "name": "tour 2",
+        "rating": 4,
+        "review": 120,
+        "price": 50000,
+        "image": "bintang 1"
+      }
+    ]
+  },
+      {
+        "name": "waterfall Rerebe Kolam Biru",
+        "description": "One of them is the Rerebe Blue Pool Waterfall located in Rerebe Village, Tripe Jaya District, Gayo Lues Regency, Aceh Province with a distance of approximately 2 hours from Gayo Lues Regency. Blue Pool Rerebe Waterfall has a width of approximately 100 meters and a length of approximately 110 with a pool depth of 2-8 meters. The atmosphere is still very beautiful, but has adequate facilities that should not be missed",
+        "image": [
+          "air terjun rerebe 1",
+          "air terjun rerebe 2",
+          "air terjun rerebe 3"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "waterfall",
+        "duration": "1 - 2 hours",
+        "address": "Air Terjun Kolam Biru Rerebe\nRerebe, Tripe Jaya, Gayo Lues Regency, Aceh"
+      },
+      {
+        "name": "Tarisa Bintang Wisata Camping Ground",
+        "description": "Camping is an outdoor recreational activity that involves temporarily staying in a natural or remote location, typically in a tent, camper, or under the open sky. It is a popular pastime for those who seek a break from the hustle and bustle of urban life and want to connect with nature.",
+        "image": [
+          "camping_1",
+          "camping_2",
+          "camping_3"
+        ],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 100000,
+        "price2": 200000,
+        "sponsored": true,
+        "type": "camping",
+        "duration": "a day",
+        "address": "Jl. Takengon - Bintang, Bebuli, Mendale, Danau, Kabupaten Aceh Tengah, Aceh, Indonesia",
+        "tour_option": [
+          {
+            "name": "camp 1",
+            "rating": 4,
+            "review": 120,
+            "price": 100000,
+            "image": "camping_4"
+          },
+          {
+            "name": "camp 2",
+            "rating": 4,
+            "review": 120,
+            "price": 200000,
+            "image": "camping_5"
+          }
+        ]
+      }
+
+    ],
+    "hidden_tourism": [
+      {
+        "name": "Goa Loyang Koro",
+        "description": "Telaga Goyang Cave is one of the tourist destinations that cannot be missed, especially for tourists who like adventure and challenges. Camping at night and exploring caves in the morning is a great adventure.",
+        "image": [
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
+        ],
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 10000,
+        "price2": 25000,
+        "sponsored": true,
+        "type": "Lake",
+        "duration": "1 - 2 hours",
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      },
+      {
+        "name": "Tarisa Bintang Wisata Camping Ground",
+        "description": "Camping is an outdoor recreational activity that involves temporarily staying in a natural or remote location, typically in a tent, camper, or under the open sky. It is a popular pastime for those who seek a break from the hustle and bustle of urban life and want to connect with nature.",
+        "image": [
+          "camping_1",
+          "camping_2",
+          "camping_3"
+        ],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 100000,
+        "price2": 200000,
+        "sponsored": true,
+        "type": "camping",
+        "duration": "a day",
+        "address": "Jl. Takengon - Bintang, Bebuli, Mendale, Danau, Kabupaten Aceh Tengah, Aceh, Indonesia",
+        "tour_option": [
+          {
+            "name": "camp 1",
+            "rating": 4,
+            "review": 120,
+            "price": 100000,
+            "image": "camping_4"
+          },
+          {
+            "name": "camp 2",
+            "rating": 4,
+            "review": 120,
+            "price": 200000,
+            "image": "camping_5"
+          }
+        ]
+      },
+      {
           "name": "Kulah dua",
           "description": "Kulah Dua Tapos Cibedug. Beautiful, cool, quiet and very calming. Very suitable for you to hunt for beautiful sunrises and sunsets.",
           "image": ["wisata_kulahdua", "wisata_kulahdua1", "wisata_kulahdua2"],
@@ -2922,14 +3031,14 @@
           ]
         }
       ],
-      "hidden_restaurant": [
+    "hidden_restaurant": [
         {
-          "name": "Kopi Daong",
-          "description": "Kopi Daong has the right atmosphere for refreshing and taking a vacation. You can feel the cool air coming from the shady trees directly at Kopi Daong Bogor. What's more interesting is that this coffee shop is located at a height, where you can see open views of nature and pine trees.",
+          "name": "Andalus Coffee And Kitchen",
+          "description": "This unique restaurant that serves typical foreign food in the middle of your city Aceh does not go unnoticed. Starting from a variety of rice, pizza, pasta, food from various other countries makes us do not need to go anywhere else",
           "image": [
-            "rest_kopidaong",
-            "rest_kopidaong1",
-            "rest_kopidaong2"
+            "andalus_coffee_and_kitchen_1",
+            "andalus_coffee_and_kitchen_2",
+            "andalus_coffee_and_kitchen_3"
           ],
           "rating": 4.4,
           "review": 18.377,
@@ -2938,59 +3047,47 @@
           "sponsored": true,
           "type": "cafe",
           "duration": "1 - 2 hours",
-          "address": "Pancawati, Kec. Caringin, Kabupaten Bogor, Jawa Barat"
+          "address": "l. H Keuchik Leumik Lorong Utoh Ma'in No. 1, Lueng Bata, Banda Aceh"
         },
         {
-          "name": "Richie Garden Resto",
-          "description": "Dibangun dari Rumah dengan Semangat, Kejujuran, dan Bahan-Bahan Terbaik ” Richie Garden dibangun oleh ibu empat anak, seorang juru masak rumahan yang penuh semangat, yang percaya bahwa makanan enak hanya bisa didapat dari semangat, pengalaman, dan bahan-bahan terbaik.",
+          "name": "Dapuponu",
+          "description": "A culinary place that is hidden from the crowd, but still exudes its own characteristics. Provides katsu chicken rice, dapuponu-style yakimeshi, various ramen, and other Japanese-style snacks.",
           "image": [
-            "rest_richie",
-            "rest_richie1",
-            "rest_richie2"
+            "dapuponu_1",
+            "dapuponu_2",
+            "dapuponu_3"
           ],
           "rating": 4.7,
           "review": 1.562,
-          "price1": 36000,
-          "price2": 125000,
+          "price1": 15000,
+          "price2": 22000,
           "sponsored": true,
           "type": "Restaurant",
           "duration": "1 - 2 hours",
-          "address": "Jl. Gunung Batu, Bojong Koneng, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810"
+          "address": "Jl. Pattimura No. 109 (Blower) Kel. Sukaramai Kec. Baiturrahman Kota Banda Aceh. Provinsi Aceh"
         },
         {
-          "name": "Awal Mula Coffe ",
-          "description": "Bright cafe with coffee & snacks in a spacious & contemporary space with outdoor seating.",
-          "image": ["rest_awalmula", "rest_awalmula1", "rest_awalmula2"],
-          "rating": 4.6,
-          "review": 1.260,
-          "price1": 27500,
-          "price2": 150000,
-          "sponsored": false,
-          "type": "cafe",
-          "duration": "2 hours",
-          "address": "Jl. Binamarga II No.5a, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
-          "tour_option": [
-            {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
-            },
-            {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
-            }
-          ]
-        }
-      ]
+        "name": "Regarang Resto",
+        "description": "Typical Nusantara culinary that serves a variety of typical Indonesian food. Starting from cahkangkung, stir-fried bean sprouts, grilled fish, grilled chicken. The beautiful surrounding scenery and refreshing cold air make a pleasant complement.",
+        "image": [
+          "regarang_resto_1",
+          "regarang_resto_2",
+          "regarang_resto_3"
+        ],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 15000,
+        "price2": 22000,
+        "sponsored": true,
+        "type": "Restaurant",
+        "duration": "1 - 2 hours",
+        "address": "Jl. Pattimura No. 109 (Blower) Kel. Sukaramai Kec. Baiturrahman Kota Banda Aceh. Provinsi Aceh"
+      }
+    ]
     },
     "hotel": [
       {
-        "name": "parkside gayo petro hotel",
+        "name": "Parkside Gayo Petro Hotel",
         "description": "It is located on the Gayo plateau.  parkside Hotels are designed to meet all your travel needs in business and leisure destinations. Choosing hotel accommodation becomes more complex every day so that the vacation you live feels more special",
         "phone": "0832626363",
         "email": "reservation@parksidegayopetro.com",
@@ -3012,19 +3109,19 @@
         "site": "www.parksidehotels.com",
         "sponsored": false,
         "image": [
-          "parkside gayo petro hotel",
-          "parkside gayo petro hotel 2",
-          "parkside gayo petro hotel 3"
+          "parkside_gayo_petro_hotel_1",
+          "parkside_gayo_petro_hotel_2",
+          "parkside_gayo_petro_hotel_3"
         ]
       },
       {
-        "name": "The Grand bayu Hill",
+        "name": "The Grand Bayu Hill",
         "description": "The 4-star hotel is located in a very strategic location close to the Central Aceh Government Office Center, and only a few minutes to Lake Lut Tawar, Pantan Terong, Burtelege, River Rafting and other interesting tourist destinations in Takengon.\\nGrand Bayu Hill Hotel Takengon offers the perfect accommodation place for business or leisure purposes to explore the culture or typical food of the Tanah Gayo Community.",
         "phone": "+6282360506212",
         "email": "groupreservation@thegrandhill.com",
         "tag": [
-          "located in takengon",
-          "Hotel in bebesen, gayo luwes"
+          "located in Takengon",
+          "Hotel in Bebesen, Gayo Luwes"
         ],
         "languages": [
           "English",
@@ -3040,21 +3137,49 @@
         "site": "www.grandbayuhill.com",
         "sponsored": false,
         "image": [
-          "grand bayu hill 1",
-          "grand bayu hill 2",
-          "grand bayu hill 3"
+          "grand_bayu_hill_1",
+          "grand_bayu_hill_2",
+          "grand_bayu_hill_3"
+        ]
+      },
+      {
+        "name": "Grand Penemas Hotel",
+        "description": "The 4-star hotel is located in a very strategic location close to the Central Aceh Government Office Center, and only a few minutes to Lake Lut Tawar, Pantan Terong, Burtelege, River Rafting and other interesting tourist destinations in Takengon.\\nGrand Bayu Hill Hotel Takengon offers the perfect accommodation place for business or leisure purposes to explore the culture or typical food of the Tanah Gayo Community.",
+        "phone": "+6282360506212",
+        "email": "groupreservation@thegrandhill.com",
+        "tag": [
+          "located in Takengon",
+          "Hotel in Lut Tawar, Aceh Tengah"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "BREAKFAST & POOL"
+        ],
+        "rating": 4.4,
+        "review": 2.905,
+        "price1": 300000,
+        "price2": 450000,
+        "site": "www.grandpenemas.com",
+        "sponsored": false,
+        "image": [
+          "grand_penemas_1",
+          "grand_penemas_2",
+          "grand_penemas_3"
         ]
       }
     ],
     "things_todo": {
       "tourism": [
         {
-          "name": "lukup badak",
+          "name": "Lukup Badak",
           "description": "Whitewater rafting provides an opportunity for participants to challenge themselves physically and mentally while immersing themselves in the beauty of nature. Whether you're seeking an adrenaline rush or a leisurely exploration of a river, rafting can be a thrilling and memorable experience..",
           "image": [
-            "lukup badak 1",
-            "lukup badak 2",
-            "lukup badak 3"
+            "lukup_badak_1",
+            "lukup_badak_2",
+            "lukup_badak_3"
           ],
           "rating": 4.6,
           "review": 457,
@@ -3063,31 +3188,31 @@
           "sponsored": true,
           "type": "rafting",
           "duration": " 45 minute",
-          "address": "kec pegasing takengon, kab aceh tengah,",
+          "address": "Kec Pegasing Takengon, Kab Aceh Tengah,",
           "tour_option": [
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
               "price": 150000,
-              "image": "lukup badak 4"
+              "image": "lukup_badak_4"
             },
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
               "price": 400000,
-              "image": "lukup badak 5"
+              "image": "lukup_badak_5"
             }
           ]
         },
         {
-          "name": "horses race bintang",
+          "name": "Horses Race Bintang",
           "description": "Gayo traditional horse racing is a tradition that has long been known to the Gayo people, namely before the Dutch colonial period.Gayo traditional horse racing was first held in 1850 on the east side of Lake Laut Tawar, Bintang District.\nThe area of land used for horse racing is 1.5 kilometers. In traditional Gayo horse races, jockeys must be between 10-16 years old\n.",
           "image": [
-            "bintang 2",
-            "bintang 3",
-            "bintang 5"
+            "bintang_2",
+            "bintang_3",
+            "bintang_5"
           ],
           "rating": 4.9,
           "review": 60,
@@ -3096,66 +3221,66 @@
           "sponsored": true,
           "type": "horse ridinng",
           "duration": "1 hours",
-          "address": "Kec Bintang, kab Aceh Tengah, Provinsi nanggroe aceh daarusalam",
+          "address": "Kec Bintang, Kab Aceh Tengah, Provinsi Nanggroe Aceh Darusalam",
           "tour_option": [
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
               "price": 100000,
-              "image": "bintang 4"
+              "image": "bintang_4"
             },
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
               "price": 50000,
-              "image": "bintang 1"
+              "image": "bintang_1"
             }
           ]
         },
         {
-          "name": "Tarisa Bintang Wisata Camping Ground",
-          "description": "Camping is an outdoor recreational activity that involves temporarily staying in a natural or remote location, typically in a tent, camper, or under the open sky. It is a popular pastime for those who seek a break from the hustle and bustle of urban life and want to connect with nature.",
+          "name": "galeri kopi",
+          "description": "The Coffee Gallery is not just a caffe with the concept of coffee plantations, but we can also feel the experience of harvesting and selecting and studying coffee in order to produce the best coffee through our own hands. PeosesIntroduction Starting from choosing good coffee, drying, rosting, to coffee brewing techniques ",
           "image": [
-            "camping 1",
-            "camping 2",
-            "camping 3"
+            "galeri_kopi_1",
+            "galeri_kopi_2",
+            "galeri_kopi_3"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 100000,
-          "price2": 200000,
+          "rating": 4.6,
+          "review": 457,
+          "price1": 200000,
+          "price2": 300000,
           "sponsored": true,
-          "type": "camping",
-          "duration": "a day",
-          "address": "Jl. Takengon - Bintang, Bebuli, Mendale, Danau, Kabupaten Aceh Tengah, Aceh, Indonesia",
+          "type": "rafting",
+          "duration": " 45 minute",
+          "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
           "tour_option": [
             {
-              "name": "camp 1",
+              "name": "Harvesting Coffee Bean",
               "rating": 4,
               "review": 120,
-              "price": 100000,
-              "image": "camping 4"
+              "price": 50000,
+              "image": "lukup_badak_4"
             },
             {
-              "name": "camp 2",
+              "name": "brewing coffee",
               "rating": 4,
               "review": 120,
-              "price": 200000,
-              "image": "camping 2"
+              "price": 50000,
+              "image": "galeri_coffee_6"
             }
           ]
         }
       ],
       "restaurant": [
         {
-          "name": "rooftop parkside petro restourant",
+          "name": "Rooftop Parkside Petro Restourant",
           "description": "The restaurant located on the open roof of Parkside Hotel Petro Takengon gives a new impression where we can enjoy food with a charming sunset view, or a star-studded night view ",
           "image": [
-            "rooftop parkside 1",
-            "rooftop parkside 2",
-            "rooftop parkside 3"
+            "rooftop_parkside_1",
+            "rooftop_parkside_2",
+            "rooftop_parkside_3"
           ],
           "rating": 4.7,
           "review": 1.562,
@@ -3182,53 +3307,42 @@
           ]
         },
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
-          "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+          "name": "galeri kopi",
+          "description": "As the name suggests, Galeri Kopi is a coffee caffe that presents a variety of unique concepts, namely Minu Kopi in the middle of a coffee plantation. Provide a new experience with a pleasant sensation. This caffe also provides main meals, snacks, and coffee jam drinks for those of you who want to feel the atmosphere but can't afford to drink coffee",
+          "tag": [
+            "Cafe",
+            "coffee",
+            "Healthy"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
-          "sponsored": true,
-          "type": "free flying sport",
-          "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
-          "tour_option": [
-            {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
-            },
-            {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
-            }
-          ]
+          "feature": [
+            "Delivery",
+            "Takeouts"
+          ],
+          "phone": "081326378276",
+          "email": "galerikopitakengon@gmail.com",
+          "rating": "5",
+          "review": 120,
+          "price": 120000,
+          "open": "8:00AM",
+          "close": "10:30AM",
+          "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
+          "sponsored": false,
+          "image": "haris.png"
         },
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "Teluk Mandale Cafe",
+          "description": "The restaurant located on the open roof of Parkside Hotel Petro Takengon gives a new impression where we can enjoy food with a charming sunset view, or a star-studded night view ",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "teluk_mandale_cafe_1",
+            "teluk_mandale_cafe_2",
+            "teluk_mandale_cafe_3"
           ],
           "rating": 4.7,
           "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "price1": 20000,
+          "price2": 50000,
           "sponsored": true,
           "type": "free flying sport",
-          "duration": "1 - 2 hours",
           "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
           "tour_option": [
             {
@@ -3292,8 +3406,11 @@
         "price": 300000,
         "site": "http://haris.com",
         "sponsored": false,
-        "image": "rental.jpg"
+        "image":[
+          "rental_1",
+          "rental_2"
+        ]
       }
     ]
   }
-}
+
