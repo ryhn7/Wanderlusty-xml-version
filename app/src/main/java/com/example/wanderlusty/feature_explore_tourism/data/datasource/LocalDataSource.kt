@@ -2,10 +2,9 @@ package com.example.wanderlusty.feature_explore_tourism.data.datasource
 
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourOption
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyCategory
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyFavoritePlace
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyHiddenGems
 import com.example.wanderlusty.utils.GetJson
 import org.json.JSONObject
 
@@ -14,15 +13,117 @@ interface LocalDataSource {
     fun getHiddenGems(): List<TourismEntity>?
     fun getAllTourismCategories(): List<CategoryEntity>?
     fun getAllSectionCitiesOne(): List<CityEntity>?
+    fun getTourismDetail(id: String): TourismEntity?
 }
 
 object TourismDataSource : LocalDataSource {
     override fun getAllFavoritePlaces(): List<TourismEntity> {
-        return dummyFavoritePlace
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
+        val jsonObject = JSONObject(jsonString)
+        val favoritePlaceList = mutableListOf<TourismEntity>()
+        val tourOptionList = mutableListOf<TourOption>()
+        val tourismArray = jsonObject.getJSONObject("tourism").getJSONArray("section_two")
+
+        for (i in 0 until tourismArray.length()) {
+            val favoritePlaceData = tourismArray.getJSONObject(i)
+
+            val id = favoritePlaceData.getString("id")
+            val image = favoritePlaceData.getString("image")
+            val title = favoritePlaceData.getString("title")
+            val rating = favoritePlaceData.getString("rating").toDouble()
+            val review = favoritePlaceData.getString("review").toInt()
+            val type = favoritePlaceData.getString("type")
+            val location = favoritePlaceData.getString("location")
+            val description = favoritePlaceData.getString("description")
+            val duration = favoritePlaceData.getString("duration")
+            val address = favoritePlaceData.getString("address")
+
+            val tourOptionJsonArray = favoritePlaceData.getJSONArray("tour_option")
+            for (j in 0 until tourOptionJsonArray.length()) {
+                val tourOptionData = tourOptionJsonArray.getJSONObject(j)
+                val name = tourOptionData.getString("name")
+                val optionRating = tourOptionData.getString("rating").toDouble()
+                val optionReview = tourOptionData.getString("review").toInt()
+                val price = tourOptionData.getString("price").toDouble()
+                val optionImage = tourOptionData.getString("image")
+
+                val tourOptionEntity =
+                    TourOption(name, optionRating, optionReview, price, optionImage)
+                tourOptionList.add(tourOptionEntity)
+            }
+            val favoritePlaceEntity =
+                TourismEntity(
+                    id,
+                    image,
+                    title,
+                    rating,
+                    review,
+                    type,
+                    location,
+                    null,
+                    description,
+                    duration,
+                    address,
+                    tourOptionList
+                )
+            favoritePlaceList.add(favoritePlaceEntity)
+        }
+        return favoritePlaceList
     }
 
     override fun getHiddenGems(): List<TourismEntity> {
-        return dummyHiddenGems
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
+        val jsonObject = JSONObject(jsonString)
+        val hiddenGemsList = mutableListOf<TourismEntity>()
+        val tourOptionList = mutableListOf<TourOption>()
+
+        val tourismArray = jsonObject.getJSONObject("tourism").getJSONArray("section_one")
+
+        for (i in 0 until tourismArray.length()) {
+            val hiddenGemsData = tourismArray.getJSONObject(i)
+
+            val id = hiddenGemsData.getString("id")
+            val image = hiddenGemsData.getString("image")
+            val title = hiddenGemsData.getString("title")
+            val rating = hiddenGemsData.getString("rating").toDouble()
+            val review = hiddenGemsData.getString("review").toInt()
+            val type = hiddenGemsData.getString("type")
+            val location = hiddenGemsData.getString("location")
+            val description = hiddenGemsData.getString("description")
+            val duration = hiddenGemsData.getString("duration")
+            val address = hiddenGemsData.getString("address")
+
+            val tourOptionJsonArray = hiddenGemsData.getJSONArray("tour_option")
+            for (j in 0 until tourOptionJsonArray.length()) {
+                val tourOptionData = tourOptionJsonArray.getJSONObject(j)
+                val name = tourOptionData.getString("name")
+                val optionRating = tourOptionData.getString("rating").toDouble()
+                val optionReview = tourOptionData.getString("review").toInt()
+                val price = tourOptionData.getString("price").toDouble()
+                val optionImage = tourOptionData.getString("image")
+
+                val tourOptionEntity =
+                    TourOption(name, optionRating, optionReview, price, optionImage)
+                tourOptionList.add(tourOptionEntity)
+            }
+
+            val hiddenGemsEntity = TourismEntity(
+                id,
+                image,
+                title,
+                rating,
+                review,
+                type,
+                location,
+                null,
+                description,
+                duration,
+                address,
+                tourOptionList
+            )
+            hiddenGemsList.add(hiddenGemsEntity)
+        }
+        return hiddenGemsList
     }
 
     override fun getAllTourismCategories(): List<CategoryEntity> {
@@ -45,6 +146,53 @@ object TourismDataSource : LocalDataSource {
             cityList.add(cityEntity)
         }
         return cityList
+    }
+
+    override fun getTourismDetail(id: String): TourismEntity? {
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
+        val jsonObject = JSONObject(jsonString)
+
+
+        val tourismArray = jsonObject.getJSONObject("tourism")
+
+        for (sectionKey in tourismArray.keys()) {
+            val section = tourismArray.getJSONArray(sectionKey)
+            for (i in 0 until section.length()) {
+                val item = section.getJSONObject(i)
+
+                if (item.getString("id") == id) {
+                    val tourOptionList = item.getJSONArray("tour_option")
+                        .let { options ->
+                            (0 until options.length()).map { j ->
+                                options.getJSONObject(j).run {
+                                    TourOption(
+                                        getString("name"),
+                                        getString("rating").toDouble(),
+                                        getString("review").toInt(),
+                                        getString("price").toDouble(),
+                                        getString("image")
+                                    )
+                                }
+                            }
+                        }
+                    return TourismEntity(
+                        item.getString("id"),
+                        item.getString("image"),
+                        item.getString("title"),
+                        item.getString("rating").toDouble(),
+                        item.getString("review").toInt(),
+                        item.getString("type"),
+                        item.getString("location"),
+                        item.optString("price"),
+                        item.getString("description"),
+                        item.getString("duration"),
+                        item.getString("address"),
+                        tourOptionList
+                    )
+                }
+            }
+        }
+        return null
     }
 }
 
