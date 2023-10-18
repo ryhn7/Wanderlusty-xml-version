@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_detail_city_hiddengem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <include
+            android:id="@+id/detail_city_hiddengem_txt_subheading"
+            layout="@layout/text_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/detail_city_hiddengem_card"
+            layout="@layout/item_card_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_txt_subheading" />
+
+        <TextView
+            android:id="@+id/detail_city_hiddengem_txt_subheading_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hidden restaurants"
+            android:textSize="22sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="64dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_card" />
+
+        <include
+            android:id="@+id/detail_city_hiddengem_card_two"
+            layout="@layout/item_card_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_txt_subheading_two" />
+
+        <TextView
+            android:id="@+id/detail_city_hiddengem_txt_subheading_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top hidden"
+            android:textSize="22sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="64dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_card_two" />
+
+        <include
+            android:id="@+id/detail_city_hiddengem_card_three"
+            layout="@layout/item_card_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_txt_subheading_three" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
