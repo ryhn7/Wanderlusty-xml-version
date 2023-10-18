@@ -563,7 +563,7 @@
       }
     ]
   },
-  "ccity_4": {
+  "city_4": {
     "id": "4",
     "name": "Medan",
     "subtitle": "Tourism in Medan",
@@ -660,7 +660,7 @@
         "sponsored": "false",
         "type": "restaurant",
         "duration": "2 hours",
-        "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852",}
+        "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852"}
       {
         "name": "Wisata Kuliner Mangga Bridge",
         "description": "Wisata Kuliner Mangga Bridge is a culinary destination located in Jalan Besar Tangkahan, Namu Sialang, Kecamatan Batang Serangan, Kabupaten Langkat, Sumatera Utara. It offers a comfortable dining experience with a view of the surrounding nature.",
@@ -725,7 +725,7 @@
         "price1": 1500000,
         "price2": 2000000,
         "site": "https://jungleinn-bukitlawang.com/",
-        "sponsored": false,
+        "sponsored": "false",
         "image": ["Jungle_Inn1, Jungle_Inn2, Jungle_Inn3"]
         ]
       },
@@ -750,13 +750,38 @@
         "price1": 1500000,
         "price2": 2500000,
         "site": "https://www.tamansimalem.com/contact-us/"
-        "sponsored": false,
+        "sponsored": "false",
         "image": ["taman_simalem1, taman_simalem2, taman_simalem3"]
         ]
       },
       {
-        
-    "things_todo": [
+        "name": "Indra Valy Inn Bukit Lawang",
+        "description": "Indra Valley Inn Bukit Lawang is a riverside accommodation located in Bukit Lawang, North Sumatra, Indonesia. It is situated on the bank of the Bohorok River and is only a three-minute walk to the entrance of Gunung Leuser National Park .The inn offers 2 standard rooms and 4 new deluxe rooms with hot water showers, all of which have a beautiful view of the jungle and the river . The rooms are equipped with fan mosquito nets and some have private balconies",
+        "phone": "081397375818",
+        "email": "Obiwanvalley@gmail.com",
+        "tag": [
+          "Located In Langkat"
+          "Hotel In Langkat"
+        ],
+        "Languages": [
+          "English"
+          "Indonesia"
+        ],
+        "ameneties": [
+          "POOL"
+        ],
+        "rating": "4,8",
+        "review": "680",
+        "price1": "1500000",
+        "price2": "2000000",
+        "site": "https://indravalleyinnbukitlawang.com/",
+        "sponsored": "false",
+        "image": [
+          "valley_hotel1, valley_hotel2, valley_hotel3"
+        ]
+      }
+
+      "things_todo": [
       {
         "name": "Camping Ground Air Terjun Sikulikap",
         "description": "The waterfall tourist area also provides a special area for camping (camping ground).\n\nIn this area, you can set up a tent to spend the night and rest.\n\nCamping activities at this tourist location are quite popular with visiting tourists, considering that the atmosphere provided is very calming and refreshing.",
@@ -764,24 +789,24 @@
         "rating": 4,3,
         "review": 320,
         "price": 120000,
-        "sponsored": false,
+        "sponsored": "false",
         "type": "WaterFall",
         "duration": "2 hours",
         "address": "Desa Doulu Kabupaten Tanah Berastagi, Martelu, Kec. Sibolangit, Kabupaten Karo, Sumatera Utara 20357.",
         "tour_option": [
           {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
+            "name": "Rifting river in Binjai ",
+            "rating": 4,3,
+            "review": 200,
             "price": 120000,
-            "image": "tour1.png"
+            "image": "rifting1"
           },
           {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "name": "Sumatera Orangutan Explore",
+            "rating": 4,8,
+            "review": 350,
+            "price": 150000,
+            "image": "Orangutan_Explore"
           }
         ]
       }
@@ -789,46 +814,63 @@
     "restaurants": [
       {
         "name": "Vhi-Vhi Resto",
-        "description": "Restoran yang menyediakan aneka seafood",
+        "description": "Restoran yang menyediakan aneka ragam seafood",
         "tag": [
-          "Cafe",
+          "Restaurant",
           "Healthy"
         ],
         "feature": [
           "Delivery",
-          "Takeouts"
+          "Dine In"
         ],
-        "phone": "123 123",
-        "email": "harris@gmail.com",
+        "phone": "0821-6663-5425",
+        "email": "vhivhiresto@gmail.com",
         "rating": "5",
-        "review": 120,
+        "review": 350,
         "price": 120000,
         "open": "8:00AM",
-        "close": "10:30AM",
-        "address": "alamat restoran",
-        "sponsored": false,
-        "image": "haris.png"
+        "close": "20:30PM",
+        "address": "Jalan Lumban Hasahatan, Tongging, Kec. Merek, Kabupaten Karo, Sumatera Utara 22173",
+        "sponsored": "false",
+        "image": "Vhi_Vhi_Resto"
       }
-    ],
+        }
+    ]
     "rental": [
       {
-        "name": "Rental mobil ahui",
-        "description": "deskripsi rental",
-        "phone": "123 123",
-        "email": "harris@gmail.com",
+        "name": "Armada Car Rental",
+        "description": "ArmadaCarRental, the number 1 car rental service provider in Medan! With a fleet of the latest and highest quality cars, we are ready to provide a comfortable and safe driving experience for customers. With affordable and transparent costs and a friendly and professional team ready to help customers choose a car that suits their needs",
+        "phone": "0811-6191-987",
+        "email": "info@armadacarrental.com",
         "list_vehicle": [
-          "Wuling blabla",
-          "Vario"
+          "Toyota Hiace",
+          "Innova Reborn"
         ],
         "rating": "5",
-        "review": 120,
-        "price": 120000,
-        "site": "http://haris.com",
-        "sponsored": false,
-        "image": "haris.png"
+        "review": 350,
+        "price": 600000,
+        "site": "https://www.armadacarrental.com/index",
+        "sponsored": "false",
+        "image": "armada_car_rental"
       }
-    ]
+    ],
+      {
+        "name": "Armada Car Rental",
+        "description": "ArmadaCarRental, the number 1 car rental service provider in Medan! With a fleet of the latest and highest quality cars, we are ready to provide a comfortable and safe driving experience for customers. With affordable and transparent costs and a friendly and professional team ready to help customers choose a car that suits their needs",
+        "phone": "0811-6191-987",
+        "email": "info@armadacarrental.com",
+        "list_vehicle": [
+          "Toyota Hiace",
+          "Innova Reborn"
+        ],
+        "rating": "5",
+        "review": 350,
+        "price": 600000,
+        "site": "https://www.armadacarrental.com/index",
+        "sponsored": "false",
+        "image": "armada_car_rental"
   },
+
   "city_5": {
     "id": "5",
     "name": "Aceh",
