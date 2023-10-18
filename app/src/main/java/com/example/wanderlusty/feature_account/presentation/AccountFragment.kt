@@ -33,7 +33,7 @@ class AccountFragment : Fragment() {
     }
 
     private fun configScreen() {
-//        Section Preferences
+        // Section Preferences
         val textLanguage = binding.itemLanguage.tvSettingOption
         val textCurrency = binding.itemCurrency.tvSettingOption
         val textUnits = binding.itemUnits.tvSettingOption
@@ -56,9 +56,9 @@ class AccountFragment : Fragment() {
         valueTextCurrency.text = getString(R.string.currency_value)
         valueTextUnits.text = getString(R.string.units_value)
         valueTextNotification.text = ""
-//        End Section Preferences
+        //  End Section Preferences
 
-//        Section Support
+        //  Section Support
         val textHelp = binding.itemHelpCenter.tvSettingOption
         val textAppFeedback = binding.itemAppFeedback.tvSettingOption
         val textPolicy = binding.itemPolicy.tvSettingOption
@@ -69,7 +69,7 @@ class AccountFragment : Fragment() {
 
         val lastDividerSupport = binding.itemPolicy.divider
         lastDividerSupport.visibility = View.GONE
-//        End Section Support
+        //  End Section Support
     }
 
 }
