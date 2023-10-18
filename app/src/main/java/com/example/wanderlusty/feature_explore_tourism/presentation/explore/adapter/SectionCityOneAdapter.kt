@@ -1,9 +1,12 @@
 package com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.example.wanderlusty.databinding.ItemCardTwoBinding
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
+import com.example.wanderlusty.feature_explore_tourism.presentation.detail_city.DetailCityActivity
+import com.example.wanderlusty.feature_explore_tourism.presentation.detail_tourism.DetailTourismActivity
 import com.example.wanderlusty.utils.BaseAdapter
 import com.example.wanderlusty.utils.DiffCallbackListener
 
@@ -39,7 +42,12 @@ class SectionCityOneAdapter : BaseAdapter<CityEntity, ItemCardTwoBinding>(diffCa
         binding.imgCardTwo.setImageResource(imageResource)
         binding.tvTitleCardTwo.text = item.name
         binding.root.setOnClickListener {
-            onItemClickCallback.onItemClicked(item)
+            binding.root.context.startActivity(
+                Intent(
+                    binding.root.context,
+                    DetailCityActivity::class.java
+                ).putExtra(DetailCityActivity.EXTRA_CITY_ID, item.id)
+            )
         }
     }
 
