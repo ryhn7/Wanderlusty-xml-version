@@ -1,4 +1,4 @@
-# Wanderlusty
+# Wanderlusty App
 
 ![Wanderlusty_logo](https://github.com/ryhn7/Wanderlusty-xml-version/blob/master/app/src/main/res/drawable/wanderlusty_logo1.png?raw=true)
 
