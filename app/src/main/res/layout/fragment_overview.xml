@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_overview_city" />
 
     <include
-        android:id="@+id/section_recomendation"
+        android:id="@+id/section_recommendations"
         layout="@layout/text_section"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,14 +80,14 @@
         app:layout_constraintTop_toBottomOf="@id/btn_city_map" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_tourism_recomendations"
+        android:id="@+id/rv_tourism_recommendations"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         android:theme="@style/EdgeColor"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/section_recomendation"
+        app:layout_constraintTop_toBottomOf="@+id/section_recommendations"
         tools:listitem="@layout/item_card_one" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
