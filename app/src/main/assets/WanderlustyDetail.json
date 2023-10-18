@@ -365,7 +365,7 @@
       ],
       "restaurant": [
         {
-          "name": "rest_giligili",
+          "name": "Restaurant Gili Gili",
           "description": "A restaurant that provides a comfortable atmosphere and has very large land but not all of it is spent on restaurants, Resto Gili-Gili with the tagline \"Quality Authentic Sundanese\" is one of Bogor's culinary icons that can represent what typical Sundanese cuisine really is. But make no mistake, this restaurant also serves a variety of other dishes to pamper its customers who come from Jakarta on weekends.",
           "image": [
             "rest_giligili",
@@ -560,7 +560,7 @@
         ],
         "rating": 4.7,
         "review": 2.334,
-        "type": "temple",
+        "type": "Temple",
         "location": "Semarang, Jawa Tengah"
       }
     ],
@@ -841,7 +841,7 @@
       "restaurant": [
         {
           "name": "Pesta Keboen Restoran",
-          "description": "A restaurant that provides a comfortable atmosphere and has very large land but not all of it is spent on restaurants, Resto Gili-Gili with the tagline \"Quality Authentic Sundanese\" is one of Bogor's culinary icons that can represent what typical Sundanese cuisine really is. But make no mistake, this restaurant also serves a variety of other dishes to pamper its customers who come from Jakarta on weekends.",
+          "description": "The restaurant building is unique, similar to an old Dutch house. The parking is spacious. When we enter we are greeted by traditional music playing. And in front of the cashier there are old snacks.",
           "image": [
             "rest_giligili",
             "rest_giligili1",
