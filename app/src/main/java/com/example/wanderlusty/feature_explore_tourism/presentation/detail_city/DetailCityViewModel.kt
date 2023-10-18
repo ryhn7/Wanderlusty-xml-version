@@ -45,4 +45,33 @@ class DetailCityViewModel @Inject constructor(
             }
         }
     }
+
+    fun getCityDetailOverview(id: String) {
+        viewModelScope.launch {
+            useCases.getCityDetailOverview(id).asFlow().collect() {
+                when (it) {
+                    is ResultState.Loading -> _detailCityState.value = _detailCityState.value.copy(
+                        isLoading = true,
+                        error = null,
+                        overviewCity = null,
+                        cardTourism = null
+                    )
+
+                    is ResultState.Success -> _detailCityState.value = _detailCityState.value.copy(
+                        isLoading = false,
+                        error = null,
+                        overviewCity = it.data,
+                        cardTourism = it.data.recommendation
+                    )
+
+                    is ResultState.Error -> _detailCityState.value = _detailCityState.value.copy(
+                        isLoading = false,
+                        error = it.error,
+                        overviewCity = null,
+                        cardTourism = null
+                    )
+                }
+            }
+        }
+    }
 }

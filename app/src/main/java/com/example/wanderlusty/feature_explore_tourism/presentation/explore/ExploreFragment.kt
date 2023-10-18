@@ -14,6 +14,7 @@ import com.example.wanderlusty.R
 import com.example.wanderlusty.databinding.FragmentExploreBinding
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
+import com.example.wanderlusty.feature_explore_tourism.presentation.detail_city.DetailCityActivity
 import com.example.wanderlusty.feature_explore_tourism.presentation.detail_tourism.DetailTourismActivity
 import com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter.CategoryAdapter
 import com.example.wanderlusty.feature_explore_tourism.presentation.explore.adapter.SectionCityOneAdapter
@@ -50,15 +51,7 @@ class ExploreFragment : Fragment() {
     }
 
     private val sectionCityOneAdapter by lazy {
-        SectionCityOneAdapter().apply {
-            setOnItemClickCallback(object : SectionCityOneAdapter.OnItemClickCallback {
-                override fun onItemClicked(data: CityEntity) {
-                    val toast =
-                        Toast.makeText(requireContext(), data.name, Toast.LENGTH_SHORT)
-                    toast.show()
-                }
-            })
-        }
+        SectionCityOneAdapter()
     }
 
 
@@ -132,7 +125,7 @@ class ExploreFragment : Fragment() {
 
         val avatar = binding.ivUserPicture
         avatar.setOnClickListener {
-            val intent = Intent(requireContext(), DetailTourismActivity::class.java)
+            val intent = Intent(requireContext(), DetailCityActivity::class.java)
             startActivity(intent)
         }
     }

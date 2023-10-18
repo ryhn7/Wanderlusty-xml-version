@@ -28,7 +28,7 @@
             android:id="@+id/tv_title_toolbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="12dp"
             android:fontFamily="@font/poppins_medium"
             android:text="Semarang"
             android:textColor="@color/black"
@@ -52,28 +52,22 @@
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:paddingHorizontal="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ic_back"
-            app:tabGravity="fill"
+            app:tabMode="scrollable"
             app:tabSelectedTextColor="@color/black"
-            app:tabTextColor="@color/tabColor" />
+            app:tabTextAppearance="@style/TabStyle"
+            app:tabTextColor="@color/black" />
 
-        <androidx.core.widget.NestedScrollView
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fillViewport="true"
-            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_height="match_parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tab_layout">
+            app:layout_constraintTop_toBottomOf="@+id/tab_layout" />
 
-            <androidx.viewpager2.widget.ViewPager2
-                android:id="@+id/view_pager"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-
-        </androidx.core.widget.NestedScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
