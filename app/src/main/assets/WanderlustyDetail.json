@@ -82,16 +82,16 @@
         "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
       },
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "name": "Kulah dua",
+        "description": "Kulah Dua Tapos Cibedug. Beautiful, cool, quiet and very calming. Very suitable for you to hunt for beautiful sunrises and sunsets.",
+        "image": ["wisata_kulahdua", "wisata_kulahdua1", "wisata_kulahdua2"],
+        "rating": 4.4,
+        "review": 73,
+        "price": 0,
+        "sponsored": true,
+        "type": "Mountain, camp",
+        "duration": "2 day 1 night",
+        "address": "7W96+68X, Cileungsi, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720",
         "tour_option": [
           {
             "name": "tour 1",
@@ -112,49 +112,51 @@
     ],
     "hidden_restaurant": [
       {
-        "name": "Curug Balong Endah",
-        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "name": "Kopi Daong",
+        "description": "Kopi Daong has the right atmosphere for refreshing and taking a vacation. You can feel the cool air coming from the shady trees directly at Kopi Daong Bogor. What's more interesting is that this coffee shop is located at a height, where you can see open views of nature and pine trees.",
         "image": [
-          "wisata_curugbalongendah",
-          "wisata_curugbalongendah1",
-          "wisata_curugbalongendah2"
+          "rest_kopidaong",
+          "rest_kopidaong1",
+          "rest_kopidaong2"
         ],
+        "rating": 4.4,
+        "review": 18.377,
+        "price1": 25000,
+        "price2": 35000,
+        "sponsored": true,
+        "type": "cafe",
+        "duration": "1 - 2 hours",
+        "address": "Pancawati, Kec. Caringin, Kabupaten Bogor, Jawa Barat"
+      },
+      {
+        "name": "Richie Garden Resto",
+        "description": "Dibangun dari Rumah dengan Semangat, Kejujuran, dan Bahan-Bahan Terbaik ” Richie Garden dibangun oleh ibu empat anak, seorang juru masak rumahan yang penuh semangat, yang percaya bahwa makanan enak hanya bisa didapat dari semangat, pengalaman, dan bahan-bahan terbaik.",
+        "image": [
+          "rest_richie",
+          "rest_richie1",
+          "rest_richie2"
+        ],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 36000,
+        "price2": 125000,
+        "sponsored": true,
+        "type": "Restaurant",
+        "duration": "1 - 2 hours",
+        "address": "Jl. Gunung Batu, Bojong Koneng, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810"
+      },
+      {
+        "name": "Awal Mula Coffe ",
+        "description": "Bright cafe with coffee & snacks in a spacious & contemporary space with outdoor seating.",
+        "image": ["rest_awalmula", "rest_awalmula1", "rest_awalmula2"],
         "rating": 4.6,
-        "review": 608,
-        "price": 10000,
-        "sponsored": true,
-        "type": "Waterfall",
-        "duration": "1 - 2 hours",
-        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
-      },
-      {
-        "name": "Telaga Saat",
-        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
-        "image": [
-          "wisata_telagasaat",
-          "wisata_telagasaat1",
-          "wisata_telagasaat2"
-        ],
-        "rating": 4.3,
-        "review": 4161,
-        "price1": 10000,
-        "price2": 25000,
-        "sponsored": true,
-        "type": "Lake",
-        "duration": "1 - 2 hours",
-        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
-      },
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "review": 1.260,
+        "price1": 27500,
+        "price2": 150000,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "cafe",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "Jl. Binamarga II No.5a, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
         "tour_option": [
           {
             "name": "tour 1",
@@ -363,21 +365,21 @@
       ],
       "restaurant": [
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "rest_giligili",
+          "description": "A restaurant that provides a comfortable atmosphere and has very large land but not all of it is spent on restaurants, Resto Gili-Gili with the tagline \"Quality Authentic Sundanese\" is one of Bogor's culinary icons that can represent what typical Sundanese cuisine really is. But make no mistake, this restaurant also serves a variety of other dishes to pamper its customers who come from Jakarta on weekends.",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "rest_giligili",
+            "rest_giligili1",
+            "rest_giligili2"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "rating": 4.4,
+          "review": 3.600,
+          "price1": 52000,
+          "price2": 145000,
           "sponsored": true,
-          "type": "free flying sport",
+          "type": "Restaurant",
           "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "address": "Jl. Raya Pajajaran No.69, RT.01/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
           "tour_option": [
             {
               "name": "tour 1",
@@ -396,21 +398,21 @@
           ]
         },
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "De' Leuit Resto",
+          "description": "de'Leuit and Leuit Ageung are places where family, friends and relations can gather together to enjoy typical Indonesian food and Oriental cuisine in a comfortable, typical Sundanese atmosphere with the best service.",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "rest_deleuit",
+            "rest_deleuit1",
+            "rest_deleuit2"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "rating": 4.4,
+          "review": 9.630,
+          "price1": 50000,
+          "price2": 100000,
           "sponsored": true,
-          "type": "free flying sport",
+          "type": "Restaurant",
           "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "address": "Jl. Pakuan No.3, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
           "tour_option": [
             {
               "name": "tour 1",
@@ -429,21 +431,21 @@
           ]
         },
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "Fat Bubble",
+          "description": "Fat Bubble, established since 2012. Come with a new concept that mix Dessert House and Cafe. For now we serve variants of Drinks, Desserts, Foods and also Coffee. With playful and fun concept, we create a cozy and fun place to hang out and spend your time with your lovely one. We have a favorite quote for Fat Bubble, \"you can never get a cup large enough to suit me\"",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "rest_fatbubble",
+            "rest_fatbubble1",
+            "rest_fatbubble2"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "rating": 4.5,
+          "review": 4.700,
+          "price1": 17000,
+          "price2": 42000,
           "sponsored": true,
-          "type": "free flying sport",
+          "type": "Dessert house and cafe",
           "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "address": "Jl. Raya Pajajaran No.24, RT.01/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
           "tour_option": [
             {
               "name": "tour 1",
@@ -463,50 +465,58 @@
         }
       ]
     },
-    "restaurants": [
-      {
-        "name": "Restoran 1",
-        "description": "deskripsi restoran",
-        "tag": [
-          "Cafe",
-          "Healthy"
-        ],
-        "feature": [
-          "Delivery",
-          "Takeouts"
-        ],
-        "phone": "123 123",
-        "email": "harris@gmail.com",
-        "rating": "5",
-        "review": 120,
-        "price": 120000,
-        "open": "8:00AM",
-        "close": "10:30AM",
-        "address": "alamat restoran",
-        "sponsored": true,
-        "image": "haris.png"
-      }
-    ],
     "rental": [
       {
-        "name": "Thalita rent car",
-        "description": "deskripsi rental",
-        "phone": "123 123",
-        "email": "harris@gmail.com",
+        "name": "Andi Rent Car",
+        "description": "Rent a cheap car in Bogor using a driver and remove the key. Accept airport shuttle.",
+        "phone": "081318642003",
+        "email": "SEWAMOBILMURAHBOGOR@GMAIL.COM",
         "list_vehicle": [
-          "Wuling blabla",
-          "Vario"
+          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+        ],
+        "rating": "4.8",
+        "review": 259,
+        "price1": 150000,
+        "price2": 600000,
+        "site": "https://sewamobilandi.com/",
+        "sponsored": true,
+        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+      },
+      {
+        "name": "Rain City Rent Car",
+        "description": "Quality car rental solutions at cheaper prices, easier processes, and guarantee your satisfaction.  ",
+        "phone": "081316923486",
+        "email": "-",
+        "list_vehicle": [
+          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
         ],
         "rating": "5",
-        "review": 120,
-        "price": 120000,
-        "site": "https://thalita-rentcar.com/rental-mobil-bogor/",
+        "review": 218,
+        "price1": 150000,
+        "price2": 2500000,
+        "site": "https://raincityrent.id/",
         "sponsored": true,
-        "image": "haris.png"
+        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+      },
+      {
+        "name": "Pandawa Rental",
+        "description": "Pandawa Car Rental is a Bogor car rental service both inside and outside the city at affordable prices but still prioritizing service and quality.",
+        "phone": "085659344043",
+        "email": "-",
+        "list_vehicle": [
+          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+        ],
+        "rating": "4.7",
+        "review": 135,
+        "price1": 350000,
+        "price2": 1500000,
+        "site": "https://www.pandawarentalmobil.com/",
+        "sponsored": true,
+        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
       }
     ]
   },
-  "city2": {
+  "city_2": {
     "id": "2",
     "name": "Semarang",
     "subtitle": "Tourism in Semarang",
@@ -531,52 +541,65 @@
         "name": "Sam Poo Kong",
         "description": "The Sam Poo Kong Ancient Building Temple is the former place of transit and first landing of a Muslim Chinese Admiral named Zheng He/Cheng Ho, also known as Sam Poo. Not all of the ship's crew were Muslim.",
         "image": [
-          "wisata_sampookong.jpg",
-          "wisata_sampookong1.jpg",
-          "wisata_sampookong2.jpg"
+          "wisata_sampookong",
+          "wisata_sampookong1",
+          "wisata_sampookong2"
         ],
-        "rating": 4.5,
+        "rating": 4.7,
         "review": 24.912,
         "type": "Worship Place",
+        "location": "Semarang, Jawa Tengah"
+      },
+      {
+        "name": "Pagoda Avalokitesvara",
+        "description": "Avalokitesvara Pagoda is the highest pagoda in Indonesia, reaching 45 meters high. This pagoda is one of the two main buildings at the Buddhagaya Watugong Vihara - the other main building is the Dhammasala Pagoda. However, between the two, the Avalokitesvara Pagoda is much more famous and iconic.",
+        "image": [
+          "wwisata_pagoda",
+          "wisata_pagoda1",
+          "wisata_pagoda2"
+        ],
+        "rating": 4.7,
+        "review": 2.334,
+        "type": "temple",
         "location": "Semarang, Jawa Tengah"
       }
     ],
     "hidden_gems": [
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "name": "Bukit Diponegoro Hillside Park",
+        "description": "Diponegoro Hill is one of the hidden gem tourist destinations in Semarang which is currently being sought after by young people in the city of Semarang. For those who want to unwind from the tiredness of activities, Diponegoro Hill is the right destination to visit. Here you will be presented with a stretch of green grass.",
+        "image": ["wisata_bukitdipenogoro", "wisata_bukitdipenogoro1", "wisata_bukitdipenogoro2"],
+        "rating": 4.5,
+        "review": 467,
+        "price": 2000,
         "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak"
+        "type": "Hill",
+        "duration": "1 - 2 hours",
+        "address": "Taman Kota Diponegoro - Bukit Senja, Tembalang, Kota Semarang, Jawa Tengah 50275"
       },
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "name": "Desa Wisata Lembah Kalipancur",
+        "description": "If planes are usually at the airport or in a hangar, you can find an unusual view in a green and beautiful valley located in the Ngaliyan area, Semarang.",
+        "image": ["wisata_kalipacur", "wisata_kalipacur1", "wisata_kalipacur2"],
+        "rating": 3.9,
+        "review": 2032,
+        "price": 0,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "Photo Shoot, Park",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak"
+        "address": "X9HG+Q5W, Jl. Raya Kalipancur Manyaran, Kalipancur, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50183"
       },
       {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "name": "Dusun Semilir",
+        "description": "The development of Dusun Semilir seems to carry the theme of \"one stop destination\" where visitors will be pampered with various rides and super complete facilities. Starting from playgrounds, photo spots, culinary delights, shopping, mini zoo, European village miniatures, outbound areas, to accommodation, everything will be available here.",
+        "image": ["wisata_dusunsemilir", "wisata_dusunsemilir1", "wisata_dusunsemilir2"],
+        "rating": 4.4,
+        "review": 35.970,
+        "price": 30000,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "Park",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "Jl. Soekarno - Hatta No.49, Ngemple, Bawen, Ngemplak, Kabupaten Semarang, Jawa Tengah 50661",
         "tour_option": [
           {
             "name": "tour 1",
@@ -597,49 +620,51 @@
     ],
     "hidden_restaurant": [
       {
-        "name": "Curug Balong Endah",
-        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+        "name": "Kebon Kencana Plants & Coffee",
+        "description": "A place designed amidst scenic views and lush gardens to provide travellers and visitors a destination with a café and gift boutique where our guests can experience and enjoy a refreshing ambience, as well as to provide a cosy-homy space to reconnect with nature and unwind in the cool hills of Bandungan.",
         "image": [
-          "wisata_curugbalongendah",
-          "wisata_curugbalongendah1",
-          "wisata_curugbalongendah2"
+          "resto_kebon",
+          "resto_kebon1",
+          "resto_kebon2"
         ],
-        "rating": 4.6,
-        "review": 608,
-        "price": 10000,
-        "sponsored": true,
-        "type": "Waterfall",
-        "duration": "1 - 2 hours",
-        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
-      },
-      {
-        "name": "Telaga Saat",
-        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
-        "image": [
-          "wisata_telagasaat",
-          "wisata_telagasaat1",
-          "wisata_telagasaat2"
-        ],
-        "rating": 4.3,
-        "review": 4161,
-        "price1": 10000,
+        "rating": 4.8,
+        "review": 206,
+        "price1": 5000,
         "price2": 25000,
         "sponsored": true,
-        "type": "Lake",
+        "type": "cafe",
         "duration": "1 - 2 hours",
-        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+        "address": "Dusun Tarukan, RT.03/RW.05, Desa Candi, Bandungan, Kabupaten Semarang, Jawa Tengah"
       },
       {
-        "name": "Lawang Sewu",
+        "name": "Restoran Kampung Laut Semarang",
+        "description": "Classic Indonesian dishes & local seafood are served in the spacious restaurant with music & ocean views.",
+        "image": [
+          "rest_kampunglaut",
+          "rest_kampunglaut1",
+          "rest_kampunglaut2"
+        ],
+        "rating": 4.4,
+        "review": 18.536,
+        "price1": 7500,
+        "price2": 50000,
+        "sponsored": true,
+        "type": "seafood",
+        "duration": "1 - 2 hours",
+        "address": "Puri Maerokoco Tawang Mas, Jl. Anjasmoro Raya, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144"
+      },
+      {
+        "name": "Soto Sawah Mbak Tutik",
         "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
+        "image": ["rest_sotosawah", "rest_sotosawah1", "rest_sotosawah2"],
+        "rating": 4.6,
+        "review": 1.907,
+        "price1": 5000,
+        "price2": 7000,
         "sponsored": false,
-        "type": "Historic Sites",
+        "type": "soto restaurant",
         "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "address": "Jl. Duwet No.237, RT.3/RW.02, Tambangan, Kec. Mijen, Kota Semarang, Jawa Tengah 50215",
         "tour_option": [
           {
             "name": "tour 1",
@@ -660,92 +685,261 @@
     ],
     "hotel": [
       {
-        "name": "The Botanica Sanctuary",
-        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
-        "phone": "02518217111",
-        "email": "reservation-thebotanica@tauzia.com",
+        "name": "Gumaya Tower Hotel",
+        "description": "Towering above the heart of Semarang’s Central Business District, Gumaya Tower Hotel, is a luxurious five-star business hotel built with a vision to provide five-star service to the discerning guest.",
+        "phone": "08112711500",
+        "email": "reservation@gumayatowerhotel.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in Semarang",
+          "Hotel in jl. gajah mada"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
-        "amenities": [
-          "SUN & MOON POOL"
-        ],
+        "amenities": ["Swimming Pool, Fitness"],
         "rating": 4.7,
         "review": 2104,
         "price1": 1258200,
         "price2": 2473200,
-        "site": "https://thebotanicapesonaalam.com",
+        "site": "https://gumayatowerhotel.com/",
         "sponsored": false,
         "image": [
-          "hotel_botanica.jpeg",
-          "hotel_botanica1.jpeg",
-          "hotel_botanica2.jpeg"
+          "hotel_gumaya",
+          "hotel_gumaya1",
+          "hotel_gumaya2"
         ]
       },
       {
-        "name": "The Grand Hill",
-        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
-        "phone": "+6285888296259",
-        "email": "groupreservation@thegrandhill.com",
+        "name": "Hotel Patra Semarang",
+        "description": "This simple hotel is 4.5 km from the Chinese Sam Poo Kong temple, 4.8 km from Lawang Sewu, a famous building from the Dutch Colonial era, and 7 km from the Grand Mosque of Central Java.",
+        "phone": "+62248414141",
+        "email": "reservation.semarang@patra-jasa.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in Semarang",
+          "Hotel in sam poo kong"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
-        "amenities": [
-          "SUN & MOON POOL"
-        ],
-        "rating": 4.4,
-        "review": 2.905,
-        "price1": 625000,
-        "price2": 701250,
-        "site": "https://thegrandhill.com",
+        "amenities": ["Swimming Pool, Jogging, Outbound"],
+        "rating": 4.5,
+        "review": 9.535,
+        "price1": 516.000,
+        "price2": 719.000,
+        "site": "https://mypatrahotels.com/en",
         "sponsored": false,
         "image": [
-          "hotel_thegrandhill.jpeg",
-          "hotel_thegrandhill1.jpeg",
-          "hotel_thegrandhill2.jpeg"
+          "hotel_patrasemarang",
+          "hotel_patrasemarang1",
+          "hotel_patrasemarang2"
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Mawar Camp",
+          "description": "A highly recommended camping spot because of its natural beauty",
+          "image": [
+            "wisata_campmawar",
+            "wisata_campmawar1",
+            "wisata_campmawar2"
+          ],
+          "rating": 4.7,
+          "review": 1.800,
+          "price1": 7000,
+          "price2": 550000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl. Goa Jepang No.KM.5, Kluwihan, Sidomukti, Bandungan, Kabupaten Semarang, Jawa Tengah 50661",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Umbul Sidomukti",
+          "description": "Enjoy the night at Umbul Sidomukti and the cool slopes of Mount Ungaran. Suitable for children, teenagers and the elderly. Spend the night building friendships while teaching children to love nature.\nWhen else can you go camping and have a campfire together without any hassle, the Ra'Gentar field team is ready to provide all the activity facilities. Swimming, hiking or experiencing adrenaline rides are all tailored to your time.",
+          "image": [
+            "wisata_umbul",
+            "wisata_umbul1",
+            "wisata_umbul2"
+          ],
+          "rating": 4.6,
+          "review": 6.505,
+          "price1": 18000,
+          "price2": 350000,
+          "sponsored": true,
+          "type": "Camp, Outbound",
+          "duration": "2 hours, 2 day 1 night",
+          "address": "Kawasan Wisata Umbul Sidomukti, Desa Sidomukti, Kec. Bandungan, Kab. Semarang, Jawa Tengah.",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Camping Ground Pinus Cunthel",
+          "description": "Pinus Cuntel Camping Ground is a highly recommended camping area. This place is in Getasan, Semarang, Central Java. This campsite shows the attractiveness of beautiful nature and cool mountain air. So you can enjoy the natural beauty that is there. This place provides you with a camping area and camping equipment for those of you who don't want to bother bringing your own equipment.",
+          "image": [
+            "camp_groundpinus",
+            "camp_groundpinus1",
+            "camp_groundpinus2"
+          ],
+          "rating": 4.7,
+          "review": 172,
+          "price": 75000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 day 1 night",
+          "address": "Unnamed Road, Sundel, Kopeng, Kec. Getasan, Kabupaten Semarang, Jawa Tengah 50774",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Pesta Keboen Restoran",
+          "description": "A restaurant that provides a comfortable atmosphere and has very large land but not all of it is spent on restaurants, Resto Gili-Gili with the tagline \"Quality Authentic Sundanese\" is one of Bogor's culinary icons that can represent what typical Sundanese cuisine really is. But make no mistake, this restaurant also serves a variety of other dishes to pamper its customers who come from Jakarta on weekends.",
+          "image": [
+            "rest_giligili",
+            "rest_giligili1",
+            "rest_giligili2"
+          ],
+          "rating": 4.4,
+          "review": 3.600,
+          "price1": 52000,
+          "price2": 145000,
+          "sponsored": true,
+          "type": "Restaurant",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Pajajaran No.69, RT.01/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "De' Leuit Resto",
+          "description": "de'Leuit and Leuit Ageung are places where family, friends and relations can gather together to enjoy typical Indonesian food and Oriental cuisine in a comfortable, typical Sundanese atmosphere with the best service.",
+          "image": [
+            "rest_deleuit",
+            "rest_deleuit1",
+            "rest_deleuit2"
+          ],
+          "rating": 4.4,
+          "review": 9.630,
+          "price1": 50000,
+          "price2": 100000,
+          "sponsored": true,
+          "type": "Restaurant",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Pakuan No.3, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Fat Bubble",
+          "description": "Fat Bubble, established since 2012. Come with a new concept that mix Dessert House and Cafe. For now we serve variants of Drinks, Desserts, Foods and also Coffee. With playful and fun concept, we create a cozy and fun place to hang out and spend your time with your lovely one. We have a favorite quote for Fat Bubble, \"you can never get a cup large enough to suit me\"",
+          "image": [
+            "rest_fatbubble",
+            "rest_fatbubble1",
+            "rest_fatbubble2"
+          ],
+          "rating": 4.5,
+          "review": 4.700,
+          "price1": 17000,
+          "price2": 42000,
+          "sponsored": true,
+          "type": "Dessert house and cafe",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Pajajaran No.24, RT.01/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
@@ -797,36 +991,50 @@
   },
   "city_3": {
     "id": "3",
-    "name": "Aceh",
-    "subtitle": "Tourism in Bogor",
-    "image": "aceh",
-    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
+    "name": "Pontianak",
+    "subtitle": "Tourism in Pontianak",
+    "image": "pontianak",
+    "description": "Pontianak City is a city located in West Kalimantan, Indonesia. This city is also known as the Equatorial City because it is located above the Equator line, namely above the position 0º0' N, 109º20' E with temperatures reaching 22.9 °C to 31.05 °C and getting 3,000 mm - 4,000 mm of rain annually.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "Mountain Mas",
-        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
+        "name": "Taman Nasional Gunung Palung",
+        "description": "Gunung Palung National Park is a national park located in North Kayong Regency and Ketapang Regency, West Kalimantan",
         "image": [
-          "wisata_gunungmas.jpg",
-          "wisata_gunungmas1.jpg",
-          "wisata_gunungmas2.jgp"
+          "wisata_palung",
+          "wisata_palung1",
+          "wisata_palung2"
         ],
-        "rating": 4.7,
-        "review": 6.368,
+        "rating": 4.3,
+        "review": 190,
         "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "location": "Pontnianak, Kalimantan Barat"
       },
       {
-        "name": "Kebun Raya Bogor",
+        "name": "Pantai Pasir Panjang",
+        "description": "Pasir Panjang Beach is a natural tourist attraction in the form of a long, white sandy beach located in Seven Belas District, Singkawang City, West Kalimantan. This beach stretches for 3 kilometers, so it is called Pasir Panjang beach. This beach has beautiful white sand and calm waves.",
         "image": [
-          "wisata_kebunraya.jpg",
-          "wisata_kebunraya1.jpg",
-          "wisata_kebunraya2.jpg"
+          "wisata_pantaipasirpanjang",
+          "wisata_pantaipasirpanjang1",
+          "wisata_pantaipasirpanjang2"
         ],
-        "rating": 4.7,
-        "review": 93.847,
-        "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "rating": 4.3,
+        "review": 675,
+        "type": "Beach",
+        "location": "Pontianak, Kalimantan Barat"
+      },
+      {
+        "name": "baru",
+        "description": "Pasir Panjang Beach is a natural tourist attraction in the form of a long, white sandy beach located in Seven Belas District, Singkawang City, West Kalimantan. This beach stretches for 3 kilometers, so it is called Pasir Panjang beach. This beach has beautiful white sand and calm waves.",
+        "image": [
+          "wisata_pantaipasirpanjang",
+          "wisata_pantaipasirpanjang1",
+          "wisata_pantaipasirpanjang2"
+        ],
+        "rating": 4.3,
+        "review": 675,
+        "type": "Beach",
+        "location": "Pontianak, Kalimantan Barat"
       }
     ],
     "hidden_gems": [
@@ -1662,71 +1870,71 @@
   "city_5": {
     "id": "5",
     "name": "Aceh",
-    "subtitle": "unique region in Indonesia",
+    "subtitle": "Tourism in Bogor",
     "image": "aceh",
-    "description": "Aceh is a unique region in Indonesia with a blend of traditional and contemporary elements, making it an intriguing and culturally rich destination for travelers interested in exploring this part of the world",
+    "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
     "recommendation": [
       {
-        "name": "laut tawar lake",
-        "description": "Laut Tawar Lake in Takengon is not only a natural wonder but also a cultural and recreational hub in the Gayo Highlands. Its serene environment and the opportunity to explore local culture and traditions make it a lovely destination for those who appreciate nature and cultural experiences",
+        "name": "Mountain Mas",
+        "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Mountain Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Mountain Mas is a wise and effective choice with extraordinary benefits.",
         "image": [
-          "danau laut tawar 1",
-          "danau laut tawar 2",
-          "danau laut tawar 3"
+          "wisata_gunungmas",
+          "wisata_gunungmas1",
+          "wisata_gunungmas2"
         ],
         "rating": 4.7,
         "review": 6.368,
-        "type": "lake",
-        "location": "bebesen, takengon"
+        "type": "Mountain",
+        "location": "Bogor, Jawa Barat"
       },
       {
-        "name": "pantai menye",
+        "name": "Kebun Raya Bogor",
         "image": [
-          "pantai menye 1",
-          "pantai menye 2",
-          "pantai menye 3"
+          "wisata_kebunraya.jpg",
+          "wisata_kebunraya1.jpg",
+          "wisata_kebunraya2.jpg"
         ],
         "rating": 4.7,
         "review": 93.847,
-        "type": "beach",
-        "location": "takengon, aceh tengah"
+        "type": "Educational Tourism",
+        "location": "Bogor, Jawa Barat"
       }
     ],
     "hidden_gems": [
       {
-        "name": "Bintang Village",
-        "description": "Located on the east side of Dana Laut Tawar, Bintang Village often successfully attracts the attention of tourists because of the uniqueness offered. This area is a village where everyone has the opportunity to watch horses in action or even walk down the racetrack.",
-        "image": " bintang 3.jpg",
+        "name": "Lawang Sewu",
+        "description": "deskripsi hotel",
+        "image": "lawangsewu.png",
         "rating": 4,
         "review": 120,
         "price": 120000,
         "sponsored": false,
-        "type": "countryside",
-        "duration": "1 hours from city",
-        "address": "Kec Bintang, kab Aceh Tengah, Provinsi nanggroe aceh daarusalam",
+        "type": "Historic Sites",
+        "duration": "2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
             "name": "tour 1",
             "rating": 4,
-            "review": 394,
-            "price": 100000,
-            "image": "bintang 2"
+            "review": 120,
+            "price": 120000,
+            "image": "tour1.png"
           },
           {
-            "name": "tour 2",
+            "name": "tour 1",
             "rating": 4,
             "review": 120,
-            "price": 50000,
-            "image": "bintang 1"
+            "price": 120000,
+            "image": "tour1.png"
           }
         ]
       }
     ],
     "hidden_restaurant": [
       {
-        "name": "teluk mandale cafe",
-        "description": "State-of-the-art caffe that provides indoor and outdoor atmosphere Very comfortable, beautiful atmosphere and lake view which is really pleasing to the eyes. and a cozy indoor atmosphere and aesthetics should not be missed.",
+        "name": "Curug Balong Endah",
+        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
         "image": [
           "wisata_curugbalongendah",
           "wisata_curugbalongendah1",
@@ -1736,26 +1944,26 @@
         "review": 608,
         "price": 10000,
         "sponsored": true,
-        "type": "food culinary",
+        "type": "Waterfall",
         "duration": "1 - 2 hours",
-        "address": "Sp, Jl. Takengon - Bintang Origon, kec"
+        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
       },
       {
-        "name": "waterfall Rerebe Kolam Biru",
-        "description": "One of them is the Rerebe Blue Pool Waterfall located in Rerebe Village, Tripe Jaya District, Gayo Lues Regency, Aceh Province with a distance of approximately 2 hours from Gayo Lues Regency. Blue Pool Rerebe Waterfall has a width of approximately 100 meters and a length of approximately 110 with a pool depth of 2-8 meters. The atmosphere is still very beautiful, but has adequate facilities that should not be missed",
+        "name": "Telaga Saat",
+        "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
         "image": [
-          "air terjun rerebe 1",
-          "air terjun rerebe 2",
-          "air terjun rerebe 3"
+          "wisata_telagasaat",
+          "wisata_telagasaat1",
+          "wisata_telagasaat2"
         ],
         "rating": 4.3,
         "review": 4161,
         "price1": 10000,
         "price2": 25000,
         "sponsored": true,
-        "type": "waterfall",
+        "type": "Lake",
         "duration": "1 - 2 hours",
-        "address": "Air Terjun Kolam Biru Rerebe\nRerebe, Tripe Jaya, Gayo Lues Regency, Aceh"
+        "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
       },
       {
         "name": "Lawang Sewu",
@@ -1788,179 +1996,180 @@
     ],
     "hotel": [
       {
-        "name": "parkside gayo petro hotel",
-        "description": "It is located on the Gayo plateau.  parkside Hotels are designed to meet all your travel needs in business and leisure destinations. Choosing hotel accommodation becomes more complex every day so that the vacation you live feels more special",
-        "phone": "0832626363",
-        "email": "reservation@parksidegayopetro.com",
+        "name": "The Botanica Sanctuary",
+        "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
+        "phone": "02518217111",
+        "email": "reservation-thebotanica@tauzia.com",
         "tag": [
-          "located in takengon",
-          "Hotel in  bebesen, gayo luwes"
+          "located in Bogor",
+          "Hotel in puncak bogor"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
         "amenities": [
-          "BREAKFAST & POOL"
+          "SUN & MOON POOL"
         ],
         "rating": 4.7,
         "review": 2104,
-        "price1": 250000,
-        "price2": 300000,
-        "site": "www.parksidehotels.com",
+        "price1": 1258200,
+        "price2": 2473200,
+        "site": "https://thebotanicapesonaalam.com",
         "sponsored": false,
         "image": [
-          "parkside gayo petro hotel",
-          "parkside gayo petro hotel 2",
-          "parkside gayo petro hotel 3"
+          "hotel_botanica.jpeg",
+          "hotel_botanica1.jpeg",
+          "hotel_botanica2.jpeg"
         ]
       },
       {
-        "name": "The Grand bayu Hill",
-        "description": "The 4-star hotel is located in a very strategic location close to the Central Aceh Government Office Center, and only a few minutes to Lake Lut Tawar, Pantan Terong, Burtelege, River Rafting and other interesting tourist destinations in Takengon.\\nGrand Bayu Hill Hotel Takengon offers the perfect accommodation place for business or leisure purposes to explore the culture or typical food of the Tanah Gayo Community.",
-        "phone": "+6282360506212",
+        "name": "The Grand Hill",
+        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
+        "phone": "+6285888296259",
         "email": "groupreservation@thegrandhill.com",
         "tag": [
-          "located in takengon",
-          "Hotel in bebesen, gayo luwes"
+          "located in Bogor",
+          "Hotel in puncak bogor"
         ],
         "languages": [
           "English",
           "Indonesian"
         ],
         "amenities": [
-          "BREAKFAST & POOL"
+          "SUN & MOON POOL"
         ],
         "rating": 4.4,
         "review": 2.905,
-        "price1": 500000,
-        "price2": 725000,
-        "site": "www.grandbayuhill.com",
+        "price1": 625000,
+        "price2": 701250,
+        "site": "https://thegrandhill.com",
         "sponsored": false,
         "image": [
-          "grand bayu hill 1",
-          "grand bayu hill 2",
-          "grand bayu hill 3"
+          "hotel_thegrandhill.jpeg",
+          "hotel_thegrandhill1.jpeg",
+          "hotel_thegrandhill2.jpeg"
         ]
       }
     ],
     "things_todo": {
       "tourism": [
         {
-          "name": "lukup badak",
-          "description": "Whitewater rafting provides an opportunity for participants to challenge themselves physically and mentally while immersing themselves in the beauty of nature. Whether you're seeking an adrenaline rush or a leisurely exploration of a river, rafting can be a thrilling and memorable experience..",
+          "name": "Eagle Hill Camp",
+          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
           "image": [
-            "lukup badak 1",
-            "lukup badak 2",
-            "lukup badak 3"
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
           ],
           "rating": 4.6,
           "review": 457,
-          "price1": 200000,
-          "price2": 300000,
+          "price1": 159000,
+          "price2": 195000,
           "sponsored": true,
-          "type": "rafting",
-          "duration": " 45 minute",
-          "address": "kec pegasing takengon, kab aceh tengah,",
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
           "tour_option": [
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
-              "price": 150000,
-              "image": "lukup badak 4"
+              "price": 120000,
+              "image": "tour1.png"
             },
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
-              "price": 400000,
-              "image": "lukup badak 5"
+              "price": 120000,
+              "image": "tour1.png"
             }
           ]
         },
         {
-          "name": "horses race bintang",
-          "description": "Gayo traditional horse racing is a tradition that has long been known to the Gayo people, namely before the Dutch colonial period.Gayo traditional horse racing was first held in 1850 on the east side of Lake Laut Tawar, Bintang District.\nThe area of land used for horse racing is 1.5 kilometers. In traditional Gayo horse races, jockeys must be between 10-16 years old\n.",
+          "name": "Rafting Cisadane",
+          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
           "image": [
-            "bintang 2",
-            "bintang 3",
-            "bintang 5"
+            "rafting_raftcisadane",
+            "rafting_raftcisadane1",
+            "rafting_raftcisadane2"
           ],
           "rating": 4.9,
           "review": 60,
-          "price1": 100000,
-          "price2": 50000,
+          "price1": 200000,
+          "price2": 725000,
           "sponsored": true,
-          "type": "horse ridinng",
-          "duration": "1 hours",
-          "address": "Kec Bintang, kab Aceh Tengah, Provinsi nanggroe aceh daarusalam",
+          "type": "Rafting",
+          "duration": "2 hours",
+          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
           "tour_option": [
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
-              "price": 100000,
-              "image": "bintang 4"
+              "price": 120000,
+              "image": "tour1.png"
             },
             {
               "name": "tour 1",
               "rating": 4,
               "review": 120,
-              "price": 50000,
-              "image": "bintang 1"
+              "price": 120000,
+              "image": "tour1.png"
             }
           ]
         },
         {
-          "name": "Tarisa Bintang Wisata Camping Ground",
-          "description": "Camping is an outdoor recreational activity that involves temporarily staying in a natural or remote location, typically in a tent, camper, or under the open sky. It is a popular pastime for those who seek a break from the hustle and bustle of urban life and want to connect with nature.",
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
           "image": [
-            "camping 1",
-            "camping 2",
-            "camping 3"
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
           ],
           "rating": 4.7,
           "review": 1.562,
-          "price1": 100000,
-          "price2": 200000,
+          "price1": 450000,
+          "price2": 750000,
           "sponsored": true,
-          "type": "camping",
-          "duration": "a day",
-          "address": "Jl. Takengon - Bintang, Bebuli, Mendale, Danau, Kabupaten Aceh Tengah, Aceh, Indonesia",
+          "type": "free flying sport",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
           "tour_option": [
             {
-              "name": "camp 1",
+              "name": "tour 1",
               "rating": 4,
               "review": 120,
-              "price": 100000,
-              "image": "camping 4"
+              "price": 120000,
+              "image": "tour1.png"
             },
             {
-              "name": "camp 2",
+              "name": "tour 1",
               "rating": 4,
               "review": 120,
-              "price": 200000,
-              "image": "camping 2"
+              "price": 120000,
+              "image": "tour1.png"
             }
           ]
         }
       ],
       "restaurant": [
         {
-          "name": "rooftop parkside petro restourant",
-          "description": "The restaurant located on the open roof of Parkside Hotel Petro Takengon gives a new impression where we can enjoy food with a charming sunset view, or a star-studded night view ",
+          "name": "Paragliding Puncak Bogor",
+          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
           "image": [
-            "rooftop parkside 1",
-            "rooftop parkside 2",
-            "rooftop parkside 3"
+            "paralayang_puncakbogor",
+            "paralayang_puncakbogor1",
+            "paralayang_puncakbogor2"
           ],
           "rating": 4.7,
           "review": 1.562,
-          "price1": 20000,
-          "price2": 50000,
+          "price1": 450000,
+          "price2": 750000,
           "sponsored": true,
           "type": "free flying sport",
+          "duration": "1 - 2 hours",
           "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
           "tour_option": [
             {
@@ -2049,48 +2258,44 @@
     },
     "restaurants": [
       {
-        "name": "galeri kopi",
-        "description": "As the name suggests, Galeri Kopi is a coffee caffe that presents a variety of unique concepts, namely Minu Kopi in the middle of a coffee plantation. Provide a new experience with a pleasant sensation. This caffe also provides main meals, snacks, and coffee jam drinks for those of you who want to feel the atmosphere but can't afford to drink coffee",
+        "name": "Restoran 1",
+        "description": "deskripsi restoran",
         "tag": [
           "Cafe",
-          "coffee",
           "Healthy"
         ],
         "feature": [
           "Delivery",
           "Takeouts"
         ],
-        "phone": "081326378276",
-        "email": "galerikopitakengon@gmail.com",
+        "phone": "123 123",
+        "email": "harris@gmail.com",
         "rating": "5",
         "review": 120,
         "price": 120000,
         "open": "8:00AM",
         "close": "10:30AM",
-        "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
+        "address": "alamat restoran",
         "sponsored": false,
         "image": "haris.png"
       }
     ],
     "rental": [
       {
-        "name": "Bibes Rental Mobil Takengon",
-        "description": "Providing vehicle rental, ranging from motorbikes to cars, hourly and daily rentals with a guaranteed Identity Card",
-        "phone": "082368529513",
+        "name": "Rental mobil ahui",
+        "description": "deskripsi rental",
+        "phone": "123 123",
         "email": "harris@gmail.com",
         "list_vehicle": [
-          "Wuling almaz",
-          "avanza reborn",
-          "genio",
+          "Wuling blabla",
           "Vario"
-
         ],
         "rating": "5",
         "review": 120,
-        "price": 300000,
+        "price": 120000,
         "site": "http://haris.com",
         "sponsored": false,
-        "image": "rental.jpg"
+        "image": "haris.png"
       }
     ]
   }

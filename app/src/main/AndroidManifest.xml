@@ -16,6 +16,15 @@
         android:theme="@style/Theme.Wanderlusty"
         tools:targetApi="31">
         <activity
+            android:name=".feature_explore_tourism.presentation.detail_tourism.DetailTourismActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature_explore_tourism.presentation.detail_city.DetailCityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature_auth.presentation.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
@@ -25,13 +34,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="false"
             android:label="@string/title_activity_main"
             android:windowSoftInputMode="adjustPan" />
-
         <activity
             android:name=".feature_explore_tourism.presentation.explore.AddTourismActivity"
             android:exported="false" />
