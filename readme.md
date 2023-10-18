@@ -1,5 +1,7 @@
 # Wanderlusty
 
+![Wanderlusty_logo](https://github.com/ryhn7/Wanderlusty-xml-version/blob/master/app/src/main/res/drawable/wanderlusty_logo1.png?raw=true)
+
 Ini adalah macro challenge yang diberikan oleh **Infinite Learning** selaku mitra MBKM.
 
 Kelompok kami terdiri dari 5 orang yaitu:
