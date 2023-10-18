@@ -6,12 +6,15 @@
     "image": "bogor",
     "description": "The city of Bogor is known as the City of Rain because it has high rainfall. Historical traces from the Pakuan Pajajaran Kingdom to the Dutch East Indies are proven by various historical artifacts that have been preserved to this day. The Bogor Botanical Gardens are one of the city's tourism icons.",
     "map": "link google map",
-
     "recommendation": [
       {
         "name": "Mountain Mas",
         "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Gunung Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Gunung Mas is a wise and effective choice with extraordinary benefits.",
-        "image": ["wisata_gunungmas", "wisata_gunungmas1", "wisata_gunungmas2"],
+        "image": [
+          "wisata_gunungmas",
+          "wisata_gunungmas1",
+          "wisata_gunungmas2"
+        ],
         "rating": 4.7,
         "review": 6.368,
         "type": "Mountain",
@@ -19,19 +22,26 @@
       },
       {
         "name": "Kebun Raya Bogor",
-        "image": ["wisata_kebunraya", "wisata_kebunraya1", "wisata_kebunraya2"],
+        "image": [
+          "wisata_kebunraya",
+          "wisata_kebunraya1",
+          "wisata_kebunraya2"
+        ],
         "rating": 4.7,
         "review": 93.847,
         "type": "Educational Tourism",
         "location": "Bogor, Jawa Barat"
       }
     ],
-
     "hidden_gems": [
       {
         "name": "Curug Balong Endah",
         "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
-        "image": ["wisata_curugbalongendah", "wisata_curugbalongendah1", "wisata_curugbalongendah2"],
+        "image": [
+          "wisata_curugbalongendah",
+          "wisata_curugbalongendah1",
+          "wisata_curugbalongendah2"
+        ],
         "rating": 4.6,
         "review": 608,
         "price": 10000,
@@ -57,47 +67,73 @@
         ]
       }
     ],
-
     "hotel": [
       {
         "name": "The Botanica Sanctuary",
         "description": "The Botanica Sanctuary Hotel in Bogor offers a peaceful haven that combines beauty, relaxation and discovery. The hotel comprises of 166 luminous rooms – including 38 Suites, two restaurants and a rooftop infinity pool. Being ideally situated in the heart of the Puncak, the hotel affords breathtaking views of  Mount Pangrango and virgin pine forest. It is only 5 minutes away from the Taman Safari Indonesia, a world-class zoo and is titled the best conservation site by the Indonesian Ministry of Forestry.",
         "phone": "02518217111",
         "email": "reservation-thebotanica@tauzia.com",
-        "tag": ["located in Bogor", "Hotel in puncak bogor"],
-        "languages": ["English", "Indonesian"],
-        "amenities": ["SUN & MOON POOL"],
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
         "rating": 4.7,
         "review": 2104,
         "price1": 1258200,
         "price2": 2473200,
         "site": "https://www.discoverasr.com/en/others/indonesia/the-botanica-sanctuary-bogor?utm_source=google&utm_medium=gmb&utm_campaign=-google-gmb-alwayson-20220101-all-en-id-id-MBCK--&utm_content=--",
         "sponsored": true,
-        "image": ["hotel_botanica", "hotel_botanica1", "hotel_botanica2"]
+        "image": [
+          "hotel_botanica",
+          "hotel_botanica1",
+          "hotel_botanica2"
+        ]
       },
       {
         "name": "The Grand Hill",
         "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
         "phone": "+6285888296259",
         "email": "groupreservation@thegrandhill.com",
-        "tag": ["located in Bogor", "Hotel in puncak bogor"],
-        "languages": ["English", "Indonesian"],
-        "amenities": ["SUN & MOON POOL"],
+        "tag": [
+          "located in Bogor",
+          "Hotel in puncak bogor"
+        ],
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "amenities": [
+          "SUN & MOON POOL"
+        ],
         "rating": 4.4,
         "review": 2.905,
         "price1": 625000,
         "price2": 701250,
         "site": "https://thegrandhill.com/statik.php?id=27",
         "sponsored": true,
-        "image": ["hotel_thegrandhill", "hotel_thegrandhill1", "hotel_thegrandhill2"]
+        "image": [
+          "hotel_thegrandhill",
+          "hotel_thegrandhill1",
+          "hotel_thegrandhill2"
+        ]
       }
     ],
-
     "things_todo": [
       {
         "name": "Eagle Hill Camp",
         "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
-        "image": ["camp_eaglehillcamp", "camp_eaglehillcamp1", "camp_eaglehillcamp2"],
+        "image": [
+          "camp_eaglehillcamp",
+          "camp_eaglehillcamp1",
+          "camp_eaglehillcamp2"
+        ],
         "rating": 4.6,
         "review": 457,
         "price1": 159000,
@@ -110,7 +146,11 @@
       {
         "name": "Paragliding Puncak Bogor",
         "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
-        "image": ["paralayang_puncakbogor", "paralayang_puncakbogor1", "paralayang_puncakbogor2"],
+        "image": [
+          "paralayang_puncakbogor",
+          "paralayang_puncakbogor1",
+          "paralayang_puncakbogor2"
+        ],
         "rating": 4.7,
         "review": 1.562,
         "price1": 450000,
@@ -137,13 +177,18 @@
         ]
       }
     ],
-
     "restaurants": [
       {
         "name": "Restoran 1",
         "description": "deskripsi restoran",
-        "tag": ["Cafe", "Healthy"],
-        "feature": ["Delivery", "Takeouts"],
+        "tag": [
+          "Cafe",
+          "Healthy"
+        ],
+        "feature": [
+          "Delivery",
+          "Takeouts"
+        ],
         "phone": "123 123",
         "email": "harris@gmail.com",
         "rating": "5",
@@ -156,14 +201,16 @@
         "image": "haris.png"
       }
     ],
-
     "rental": [
       {
         "name": "Rental mobil ahui",
         "description": "deskripsi rental",
         "phone": "123 123",
         "email": "harris@gmail.com",
-        "list_vehicle": ["Wuling blabla", "Vario"],
+        "list_vehicle": [
+          "Wuling blabla",
+          "Vario"
+        ],
         "rating": "5",
         "review": 120,
         "price": 120000,
@@ -574,7 +621,9 @@
       {
         "name": "Bukit Lawang",
         "description": "Bukit Lawang is an attractive tourist destination for nature lovers and wildlife enthusiasts, providing unique experiences through encounters with orangutans and the natural beauty of tropical rainforests.",
-        "image": ["Bukit_Lawang1, Bukit_Lawang2, Bukit_Lawang3"],
+        "image": [
+          "Bukit_Lawang1, Bukit_Lawang2, Bukit_Lawang3"
+        ],
         "rating": 4.8,
         "review": 925,
         "type": "Rivers and Jungles",
@@ -582,7 +631,9 @@
       },
       {
         "name": "Danau Toba",
-        "image": ["Danau_Toba1, Danau_Toba2, Danau_Toba3"],
+        "image": [
+          "Danau_Toba1, Danau_Toba2, Danau_Toba3"
+        ],
         "rating": 4.7,
         "review": 868,
         "type": "Lake",
@@ -590,57 +641,66 @@
       },
       {
         "name": "Pamah Simelir",
-        "image": ["Pamah_Simelir1, Pamah_Simelir2, Pamah_Simelir3"],
+        "image": [
+          "Pamah_Simelir1, Pamah_Simelir2, Pamah_Simelir3"
+        ],
         "rating": 4.6,
         "review": 450,
         "type": "Artifical Tourism",
         "location": "Langkat, Sumatera Utara"
-
       }
     ],
     "hidden_gems": [
       {
         "name": "Pemandian Air Panas Pariban",
         "description": "This hot spring tourism is famous for its natural hot springs which offer beautiful views, comfort and fresh air",
-        "image": ["Pariban1, Pariban2, Pariban3"],
-        "rating": 4,6
+        "image": [
+          "Pariban1, Pariban2, Pariban3"
+        ],
+        "rating": 4.6,
         "review": 450,
         "price": 100000,
         "sponsored": false,
         "type": "Pool",
         "duration": "2 hours",
-        "address": "Desa Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153"},
+        "address": "Desa Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153"
+      },
       {
         "name": "Kawasan Wisata Batu Katak",
         "description": "Wisata Batu Katak is a natural bathing spot located in Langkat, North Sumatra. It is situated in the Taman Nasional Gunung Leuser area, which is a conservation area for flora and fauna in North Sumatra and Aceh. The place is known for its beautiful river, caves, and forest with many trees. The area around the tourist attraction has a very cool and comfortable atmosphere due to the abundance of trees.",
-        "image":["Batu_Katak1, Batu_Katak2, Batu_Katak3"],
+        "image": [
+          "Batu_Katak1, Batu_Katak2, Batu_Katak3"
+        ],
         "rating": "4,5",
         "price": "200000",
         "sponsored": "false",
         "type": "Rivers",
         "duration": "3 hours",
-        "address": "Desa Batu Jonjong, Kec. Bahorok, Kabupaten Langkat, Sumatera Utara"},
+        "address": "Desa Batu Jonjong, Kec. Bahorok, Kabupaten Langkat, Sumatera Utara"
+      },
       {
         "name": "Air Panas Simolap",
         "description": "Air Panas Simolap Marike is a hot spring located in Langkat, North Sumatra, Indonesia. It is a popular tourist destination for families and offers a relaxing spot to unwind The hot spring has a temperature of around 40-60°C and is rich in sulfur, which is beneficial for the skin. The site is well-maintained and consists of a circular pool surrounded by green trees. The water temperature is not too hot, so visitors can soak in it comfortably.",
-        "image": ["Simolap1, Simolap2, Simolap3"],
+        "image": [
+          "Simolap1, Simolap2, Simolap3"
+        ],
         "rating": "4,6",
         "price": "150000",
         "sponsored": "false",
         "type": "Pool",
         "duration": "2 hours",
         "address": "Desa Simolap, Marikey Langkat, 96RG+3HC, Kaperas, Kec. Kutambaru, Kabupaten Langkat, Sumatera Utara 20773,",
-      "tour_option": [
+        "tour_option": [
           {
             "name": "Mata Air Pesona Sibayak",
-            "rating": 4,3,
+            "rating": 4.3,
             "review": 465,
             "price": 120000,
             "image": "Sibayak.View1"
           },
           {
             "name": "Air Terjun Sikulikap",
-            "rating": 4,7,
+            "rating": 4.7,
             "review": 575,
             "price": 120000,
             "image": "Sikulikap1"
@@ -652,7 +712,9 @@
       {
         "name": "Kapal Bambu Restaurant",
         "description": "Kapal Bambu Restaurant is a restaurant located in Bukit Lawang, North Sumatra, Indonesia. It is part of the Ecolodge Bukit Lawang and was built in 2016. The restaurant is constructed from natural and sustainable harvested bamboo and clay, which are found in sufficient quantities in the local environment of Bukit Lawang . The restaurant offers a ground floor eating area with seating for 150 people and a Bamboo Lounge in the upper floor that offers space for conservation education, simple relax",
-        "image": ["rest_kapalbambu1, rest_kapalbambu2, rest_kapalbambu3"],
+        "image": [
+          "rest_kapalbambu1, rest_kapalbambu2, rest_kapalbambu3"
+        ],
         "rating": "4,6",
         "review": "475",
         "price1": "100000",
@@ -660,11 +722,14 @@
         "sponsored": "false",
         "type": "restaurant",
         "duration": "2 hours",
-        "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852"}
+        "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852"
+      },
       {
         "name": "Wisata Kuliner Mangga Bridge",
         "description": "Wisata Kuliner Mangga Bridge is a culinary destination located in Jalan Besar Tangkahan, Namu Sialang, Kecamatan Batang Serangan, Kabupaten Langkat, Sumatera Utara. It offers a comfortable dining experience with a view of the surrounding nature.",
-        "image": ["rest_manggabridge1, rest_manggabridge2, rest_manggabridge3"],
+        "image": [
+          "rest_manggabridge1, rest_manggabridge2, rest_manggabridge3"
+        ],
         "rating": "4,5",
         "review": "530",
         "price1": "150000",
@@ -672,11 +737,14 @@
         "sponsored": "false",
         "type": "restaurant",
         "duration": "3 hours",
-        "addres": "Unnamed Road, Namu Sialang, Kec. Batang Serangan, Kabupaten Langkat, Sumatera Utara 20852"}
+        "addres": "Unnamed Road, Namu Sialang, Kec. Batang Serangan, Kabupaten Langkat, Sumatera Utara 20852"
+      },
       {
         "name": "Buddha's Cafe Samosir",
         "description": "This café has a classic theme and is decorated by beautiful ornaments of statues and Buddha statues. Vegetarian concoctions are the only food options you can order",
-        "image": ["cafe_buddha1, cafe_buddha2, cafe_buddha3"],
+        "image": [
+          "cafe_buddha1, cafe_buddha2, cafe_buddha3"
+        ],
         "rating": "4,7",
         "review": "400",
         "price1": "100000",
@@ -726,7 +794,8 @@
         "price2": 2000000,
         "site": "https://jungleinn-bukitlawang.com/",
         "sponsored": "false",
-        "image": ["Jungle_Inn1, Jungle_Inn2, Jungle_Inn3"]
+        "image": [
+          "jungle_inn1, jungle_inn2, jungle_inn3"
         ]
       },
       {
@@ -749,9 +818,10 @@
         "review": 2.905,
         "price1": 1500000,
         "price2": 2500000,
-        "site": "https://www.tamansimalem.com/contact-us/"
+        "site": "https://www.tamansimalem.com/contact-us/",
         "sponsored": "false",
-        "image": ["taman_simalem1, taman_simalem2, taman_simalem3"]
+        "image": [
+          "taman_simalem1, taman_simalem2, taman_simalem3"
         ]
       },
       {
@@ -760,11 +830,11 @@
         "phone": "081397375818",
         "email": "Obiwanvalley@gmail.com",
         "tag": [
-          "Located In Langkat"
+          "Located In Langkat",
           "Hotel In Langkat"
         ],
         "Languages": [
-          "English"
+          "English",
           "Indonesia"
         ],
         "ameneties": [
@@ -780,13 +850,13 @@
           "valley_hotel1, valley_hotel2, valley_hotel3"
         ]
       }
-
-      "things_todo": [
+    ],
+    "things_todo": [
       {
         "name": "Camping Ground Air Terjun Sikulikap",
         "description": "The waterfall tourist area also provides a special area for camping (camping ground).\n\nIn this area, you can set up a tent to spend the night and rest.\n\nCamping activities at this tourist location are quite popular with visiting tourists, considering that the atmosphere provided is very calming and refreshing.",
         "image": "Sikulikap1",
-        "rating": 4,3,
+        "rating": 4.3,
         "review": 320,
         "price": 120000,
         "sponsored": "false",
@@ -796,14 +866,14 @@
         "tour_option": [
           {
             "name": "Rifting river in Binjai ",
-            "rating": 4,3,
+            "rating": 4.3,
             "review": 200,
             "price": 120000,
             "image": "rifting1"
           },
           {
             "name": "Sumatera Orangutan Explore",
-            "rating": 4,8,
+            "rating": 4.8,
             "review": 350,
             "price": 150000,
             "image": "Orangutan_Explore"
@@ -834,8 +904,7 @@
         "sponsored": "false",
         "image": "Vhi_Vhi_Resto"
       }
-        }
-    ]
+    ],
     "rental": [
       {
         "name": "Armada Car Rental",
@@ -853,24 +922,8 @@
         "sponsored": "false",
         "image": "armada_car_rental"
       }
-    ],
-      {
-        "name": "Armada Car Rental",
-        "description": "ArmadaCarRental, the number 1 car rental service provider in Medan! With a fleet of the latest and highest quality cars, we are ready to provide a comfortable and safe driving experience for customers. With affordable and transparent costs and a friendly and professional team ready to help customers choose a car that suits their needs",
-        "phone": "0811-6191-987",
-        "email": "info@armadacarrental.com",
-        "list_vehicle": [
-          "Toyota Hiace",
-          "Innova Reborn"
-        ],
-        "rating": "5",
-        "review": 350,
-        "price": 600000,
-        "site": "https://www.armadacarrental.com/index",
-        "sponsored": "false",
-        "image": "armada_car_rental"
+    ]
   },
-
   "city_5": {
     "id": "5",
     "name": "Aceh",
