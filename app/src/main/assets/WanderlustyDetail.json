@@ -1508,7 +1508,7 @@
       {
         "name": "Danau Toba",
         "image": [
-          "Danau_Toba1, Danau_Toba2, Danau_Toba3"
+          "danau_toba1, danau_toba2, danau_toba3"
         ],
         "rating": 4.7,
         "review": 868,
@@ -1518,7 +1518,7 @@
       {
         "name": "Pamah Simelir",
         "image": [
-          "Pamah_Simelir1, Pamah_Simelir2, Pamah_Simelir3"
+          "pamah_simelir1, pamah_simelir2, pamah_simelir3"
         ],
         "rating": 4.6,
         "review": 450,
@@ -1532,12 +1532,12 @@
           "name": "Pemandian Air Panas Pariban",
           "description": "This hot spring tourism is famous for its natural hot springs which offer beautiful views, comfort and fresh air",
           "image": [
-            "Pariban1, Pariban2, Pariban3"
+            "pariban1, pariban2, pariban3"
           ],
           "rating": 4.6,
           "review": 450,
           "price": 100000,
-          "sponsored": false,
+          "sponsored": "false",
           "type": "Pool",
           "duration": "2 hours",
           "address": "Desa Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153",
@@ -1547,14 +1547,14 @@
               "rating": 4.3,
               "review": 465,
               "price": 120000,
-              "image": "Sibayak.View1"
+              "image": "sibayak.view1"
             },
             {
               "name": "Air Terjun Sikulikap",
               "rating": 4.7,
               "review": 575,
               "price": 120000,
-              "image": "Sikulikap1"
+              "image": "sikulikap1"
             }
           ]
         },
@@ -1562,7 +1562,7 @@
           "name": "Kawasan Wisata Batu Katak",
           "description": "Wisata Batu Katak is a natural bathing spot located in Langkat, North Sumatra. It is situated in the Taman Nasional Gunung Leuser area, which is a conservation area for flora and fauna in North Sumatra and Aceh. The place is known for its beautiful river, caves, and forest with many trees. The area around the tourist attraction has a very cool and comfortable atmosphere due to the abundance of trees.",
           "image": [
-            "Batu_Katak1, Batu_Katak2, Batu_Katak3"
+            "batu_katak1, batu_katak2, batu_katak3"
           ],
           "rating": "4,5",
           "price": "200000",
@@ -1576,14 +1576,14 @@
               "rating": 4.3,
               "review": 465,
               "price": 120000,
-              "image": "Sibayak.View1"
+              "image": "sibayak.view1"
             },
             {
               "name": "Air Terjun Sikulikap",
               "rating": 4.7,
               "review": 575,
               "price": 120000,
-              "image": "Sikulikap1"
+              "image": "sikulikap1"
             }
           ]
         },
@@ -1591,7 +1591,7 @@
           "name": "Air Panas Simolap",
           "description": "Air Panas Simolap Marike is a hot spring located in Langkat, North Sumatra, Indonesia. It is a popular tourist destination for families and offers a relaxing spot to unwind The hot spring has a temperature of around 40-60°C and is rich in sulfur, which is beneficial for the skin. The site is well-maintained and consists of a circular pool surrounded by green trees. The water temperature is not too hot, so visitors can soak in it comfortably.",
           "image": [
-            "Simolap1, Simolap2, Simolap3"
+            "simolap1, simolap2, simolap3"
           ],
           "rating": "4,6",
           "price": "150000",
@@ -1605,14 +1605,14 @@
               "rating": 4.3,
               "review": 465,
               "price": 120000,
-              "image": "Sibayak.View1"
+              "image": "sibayak.view1"
             },
             {
               "name": "Air Terjun Sikulikap",
               "rating": 4.7,
               "review": 575,
               "price": 120000,
-              "image": "Sikulikap1"
+              "image": "sikulikap1"
             }
           ]
         }
@@ -1634,18 +1634,18 @@
           "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852",
           "tour_option": [
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Rilex Seafood",
+              "rating": "5",
+              "review": "120",
+              "price": "100000",
+              "image": "rilex_seafood1"
             },
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Pondok Surya Binjai",
+              "rating": "5",
+              "review": "150",
+              "price": "100000",
+              "image": "pondok_surya_binjai"
             }
           ]
         },
@@ -1665,18 +1665,18 @@
           "address": "Unnamed Road, Namu Sialang, Kec. Batang Serangan, Kabupaten Langkat, Sumatera Utara 20852",
           "tour_option": [
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Rilex Seafood",
+              "rating": "5",
+              "review": "120",
+              "price": "100000",
+              "image": "rilex_seafood"
             },
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Pondok Surya Binjai",
+              "rating": "5",
+              "review": "150",
+              "price": "100000",
+              "image": "pondok_surya_binjai"
             }
           ]
         },
@@ -1696,18 +1696,18 @@
           "address": "Martoba, Simanindo, Kabupaten Samosir, Sumatera Utara",
           "tour_option": [
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Rilex Seafood",
+              "rating": "5",
+              "review": "120",
+              "price": "100000",
+              "image": "rilex_seafood"
             },
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Pondok Surya Binjai",
+              "rating": "5",
+              "review": "150",
+              "price": "100000",
+              "image": "pondok_surya_binjai"
             }
           ]
         }
@@ -1754,7 +1754,7 @@
           "Indonesian"
         ],
         "amenities": [
-          "SUN & MOON POOL"
+          "BREAKFEAST & MOON POOL"
         ],
         "rating": 4.9,
         "review": 2.905,
@@ -1780,7 +1780,7 @@
           "Indonesia"
         ],
         "ameneties": [
-          "POOL"
+          "POOL & BREAKFEAST"
         ],
         "rating": "4,8",
         "review": "680",
@@ -1819,7 +1819,7 @@
               "rating": 4.8,
               "review": 350,
               "price": 150000,
-              "image": "Orangutan_Explore"
+              "image": "orangutan_explore"
             }
           ]
         }
