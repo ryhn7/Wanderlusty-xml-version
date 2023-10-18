@@ -1,14 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".feature_explore_tourism.presentation.detail_city.RentVehicleFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment_rent_vehicle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
 
-</FrameLayout>
+        <include
+            android:id="@+id/rent_vehicle_btn_filter"
+            layout="@layout/item_btn_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/subheading_hotels"
+            layout="@layout/text_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rent_vehicle_btn_filter" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/section_hotel_card"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="12dp"
+            android:theme="@style/EdgeColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subheading_hotels"
+            tools:listitem="@layout/item_card_three" />
+
+        <View
+            android:id="@+id/rent_vehicle_line_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/davysGrey"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/section_hotel_card"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
