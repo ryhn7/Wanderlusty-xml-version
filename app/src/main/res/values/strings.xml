@@ -77,6 +77,7 @@ Kota,\n Kota Pontianak, Kalimantan Barat 78243</u></string>
     <string name="filter">Filter</string>
     <string name="card_one_review_value">(%1$s)</string>
     <string name="txt_rental">vehicle rental places available, sorted by <u>best value</u></string>
+    <string name="top_restaurants">Top Restaurants</string>
 
 
 </resources>
