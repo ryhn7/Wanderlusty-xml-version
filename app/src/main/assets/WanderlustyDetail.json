@@ -3557,7 +3557,7 @@
           "close": "10:30AM",
           "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
           "sponsored": false,
-          "image": "haris.png",
+          "image": ["galeri_kopi", "galeri_kopi1", "galeri_kopi2"],
           "tour_option": [
             {
               "name": "Pantai Menye",
@@ -3595,8 +3595,8 @@
           "price1": 20000,
           "price2": 50000,
           "sponsored": true,
-          "type": "free flying sport",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "type": "Cafe",
+          "address": "Sp, Jl. Takengon - Bintang Origon, Mendale, Kec. Kebayakan, Kabupaten Aceh Tengah, Aceh 24519",
           "tour_option": [
             {
               "name": "Pantai Menye",
@@ -3645,7 +3645,7 @@
         "close": "10:30AM",
         "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
         "sponsored": false,
-        "image": "haris.png",
+        "image": ["galeri_kopi", "galeri_kopi1", "galeri_kopi2"],
         "tour_option": [
           {
             "name": "Pantai Menye",
@@ -3683,8 +3683,8 @@
         "price1": 20000,
         "price2": 50000,
         "sponsored": true,
-        "type": "free flying sport",
-        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+        "type": "Cafe",
+        "address": "Sp, Jl. Takengon - Bintang Origon, Mendale, Kec. Kebayakan, Kabupaten Aceh Tengah, Aceh 24519",
         "tour_option": [
           {
             "name": "Pantai Menye",
@@ -3722,8 +3722,8 @@
         "price1": 20000,
         "price2": 50000,
         "sponsored": true,
-        "type": "free flying sport",
-        "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+        "type": "Cafe",
+        "address": "Sp, Jl. Takengon - Bintang Origon, Mendale, Kec. Kebayakan, Kabupaten Aceh Tengah, Aceh 24519",
         "tour_option": [
           {
             "name": "Pantai Menye",
