@@ -21,16 +21,16 @@
             "image": "curug_pangeran"
           },
           {
-            "name": "Curug Ngumpet1",
+            "name": "Curug Ngumpet",
             "rating": 4.4,
-            "review": 2.300,
+            "review": 23,
             "price": 10000,
             "image": "curug_ngumpet"
           },
           {
             "name": "Curug Bidadari",
             "rating": 4.3,
-            "review": 6.2,
+            "review": 62,
             "price": 10000,
             "image": "curug_bidadari"
           }
@@ -163,16 +163,16 @@
             "image": "curug_pangeran"
           },
           {
-            "name": "Curug Ngumpet1",
+            "name": "Curug Ngumpet",
             "rating": 4.4,
-            "review": 2.300,
+            "review": 23,
             "price": 10000,
             "image": "curug_ngumpet"
           },
           {
             "name": "Curug Bidadari",
             "rating": 4.3,
-            "review": 6.2,
+            "review": 62,
             "price": 10000,
             "image": "curug_bidadari"
           }
