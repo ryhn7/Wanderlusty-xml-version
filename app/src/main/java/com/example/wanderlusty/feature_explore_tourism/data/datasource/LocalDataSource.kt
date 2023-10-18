@@ -2,18 +2,15 @@ package com.example.wanderlusty.feature_explore_tourism.data.datasource
 
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailOverview
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.HiddenGems
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.Hotel
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.Rental
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.Restaurant
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.ThingsToDo
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourOption
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismSpot
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.dummyCategory
 import com.example.wanderlusty.utils.GetJson
 import org.json.JSONArray
+import org.json.JSONException
 import org.json.JSONObject
 
 interface LocalDataSource {
@@ -23,6 +20,7 @@ interface LocalDataSource {
     fun getAllSectionCitiesOne(): List<CityEntity>?
     fun getTourismDetail(id: String): TourismEntity?
     fun getCityDetail(id: String): CityDetailEntity?
+    fun getCityDetailOverview(id: String): CityDetailOverview?
 }
 
 object TourismDataSource : LocalDataSource {
@@ -204,155 +202,76 @@ object TourismDataSource : LocalDataSource {
         return null
     }
 
-    override fun getCityDetail(id: String): CityDetailEntity? {
+    override fun getCityDetail(id: String): CityDetailEntity {
+//        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
+//        val jsonObject = JSONObject(jsonString)
+//
+//        return null
+        TODO()
+    }
+
+    override fun getCityDetailOverview(id: String): CityDetailOverview? {
         val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
         val jsonObject = JSONObject(jsonString)
+        val cityData = jsonObject.optJSONObject("city_$id") ?: return null
 
-        // Assuming your JSON structure matches the data classes, you can parse it like this:
-        val cityObject = jsonObject.getJSONObject(id)
+        // Extract city details
+        val cityId = cityData.optString("id", "")
+        val cityName = cityData.optString("name", "")
+        val citySubtitle = cityData.optString("subtitle", "")
+        val cityImage = cityData.optString("image", "")
+        val cityDescription = cityData.optString("description", "")
 
-        return CityDetailEntity(
-            id = id,
-            name = cityObject.getString("name"),
-            image = cityObject.getString("image"),
-            subtitle = cityObject.getString("subtitle"),
-            description = cityObject.getString("description"),
-            map = cityObject.getString("map"),
-            recommendation = parseTourismSpots(cityObject.getJSONArray("recommendation")),
-            hiddenGems = parseHiddenGems(cityObject.getJSONObject("hiddenGems")),
-            hotels = parseHotels(cityObject.getJSONArray("hotels")),
-            thingsToDo = parseThingsToDo(cityObject.getJSONObject("thingsToDo")),
-            restaurants = parseRestaurants(cityObject.getJSONArray("restaurants")),
-            rentals = parseRentals(cityObject.getJSONArray("rentals"))
+        // Extract recommendation list
+        val recommendationList = cityData.optJSONArray("recommendation")?.let { recommendations ->
+            (0 until recommendations.length()).map { i ->
+                recommendations.getJSONObject(i).run {
+                    TourismSpot(
+                        getString("name"),
+                        getString("description"),
+                        getString("image").split(","),
+                        getDouble("rating"),
+                        getDouble("review"),
+                        getString("type"),
+                        getString("location"),
+                        getTourOptionList(this.optJSONArray("tour_option"))
+                    )
+                }
+            }
+        } ?: emptyList()
+
+        return CityDetailOverview(
+            cityId,
+            cityName,
+            cityImage,
+            citySubtitle,
+            cityDescription,
+            recommendationList
         )
     }
 
-    private fun parseTourismSpots(jsonArray: JSONArray): List<TourismSpot> {
-        val tourismSpots = mutableListOf<TourismSpot>()
-        for (i in 0 until jsonArray.length()) {
-            val spotObject = jsonArray.getJSONObject(i)
-            val tourismSpot = TourismSpot(
-                name = spotObject.getString("name"),
-                description = spotObject.getString("description"),
-                image = parseStringList(spotObject.getJSONArray("image")),
-                rating = spotObject.getDouble("rating"),
-                review = spotObject.getDouble("review"),
-                type = spotObject.getString("type"),
-                location = spotObject.getString("location"),
-                tourOption = parseTourOptions(spotObject.getJSONArray("tourOption"))
-            )
-            tourismSpots.add(tourismSpot)
+    private fun getTourOptionList(tourOptionArray: JSONArray?): List<TourOption> {
+        return tourOptionArray?.let {
+            (0 until it.length()).map { i ->
+                it.getJSONObject(i).run {
+                    TourOption(
+                        getString("name"),
+                        getNumber("rating"),
+                        getNumber("review"),
+                        getNumber("price"),
+                        getString("image")
+                    )
+                }
+            }
+        } ?: emptyList()
+    }
+
+    private fun JSONObject.getNumber(key: String): Number {
+        return try {
+            this.getDouble(key)
+        } catch (e: JSONException) {
+            this.getInt(key)
         }
-        return tourismSpots
-    }
-
-    private fun parseHiddenGems(jsonObject: JSONObject): HiddenGems {
-        return HiddenGems(
-            hiddenTourism = parseTourismSpots(jsonObject.getJSONArray("hiddenTourism")),
-            hiddenRestaurant = parseRestaurants(jsonObject.getJSONArray("hiddenRestaurant"))
-        )
-    }
-
-    private fun parseHotels(jsonArray: JSONArray): List<Hotel> {
-        val hotels = mutableListOf<Hotel>()
-        for (i in 0 until jsonArray.length()) {
-            val hotelObject = jsonArray.getJSONObject(i)
-            val hotel = Hotel(
-                name = hotelObject.getString("name"),
-                description = hotelObject.getString("description"),
-                phone = hotelObject.getString("phone"),
-                email = hotelObject.getString("email"),
-                tag = parseStringList(hotelObject.getJSONArray("tag")),
-                languages = parseStringList(hotelObject.getJSONArray("languages")),
-                amenities = parseStringList(hotelObject.getJSONArray("amenities")),
-                rating = hotelObject.getDouble("rating"),
-                review = hotelObject.getInt("review"),
-                price1 = hotelObject.getInt("price1"),
-                price2 = hotelObject.getInt("price2"),
-                site = hotelObject.getString("site"),
-                sponsored = hotelObject.getBoolean("sponsored"),
-                image = parseStringList(hotelObject.getJSONArray("image"))
-            )
-            hotels.add(hotel)
-        }
-        return hotels
-    }
-
-    private fun parseThingsToDo(jsonObject: JSONObject): ThingsToDo {
-        return ThingsToDo(
-            tourism = parseTourismSpots(jsonObject.getJSONArray("tourism")),
-            restaurant = parseRestaurants(jsonObject.getJSONArray("restaurant"))
-        )
-    }
-
-    private fun parseRestaurants(jsonArray: JSONArray): List<Restaurant> {
-        val restaurants = mutableListOf<Restaurant>()
-        for (i in 0 until jsonArray.length()) {
-            val restaurantObject = jsonArray.getJSONObject(i)
-            val restaurant = Restaurant(
-                name = restaurantObject.getString("name"),
-                description = restaurantObject.getString("description"),
-                image = parseStringList(restaurantObject.getJSONArray("image")),
-                rating = restaurantObject.getDouble("rating"),
-                review = restaurantObject.getDouble("review"),
-                price1 = restaurantObject.getInt("price1"),
-                price2 = restaurantObject.getInt("price2"),
-                sponsored = restaurantObject.getBoolean("sponsored"),
-                type = restaurantObject.getString("type"),
-                duration = restaurantObject.getString("duration"),
-                address = restaurantObject.getString("address"),
-                tourOption = parseTourOptions(restaurantObject.getJSONArray("tourOption"))
-            )
-            restaurants.add(restaurant)
-        }
-        return restaurants
-    }
-
-    private fun parseRentals(jsonArray: JSONArray): List<Rental> {
-        val rentals = mutableListOf<Rental>()
-        for (i in 0 until jsonArray.length()) {
-            val rentalObject = jsonArray.getJSONObject(i)
-            val rental = Rental(
-                name = rentalObject.getString("name"),
-                description = rentalObject.getString("description"),
-                phone = rentalObject.getString("phone"),
-                email = rentalObject.getString("email"),
-                listVehicle = parseStringList(rentalObject.getJSONArray("listVehicle")),
-                rating = rentalObject.getDouble("rating"),
-                review = rentalObject.getInt("review"),
-                price1 = rentalObject.getInt("price1"),
-                price2 = rentalObject.getInt("price2"),
-                site = rentalObject.getString("site"),
-                sponsored = rentalObject.getBoolean("sponsored"),
-                image = parseStringList(rentalObject.getJSONArray("image"))
-            )
-            rentals.add(rental)
-        }
-        return rentals
-    }
-
-    private fun parseTourOptions(jsonArray: JSONArray): List<TourOption> {
-        val tourOptions = mutableListOf<TourOption>()
-        for (i in 0 until jsonArray.length()) {
-            val optionObject = jsonArray.getJSONObject(i)
-            val tourOption = TourOption(
-                name = optionObject.getString("name"),
-                rating = optionObject.getDouble("rating"),
-                review = optionObject.getInt("review"),
-                price = optionObject.getDouble("price"),
-                image = optionObject.getString("image")
-            )
-            tourOptions.add(tourOption)
-        }
-        return tourOptions
-    }
-
-    private fun parseStringList(jsonArray: JSONArray): List<String> {
-        val list = mutableListOf<String>()
-        for (i in 0 until jsonArray.length()) {
-            list.add(jsonArray.getString(i))
-        }
-        return list
     }
 }
 

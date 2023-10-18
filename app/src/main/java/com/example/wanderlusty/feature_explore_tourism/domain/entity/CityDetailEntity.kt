@@ -16,7 +16,42 @@ data class CityDetailEntity(
     val rentals: List<Rental>
 )
 
+data class CityDetailOverview(
+    val id: String,
+    val name: String,
+    val image: String,
+    val subtitle: String,
+    val description: String,
+    val recommendation: List<TourismSpot>,
+)
+
+data class CityDetailHiddenGems(
+    val id: String,
+    val hiddenGems: HiddenGems,
+)
+
+data class CityDetailThingsToDo(
+    val id: String,
+    val thingsToDo: ThingsToDo,
+)
+
+data class CityDetailHotels(
+    val id: String,
+    val thingsToDo: ThingsToDo,
+)
+
+data class CityDetailRestaurants(
+    val id: String,
+    val restaurants: List<Restaurant>
+)
+
+data class CityDetailRentals(
+    val id: String,
+    val rentals: List<Rental>
+)
+
 data class TourismSpot(
+    val id: String,
     val name: String,
     val description: String,
     val image: List<String>,
