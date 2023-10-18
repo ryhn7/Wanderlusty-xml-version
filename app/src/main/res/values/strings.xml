@@ -75,6 +75,7 @@
     <string name="address_value"><u> Jl. Rahadi Usman, Tengah, Kec. Pontianak
 Kota,\n Kota Pontianak, Kalimantan Barat 78243</u></string>
     <string name="filter">Filter</string>
+    <string name="card_one_review_value">(%1$s)</string>
 
 
 </resources>

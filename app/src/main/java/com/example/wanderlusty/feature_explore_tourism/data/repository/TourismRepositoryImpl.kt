@@ -49,6 +49,19 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
             }
         }
 
+    override suspend fun getTourismDetail(
+        id: String
+    ): LiveData<ResultState<TourismEntity>> = liveData {
+        try {
+            val response = TourismDataSource.getTourismDetail(id)
+            response?.let {
+                emit(ResultState.Success(it))
+            } ?: emit(ResultState.Error("Data not found"))
+        } catch (e: Exception) {
+            emit(ResultState.Error(e.message.toString()))
+        }
+    }
+
     companion object {
         @Volatile
         private var instance: TourismRepositoryImpl? = null

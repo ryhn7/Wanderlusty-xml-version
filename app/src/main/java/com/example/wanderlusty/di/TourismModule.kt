@@ -6,6 +6,7 @@ import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetAllFav
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetAllSectionCitiesOne
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetAllTourismCategories
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetHiddenGems
+import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetTourismDetail
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.UseCasesExploreTourism
 import dagger.Module
 import dagger.Provides
@@ -30,7 +31,8 @@ object TourismModule {
             getAllFavoritePlace = GetAllFavoritePlace(repository),
             getHiddenGems = GetHiddenGems(repository),
             getAllTourismCategories = GetAllTourismCategories(repository),
-            getAllSectionCitiesOne = GetAllSectionCitiesOne(repository)
+            getAllSectionCitiesOne = GetAllSectionCitiesOne(repository),
+            getTourismDetail = GetTourismDetail(repository)
         )
     }
 }

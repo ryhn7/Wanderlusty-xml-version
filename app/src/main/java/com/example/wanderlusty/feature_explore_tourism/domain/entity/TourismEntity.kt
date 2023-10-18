@@ -1,80 +1,25 @@
 package com.example.wanderlusty.feature_explore_tourism.domain.entity
 
-import com.example.wanderlusty.R
 
 data class TourismEntity(
-    val id: Long,
-    val image: Int,
+    val id: String,
+    val image: String,
     val title: String,
     val rating: Number,
     val review: Number,
     val type: String,
     val location: String,
     val price: String? = null,
+    val description: String,
+    val duration: String,
+    val address: String,
+    val tourOption: List<TourOption>? = null,
 )
 
-val dummyFavoritePlace = listOf(
-    TourismEntity(
-        id = 1,
-        image = R.drawable.nusa_penida,
-        title = "Kelingking Beach",
-        rating = 4.8,
-        review = 2000,
-        type = "Beach",
-        location = "Nusa Penida, Bali",
-        price = null,
-    ),
-    TourismEntity(
-        id = 2,
-        image = R.drawable.korod,
-        title = "Korod Rice Field",
-        rating = 4.5,
-        review = 700,
-        type = "Rice Field",
-        location = "Bogor, West Java",
-        price = null,
-    ),
-    TourismEntity(
-        id = 3,
-        image = R.drawable.samosir_island,
-        title = "Samosir Island",
-        rating = 4.7,
-        review = 2300,
-        type = "Island",
-        location = "Lake Toba, North Sumatera",
-        price = null,
-    ),
-)
-
-val dummyHiddenGems = listOf(
-    TourismEntity(
-        id = 4,
-        image = R.drawable.wisata_curugbalongendah,
-        title = "Balong Endah Waterfall",
-        rating = 4.7,
-        review = 1070,
-        type = "Waterfall",
-        location = "Bogor, West Java",
-        price = null,
-    ),
-    TourismEntity(
-        id = 5,
-        image = R.drawable.brown_canyon,
-        title = "Brown Canyon",
-        rating = 4.5,
-        review = 1200,
-        type = "Canyon",
-        location = "Semarang, Central Java",
-        price = null,
-    ),
-    TourismEntity(
-        id = 6,
-        image = R.drawable.skuleskogen,
-        title = "Mudal River Park",
-        rating = 4.7,
-        review = 2300,
-        type = "River Park",
-        location = "Yogya, DIY Yogyakarta",
-        price = null,
-    ),
+data class TourOption(
+    val name: String,
+    val rating: Number,
+    val review: Number,
+    val price: Number,
+    val image: String,
 )
