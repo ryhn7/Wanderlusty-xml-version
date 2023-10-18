@@ -76,6 +76,12 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_txt_subheading_three" />
 
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_card_three" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
