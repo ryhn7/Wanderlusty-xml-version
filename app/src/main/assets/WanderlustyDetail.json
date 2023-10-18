@@ -237,138 +237,142 @@
           ]
         }
       ],
-    "hidden_restaurant": [
-      {
-        "name": "Kopi Daong",
-        "description": "Kopi Daong has the right atmosphere for refreshing and taking a vacation. You can feel the cool air coming from the shady trees directly at Kopi Daong Bogor. What's more interesting is that this coffee shop is located at a height, where you can see open views of nature and pine trees.",
-        "image": [
-          "rest_kopidaong",
-          "rest_kopidaong1",
-          "rest_kopidaong2"
-        ],
-        "rating": 4.4,
-        "review": 18.377,
-        "price1": 25000,
-        "price2": 35000,
-        "sponsored": true,
-        "type": "cafe",
-        "duration": "1 - 2 hours",
-        "address": "Pancawati, Kec. Caringin, Kabupaten Bogor, Jawa Barat",
-        "tour_option": [
-          {
-            "name": "Curug Pangeran",
-            "rating": 4.5,
-            "review": 2095,
-            "price": 10000,
-            "image": "curug_pangeran"
-          },
-          {
-            "name": "Curug Ngumpet1",
-            "rating": 4.4,
-            "review": 2.300,
-            "price": 10000,
-            "image": "curug_ngumpet"
-          },
-          {
-            "name": "Curug Bidadari",
-            "rating": 4.3,
-            "review": 6.2,
-            "price": 10000,
-            "image": "curug_bidadari"
-          }
-        ]
-      },
-      {
-        "name": "Richie Garden Resto",
-        "description": "Dibangun dari Rumah dengan Semangat, Kejujuran, dan Bahan-Bahan Terbaik ” Richie Garden dibangun oleh ibu empat anak, seorang juru masak rumahan yang penuh semangat, yang percaya bahwa makanan enak hanya bisa didapat dari semangat, pengalaman, dan bahan-bahan terbaik.",
-        "image": [
-          "rest_richie",
-          "rest_richie1",
-          "rest_richie2"
-        ],
-        "rating": 4.7,
-        "review": 1.562,
-        "price1": 36000,
-        "price2": 125000,
-        "sponsored": true,
-        "type": "Restaurant",
-        "duration": "1 - 2 hours",
-        "address": "Jl. Gunung Batu, Bojong Koneng, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810",
-        "tour_option": [
-          {
-            "name": "Dairyland Farm Theme Park Puncak",
-            "rating": 4.5,
-            "review": 12.777,
-            "price": 30000,
-            "image": "cimory_dairyland"
-          },
-          {
-            "name": "Dairyland Farm Theme Park Puncak",
-            "rating": 4.5,
-            "review": 12.777,
-            "price": 30000,
-            "image": "cimory_dairyland"
-          },
-          {
-            "name": "Dairyland Farm Theme Park Puncak",
-            "rating": 4.5,
-            "review": 12.777,
-            "price": 30000,
-            "image": "cimory_dairyland"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      },
-      {
-        "name": "Awal Mula Coffe ",
-        "description": "Bright cafe with coffee & snacks in a spacious & contemporary space with outdoor seating.",
-        "image": ["rest_awalmula", "rest_awalmula1", "rest_awalmula2"],
-        "rating": 4.6,
-        "review": 1.260,
-        "price1": 27500,
-        "price2": 150000,
-        "sponsored": false,
-        "type": "cafe",
-        "duration": "2 hours",
-        "address": "Jl. Binamarga II No.5a, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
-        "tour_option": [
-          {
-            "name": "Dairyland Farm Theme Park Puncak",
-            "rating": 4.5,
-            "review": 12.777,
-            "price": 30000,
-            "image": "cimory_dairyland"
-          },
-          {
-            "name": "Dairyland Farm Theme Park Puncak",
-            "rating": 4.5,
-            "review": 12.777,
-            "price": 30000,
-            "image": "cimory_dairyland"
-          },
-          {
-            "name": "Dairyland Farm Theme Park Puncak",
-            "rating": 4.5,
-            "review": 12.777,
-            "price": 30000,
-            "image": "cimory_dairyland"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ]
+      "hidden_restaurant": [
+        {
+          "name": "Kopi Daong",
+          "description": "Kopi Daong has the right atmosphere for refreshing and taking a vacation. You can feel the cool air coming from the shady trees directly at Kopi Daong Bogor. What's more interesting is that this coffee shop is located at a height, where you can see open views of nature and pine trees.",
+          "image": [
+            "rest_kopidaong",
+            "rest_kopidaong1",
+            "rest_kopidaong2"
+          ],
+          "rating": 4.4,
+          "review": 18.377,
+          "price1": 25000,
+          "price2": 35000,
+          "sponsored": true,
+          "type": "cafe",
+          "duration": "1 - 2 hours",
+          "address": "Pancawati, Kec. Caringin, Kabupaten Bogor, Jawa Barat",
+          "tour_option": [
+            {
+              "name": "Curug Pangeran",
+              "rating": 4.5,
+              "review": 2095,
+              "price": 10000,
+              "image": "curug_pangeran"
+            },
+            {
+              "name": "Curug Ngumpet1",
+              "rating": 4.4,
+              "review": 2.300,
+              "price": 10000,
+              "image": "curug_ngumpet"
+            },
+            {
+              "name": "Curug Bidadari",
+              "rating": 4.3,
+              "review": 6.2,
+              "price": 10000,
+              "image": "curug_bidadari"
+            }
+          ]
+        },
+        {
+          "name": "Richie Garden Resto",
+          "description": "Dibangun dari Rumah dengan Semangat, Kejujuran, dan Bahan-Bahan Terbaik ” Richie Garden dibangun oleh ibu empat anak, seorang juru masak rumahan yang penuh semangat, yang percaya bahwa makanan enak hanya bisa didapat dari semangat, pengalaman, dan bahan-bahan terbaik.",
+          "image": [
+            "rest_richie",
+            "rest_richie1",
+            "rest_richie2"
+          ],
+          "rating": 4.7,
+          "review": 1.562,
+          "price1": 36000,
+          "price2": 125000,
+          "sponsored": true,
+          "type": "Restaurant",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Gunung Batu, Bojong Koneng, Kec. Babakan Madang, Kabupaten Bogor, Jawa Barat 16810",
+          "tour_option": [
+            {
+              "name": "Dairyland Farm Theme Park Puncak",
+              "rating": 4.5,
+              "review": 12.777,
+              "price": 30000,
+              "image": "cimory_dairyland"
+            },
+            {
+              "name": "Dairyland Farm Theme Park Puncak",
+              "rating": 4.5,
+              "review": 12.777,
+              "price": 30000,
+              "image": "cimory_dairyland"
+            },
+            {
+              "name": "Dairyland Farm Theme Park Puncak",
+              "rating": 4.5,
+              "review": 12.777,
+              "price": 30000,
+              "image": "cimory_dairyland"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Awal Mula Coffe ",
+          "description": "Bright cafe with coffee & snacks in a spacious & contemporary space with outdoor seating.",
+          "image": [
+            "rest_awalmula",
+            "rest_awalmula1",
+            "rest_awalmula2"
+          ],
+          "rating": 4.6,
+          "review": 1.260,
+          "price1": 27500,
+          "price2": 150000,
+          "sponsored": false,
+          "type": "cafe",
+          "duration": "2 hours",
+          "address": "Jl. Binamarga II No.5a, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+          "tour_option": [
+            {
+              "name": "Dairyland Farm Theme Park Puncak",
+              "rating": 4.5,
+              "review": 12.777,
+              "price": 30000,
+              "image": "cimory_dairyland"
+            },
+            {
+              "name": "Dairyland Farm Theme Park Puncak",
+              "rating": 4.5,
+              "review": 12.777,
+              "price": 30000,
+              "image": "cimory_dairyland"
+            },
+            {
+              "name": "Dairyland Farm Theme Park Puncak",
+              "rating": 4.5,
+              "review": 12.777,
+              "price": 30000,
+              "image": "cimory_dairyland"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
     },
     "hotel": [
       {
@@ -413,7 +417,10 @@
           "Indonesian"
         ],
         "amenities": [
-          "Outdoor Activities", "Restaurant/Coffee Shop", "Business Services", "Swimming Pool"
+          "Outdoor Activities",
+          "Restaurant/Coffee Shop",
+          "Business Services",
+          "Swimming Pool"
         ],
         "rating": 4.6,
         "review": 9481,
@@ -604,7 +611,11 @@
         {
           "name": "Restaurant Gili Gili",
           "description": "A restaurant that provides a comfortable atmosphere and has very large land but not all of it is spent on restaurants, Resto Gili-Gili with the tagline \"Quality Authentic Sundanese\" is one of Bogor's culinary icons that can represent what typical Sundanese cuisine really is. But make no mistake, this restaurant also serves a variety of other dishes to pamper its customers who come from Jakarta on weekends.",
-          "image": ["rest_giligili", "rest_giligili1", "rest_giligili2"],
+          "image": [
+            "rest_giligili",
+            "rest_giligili1",
+            "rest_giligili2"
+          ],
           "rating": 4.4,
           "review": 3.600,
           "price1": 52000,
@@ -640,7 +651,11 @@
         {
           "name": "De' Leuit Resto",
           "description": "de'Leuit and Leuit Ageung are places where family, friends and relations can gather together to enjoy typical Indonesian food and Oriental cuisine in a comfortable, typical Sundanese atmosphere with the best service.",
-          "image": ["rest_deleuit", "rest_deleuit1", "rest_deleuit2"],
+          "image": [
+            "rest_deleuit",
+            "rest_deleuit1",
+            "rest_deleuit2"
+          ],
           "rating": 4.4,
           "review": 9.630,
           "price1": 50000,
@@ -676,7 +691,11 @@
         {
           "name": "Fat Bubble",
           "description": "Fat Bubble, established since 2012. Come with a new concept that mix Dessert House and Cafe. For now we serve variants of Drinks, Desserts, Foods and also Coffee. With playful and fun concept, we create a cozy and fun place to hang out and spend your time with your lovely one. We have a favorite quote for Fat Bubble, \"you can never get a cup large enough to suit me\"",
-          "image": ["rest_fatbubble", "rest_fatbubble1", "rest_fatbubble2"],
+          "image": [
+            "rest_fatbubble",
+            "rest_fatbubble1",
+            "rest_fatbubble2"
+          ],
           "rating": 4.5,
           "review": 4.700,
           "price1": 17000,
@@ -733,7 +752,11 @@
         "close": "11:3PM",
         "address": "Jl. Raya Pajajaran No.24, RT.01/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
         "sponsored": false,
-        "image": ["rest_fatbubble", "rest_fatbubble1", "rest_fatbubble2"],
+        "image": [
+          "rest_fatbubble",
+          "rest_fatbubble1",
+          "rest_fatbubble2"
+        ],
         "tour_option": [
           {
             "name": "Dairyland Farm Theme Park Puncak",
@@ -779,7 +802,11 @@
         "close": "9:30PM",
         "address": "Jl. Pakuan No.3, RT.04/RW.11, Baranangsiang, Kec. Bogor Timur, Kota Bogor, Jawa Barat 16143",
         "sponsored": false,
-        "image": ["rest_deleuit", "rest_deleuit1", "rest_deleuit2"],
+        "image": [
+          "rest_deleuit",
+          "rest_deleuit1",
+          "rest_deleuit2"
+        ],
         "tour_option": [
           {
             "name": "Dairyland Farm Theme Park Puncak",
@@ -825,7 +852,11 @@
         "close": "9:00PM",
         "address": "Jl. Raya Pajajaran No.69, RT.01/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
         "sponsored": false,
-        "image": ["rest_giligili", "rest_giligili1", "rest_giligili2"],
+        "image": [
+          "rest_giligili",
+          "rest_giligili1",
+          "rest_giligili2"
+        ],
         "tour_option": [
           {
             "name": "Dairyland Farm Theme Park Puncak",
@@ -858,7 +889,9 @@
         "phone": "081318642003",
         "email": "SEWAMOBILMURAHBOGOR@GMAIL.COM",
         "list_vehicle": [
-          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+          "Honda Jazz",
+          "Honda Civic",
+          "Toyota Fortuner"
         ],
         "rating": "4.8",
         "review": 259,
@@ -866,7 +899,11 @@
         "price2": 600000,
         "site": "https://sewamobilandi.com/",
         "sponsored": true,
-        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+        "image": [
+          "rental_hondajazz",
+          "rental_civic",
+          "rental_fortuner"
+        ]
       },
       {
         "name": "Rain City Rent Car",
@@ -874,7 +911,9 @@
         "phone": "081316923486",
         "email": "-",
         "list_vehicle": [
-          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+          "Honda Jazz",
+          "Honda Civic",
+          "Toyota Fortuner"
         ],
         "rating": "5",
         "review": 218,
@@ -882,7 +921,11 @@
         "price2": 2500000,
         "site": "https://raincityrent.id/",
         "sponsored": true,
-        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+        "image": [
+          "rental_hondajazz",
+          "rental_civic",
+          "rental_fortuner"
+        ]
       },
       {
         "name": "Pandawa Rental",
@@ -890,7 +933,9 @@
         "phone": "085659344043",
         "email": "-",
         "list_vehicle": [
-          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+          "Honda Jazz",
+          "Honda Civic",
+          "Toyota Fortuner"
         ],
         "rating": "4.7",
         "review": 135,
@@ -898,7 +943,11 @@
         "price2": 1500000,
         "site": "https://www.pandawarentalmobil.com/",
         "sponsored": true,
-        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+        "image": [
+          "rental_hondajazz",
+          "rental_civic",
+          "rental_fortuner"
+        ]
       }
     ]
   },
@@ -1019,197 +1068,196 @@
         ]
       }
     ],
-  "hidden_gems": {
-    "hidden_tourism": [
-    {
-      "name": "Bukit Diponegoro Hillside Park",
-      "description": "Diponegoro Hill is one of the hidden gem tourist destinations in Semarang which is currently being sought after by young people in the city of Semarang. For those who want to unwind from the tiredness of activities, Diponegoro Hill is the right destination to visit. Here you will be presented with a stretch of green grass.",
-      "image": [
-        "wisata_bukitdipenogoro",
-        "wisata_bukitdipenogoro1",
-        "wisata_bukitdipenogoro2"
+    "hidden_gems": {
+      "hidden_tourism": [
+        {
+          "name": "Bukit Diponegoro Hillside Park",
+          "description": "Diponegoro Hill is one of the hidden gem tourist destinations in Semarang which is currently being sought after by young people in the city of Semarang. For those who want to unwind from the tiredness of activities, Diponegoro Hill is the right destination to visit. Here you will be presented with a stretch of green grass.",
+          "image": [
+            "wisata_bukitdipenogoro",
+            "wisata_bukitdipenogoro1",
+            "wisata_bukitdipenogoro2"
+          ],
+          "rating": 4.5,
+          "review": 467,
+          "price": 2000,
+          "sponsored": false,
+          "type": "Hill",
+          "duration": "1 - 2 hours",
+          "address": "Taman Kota Diponegoro - Bukit Senja, Tembalang, Kota Semarang, Jawa Tengah 50275",
+          "tour_option": [
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            },
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            },
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            }
+          ]
+        },
+        {
+          "name": "Desa Wisata Lembah Kalipancur",
+          "description": "If planes are usually at the airport or in a hangar, you can find an unusual view in a green and beautiful valley located in the Ngaliyan area, Semarang.",
+          "image": [
+            "wisata_kalipacur",
+            "wisata_kalipacur1",
+            "wisata_kalipacur2"
+          ],
+          "rating": 3.9,
+          "review": 2032,
+          "price": 0,
+          "sponsored": false,
+          "type": "Photo Shoot, Park",
+          "duration": "2 hours",
+          "address": "X9HG+Q5W, Jl. Raya Kalipancur Manyaran, Kalipancur, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50183",
+          "tour_option": [
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            },
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            },
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            }
+          ]
+        },
+        {
+          "name": "Dusun Semilir",
+          "description": "The development of Dusun Semilir seems to carry the theme of \"one stop destination\" where visitors will be pampered with various rides and super complete facilities. Starting from playgrounds, photo spots, culinary delights, shopping, mini zoo, European village miniatures, outbound areas, to accommodation, everything will be available here.",
+          "image": [
+            "wisata_dusunsemilir",
+            "wisata_dusunsemilir1",
+            "wisata_dusunsemilir2"
+          ],
+          "rating": 4.4,
+          "review": 35.970,
+          "price": 30000,
+          "sponsored": false,
+          "type": "Park",
+          "duration": "2 hours",
+          "address": "Jl. Soekarno - Hatta No.49, Ngemple, Bawen, Ngemplak, Kabupaten Semarang, Jawa Tengah 50661",
+          "tour_option": [
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            },
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            },
+            {
+              "name": "Desa Wisata Lembah Kalipancur",
+              "rating": 3.9,
+              "review": 2032,
+              "price": 20000,
+              "image": "wisata_kalipacur"
+            }
+          ]
+        }
       ],
-      "rating": 4.5,
-      "review": 467,
-      "price": 2000,
-      "sponsored": false,
-      "type": "Hill",
-      "duration": "1 - 2 hours",
-      "address": "Taman Kota Diponegoro - Bukit Senja, Tembalang, Kota Semarang, Jawa Tengah 50275",
-      "tour_option": [
+      "hidden_restaurant": [
         {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
+          "name": "Kebon Kencana Plants & Coffee",
+          "description": "A place designed amidst scenic views and lush gardens to provide travellers and visitors a destination with a café and gift boutique where our guests can experience and enjoy a refreshing ambience, as well as to provide a cosy-homy space to reconnect with nature and unwind in the cool hills of Bandungan.",
+          "image": [
+            "resto_kebon",
+            "resto_kebon1",
+            "resto_kebon2"
+          ],
+          "rating": 4.8,
+          "review": 206,
+          "price1": 5000,
+          "price2": 25000,
+          "sponsored": true,
+          "type": "cafe",
+          "duration": "1 - 2 hours",
+          "address": "Dusun Tarukan, RT.03/RW.05, Desa Candi, Bandungan, Kabupaten Semarang, Jawa Tengah"
         },
         {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
+          "name": "Restoran Kampung Laut Semarang",
+          "description": "Classic Indonesian dishes & local seafood are served in the spacious restaurant with music & ocean views.",
+          "image": [
+            "rest_kampunglaut",
+            "rest_kampunglaut1",
+            "rest_kampunglaut2"
+          ],
+          "rating": 4.4,
+          "review": 18.536,
+          "price1": 7500,
+          "price2": 50000,
+          "sponsored": true,
+          "type": "seafood",
+          "duration": "1 - 2 hours",
+          "address": "Puri Maerokoco Tawang Mas, Jl. Anjasmoro Raya, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144"
         },
         {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
+          "name": "Soto Sawah Mbak Tutik",
+          "description": "deskripsi hotel",
+          "image": [
+            "rest_sotosawah",
+            "rest_sotosawah1",
+            "rest_sotosawah2"
+          ],
+          "rating": 4.6,
+          "review": 1.907,
+          "price1": 5000,
+          "price2": 7000,
+          "sponsored": false,
+          "type": "soto restaurant",
+          "duration": "2 hours",
+          "address": "Jl. Duwet No.237, RT.3/RW.02, Tambangan, Kec. Mijen, Kota Semarang, Jawa Tengah 50215",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
         }
       ]
     },
-    {
-      "name": "Desa Wisata Lembah Kalipancur",
-      "description": "If planes are usually at the airport or in a hangar, you can find an unusual view in a green and beautiful valley located in the Ngaliyan area, Semarang.",
-      "image": [
-        "wisata_kalipacur",
-        "wisata_kalipacur1",
-        "wisata_kalipacur2"
-      ],
-      "rating": 3.9,
-      "review": 2032,
-      "price": 0,
-      "sponsored": false,
-      "type": "Photo Shoot, Park",
-      "duration": "2 hours",
-      "address": "X9HG+Q5W, Jl. Raya Kalipancur Manyaran, Kalipancur, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50183",
-      "tour_option": [
-        {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
-        },
-        {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
-        },
-        {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
-        }
-      ]
-    },
-    {
-      "name": "Dusun Semilir",
-      "description": "The development of Dusun Semilir seems to carry the theme of \"one stop destination\" where visitors will be pampered with various rides and super complete facilities. Starting from playgrounds, photo spots, culinary delights, shopping, mini zoo, European village miniatures, outbound areas, to accommodation, everything will be available here.",
-      "image": [
-        "wisata_dusunsemilir",
-        "wisata_dusunsemilir1",
-        "wisata_dusunsemilir2"
-      ],
-      "rating": 4.4,
-      "review": 35.970,
-      "price": 30000,
-      "sponsored": false,
-      "type": "Park",
-      "duration": "2 hours",
-      "address": "Jl. Soekarno - Hatta No.49, Ngemple, Bawen, Ngemplak, Kabupaten Semarang, Jawa Tengah 50661",
-      "tour_option": [
-        {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
-        },
-        {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
-        },
-        {
-          "name": "Desa Wisata Lembah Kalipancur",
-          "rating": 3.9,
-          "review": 2032,
-          "price": 20000,
-          "image": "wisata_kalipacur"
-        }
-      ]
-    }
-  ],
-
-  "hidden_restaurant": [
-    {
-      "name": "Kebon Kencana Plants & Coffee",
-      "description": "A place designed amidst scenic views and lush gardens to provide travellers and visitors a destination with a café and gift boutique where our guests can experience and enjoy a refreshing ambience, as well as to provide a cosy-homy space to reconnect with nature and unwind in the cool hills of Bandungan.",
-      "image": [
-        "resto_kebon",
-        "resto_kebon1",
-        "resto_kebon2"
-      ],
-      "rating": 4.8,
-      "review": 206,
-      "price1": 5000,
-      "price2": 25000,
-      "sponsored": true,
-      "type": "cafe",
-      "duration": "1 - 2 hours",
-      "address": "Dusun Tarukan, RT.03/RW.05, Desa Candi, Bandungan, Kabupaten Semarang, Jawa Tengah"
-    },
-    {
-      "name": "Restoran Kampung Laut Semarang",
-      "description": "Classic Indonesian dishes & local seafood are served in the spacious restaurant with music & ocean views.",
-      "image": [
-        "rest_kampunglaut",
-        "rest_kampunglaut1",
-        "rest_kampunglaut2"
-      ],
-      "rating": 4.4,
-      "review": 18.536,
-      "price1": 7500,
-      "price2": 50000,
-      "sponsored": true,
-      "type": "seafood",
-      "duration": "1 - 2 hours",
-      "address": "Puri Maerokoco Tawang Mas, Jl. Anjasmoro Raya, Tawangsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50144"
-    },
-    {
-      "name": "Soto Sawah Mbak Tutik",
-      "description": "deskripsi hotel",
-      "image": [
-        "rest_sotosawah",
-        "rest_sotosawah1",
-        "rest_sotosawah2"
-      ],
-      "rating": 4.6,
-      "review": 1.907,
-      "price1": 5000,
-      "price2": 7000,
-      "sponsored": false,
-      "type": "soto restaurant",
-      "duration": "2 hours",
-      "address": "Jl. Duwet No.237, RT.3/RW.02, Tambangan, Kec. Mijen, Kota Semarang, Jawa Tengah 50215",
-      "tour_option": [
-        {
-          "name": "tour 1",
-          "rating": 4,
-          "review": 120,
-          "price": 120000,
-          "image": "tour1.png"
-        },
-        {
-          "name": "tour 1",
-          "rating": 4,
-          "review": 120,
-          "price": 120000,
-          "image": "tour1.png"
-        }
-      ]
-    }
-  ]
-  },
     "hotel": [
       {
         "name": "Gumaya Tower Hotel",
@@ -1224,7 +1272,9 @@
           "English",
           "Indonesian"
         ],
-        "amenities": ["Swimming Pool, Fitness"],
+        "amenities": [
+          "Swimming Pool, Fitness"
+        ],
         "rating": 4.7,
         "review": 2104,
         "price1": 1258200,
@@ -1250,7 +1300,9 @@
           "English",
           "Indonesian"
         ],
-        "amenities": ["Swimming Pool, Jogging, Outbound"],
+        "amenities": [
+          "Swimming Pool, Jogging, Outbound"
+        ],
         "rating": 4.5,
         "review": 9.535,
         "price1": 516.000,
@@ -1489,7 +1541,11 @@
         "close": "12:00AM",
         "address": "Royal Park - Bukit Sari, Jl. Bukit Baladewa No.22-24, Ngesrep, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50261",
         "sponsored": false,
-        "image": ["rest_hill", "rest_hill1", "rest_hill2"]
+        "image": [
+          "rest_hill",
+          "rest_hill1",
+          "rest_hill2"
+        ]
       },
       {
         "name": "Sewa Barbeque Semarang",
@@ -1511,7 +1567,11 @@
         "close": "8:00PM",
         "address": "Jl. Menoreh Bar. V No.15A, RT.12/RW.1, Sampangan, Kec. Gajahmungkur, Kota Semarang, Jawa Tengah 50232",
         "sponsored": false,
-        "image": ["rest_bbq", "rest_bbq1", "rest_bbq2"]
+        "image": [
+          "rest_bbq",
+          "rest_bbq1",
+          "rest_bbq2"
+        ]
       },
       {
         "name": "Kedai Beringin",
@@ -1534,7 +1594,11 @@
         "close": "9:30PM",
         "address": "2CG7+CX Sekayu, Kota Semarang, Jawa Tengah",
         "sponsored": false,
-        "image": ["rest_beringin", "rest_beringin1", "rest_beringin2"]
+        "image": [
+          "rest_beringin",
+          "rest_beringin1",
+          "rest_beringin2"
+        ]
       }
     ],
     "rental": [
@@ -1728,7 +1792,11 @@
         {
           "name": "Danau Biru Singkawang",
           "description": "Danau Biru Singkawang is a lake made from former gold mining. Amazingly, this Pontianak tourist attraction in the form of a lake is said to be the best tourist location in the city of Singkawang, which was formed by accident.",
-          "image": ["wisata_singkawa", "wisata_singkawa1", "wisata_singkawa2"],
+          "image": [
+            "wisata_singkawa",
+            "wisata_singkawa1",
+            "wisata_singkawa2"
+          ],
           "rating": 4,
           "review": 23,
           "price": 5000,
@@ -1763,7 +1831,11 @@
         {
           "name": "Aloe Vera Center",
           "description": "Aloe Vera Center is a center for cultivating aloe vera plants which is often a tourist attraction in the city of Pontianak. Apart from seeing the aloe vera garden, you can also peek at the process of processing Aloe Vera into various products such as dodol, candy, and various cosmetics.",
-          "image": ["wisata_aloevera", "wisata_aloevera1", "wisata_aloevera2"],
+          "image": [
+            "wisata_aloevera",
+            "wisata_aloevera1",
+            "wisata_aloevera2"
+          ],
           "rating": 4.2,
           "review": 145,
           "price": 5000,
@@ -1798,7 +1870,11 @@
         {
           "name": "Taman Burung Singkawang",
           "description": "Singkawang Bird Park is a tourist destination and park icon in Singkawang, West Kalimantan. This location is a green open space which is a place to relax for tourists.",
-          "image": ["wisata_burung", "wisata_burung1", "wisata_burung2"],
+          "image": [
+            "wisata_burung",
+            "wisata_burung1",
+            "wisata_burung2"
+          ],
           "rating": 4.3,
           "review": 2.710,
           "price1": 10000,
@@ -1833,70 +1909,74 @@
         }
       ],
       "hidden_restaurant": [
-    {
-      "name": "Glass House 55",
-      "description": "Glass House 55 Hasanuddin is a restaurant in Pontianak. This restaurant serves a variety of western menus & pizza & pasta which are priced cheaply and friendly to your pocket.",
-      "image": [
-        "rest_kaca",
-        "rest_kaca1",
-        "rest_kaca2"
-      ],
-      "rating": 4.4,
-      "review": 267,
-      "price1": 30000,
-      "price2": 185000,
-      "sponsored": true,
-      "type": "Cafe",
-      "duration": "1 - 2 hours",
-      "address": "Jl. Hasanuddin No. 55B-C, 4th & 5th Floor, Bar., Sungai Jawi Dalam, Pontianak Barat, Pontianak, West Kalimantan 78244"
-    },
-    {
-      "name": "Koffie-in Eatery",
-      "description": "Koffie-in Eatery located in the Pontianak area.",
-      "image": [
-        "rest_kopi",
-        "rest_kopi1",
-        "rest_kopi2"
-      ],
-      "rating": 4.5,
-      "review": 206,
-      "price1": 5000,
-      "price2": 100000,
-      "sponsored": true,
-      "type": "Restaurant",
-      "duration": "1 - 2 hours",
-      "address": "Jalan Tanjung Pura No.423C\nBenua Melayu Darat\nKecamatan Pontianak Selatan\nKalimantan Barat 78122\nIndonesia"
-    },
-    {
-      "name": "Terasky",
-      "description": "TeraSky is a restaurant located on the rooftop of the Transera Hotel Pontianak.",
-      "image": ["rest_sky", "rest_sky1", "rest_sky2"],
-      "rating": 4.5,
-      "review": 473,
-      "price1": 75000,
-      "price2": 121000,
-      "sponsored": false,
-      "type": "Restaurant",
-      "duration": "2 hours",
-      "address": "Transera Hotel, Jl. Gajah Mada No.21, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78243",
-      "tour_option": [
         {
-          "name": "tour 1",
-          "rating": 4,
-          "review": 120,
-          "price": 120000,
-          "image": "tour1.png"
+          "name": "Glass House 55",
+          "description": "Glass House 55 Hasanuddin is a restaurant in Pontianak. This restaurant serves a variety of western menus & pizza & pasta which are priced cheaply and friendly to your pocket.",
+          "image": [
+            "rest_kaca",
+            "rest_kaca1",
+            "rest_kaca2"
+          ],
+          "rating": 4.4,
+          "review": 267,
+          "price1": 30000,
+          "price2": 185000,
+          "sponsored": true,
+          "type": "Cafe",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Hasanuddin No. 55B-C, 4th & 5th Floor, Bar., Sungai Jawi Dalam, Pontianak Barat, Pontianak, West Kalimantan 78244"
         },
         {
-          "name": "tour 1",
-          "rating": 4,
-          "review": 120,
-          "price": 120000,
-          "image": "tour1.png"
+          "name": "Koffie-in Eatery",
+          "description": "Koffie-in Eatery located in the Pontianak area.",
+          "image": [
+            "rest_kopi",
+            "rest_kopi1",
+            "rest_kopi2"
+          ],
+          "rating": 4.5,
+          "review": 206,
+          "price1": 5000,
+          "price2": 100000,
+          "sponsored": true,
+          "type": "Restaurant",
+          "duration": "1 - 2 hours",
+          "address": "Jalan Tanjung Pura No.423C\nBenua Melayu Darat\nKecamatan Pontianak Selatan\nKalimantan Barat 78122\nIndonesia"
+        },
+        {
+          "name": "Terasky",
+          "description": "TeraSky is a restaurant located on the rooftop of the Transera Hotel Pontianak.",
+          "image": [
+            "rest_sky",
+            "rest_sky1",
+            "rest_sky2"
+          ],
+          "rating": 4.5,
+          "review": 473,
+          "price1": 75000,
+          "price2": 121000,
+          "sponsored": false,
+          "type": "Restaurant",
+          "duration": "2 hours",
+          "address": "Transera Hotel, Jl. Gajah Mada No.21, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78243",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
         }
       ]
-    }
-  ]
     },
     "hotel": [
       {
@@ -2191,7 +2271,11 @@
         {
           "name": "Terasky",
           "description": "TeraSky is a restaurant located on the rooftop of the Transera Hotel Pontianak.",
-          "image": ["rest_sky", "rest_sky1", "rest_sky2"],
+          "image": [
+            "rest_sky",
+            "rest_sky1",
+            "rest_sky2"
+          ],
           "rating": 4.5,
           "review": 473,
           "price1": 75000,
@@ -2248,7 +2332,11 @@
         "close": "10:00PM",
         "address": "Jalan S. Parman AB1, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78121",
         "sponsored": false,
-        "image": ["rest_botani", "rest_botani1", "rest_botani2"],
+        "image": [
+          "rest_botani",
+          "rest_botani1",
+          "rest_botani2"
+        ],
         "tour_option": [
           {
             "name": "Danau Biru Singkawang",
@@ -2295,7 +2383,11 @@
         "close": "10:30PM",
         "address": "Jl. Teuku Umar No.58, Darat Sekip, Kec. Pontianak Kota, Kota Pontianak, Kalimantan Barat 78117",
         "sponsored": false,
-        "image": ["rest_seafood", "rest_seafood1", "rest_seafood2"],
+        "image": [
+          "rest_seafood",
+          "rest_seafood1",
+          "rest_seafood2"
+        ],
         "tour_option": [
           {
             "name": "Danau Biru Singkawang",
@@ -2341,7 +2433,11 @@
         "close": "10:30AM",
         "address": "Aston Hotel & Convention Center, Jalan Gajah Mada, Gang Gajah Mada 21, Benua Melayu Darat, Pontianak Selatan, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78243",
         "sponsored": false,
-        "image": ["rest_chinese", "rest_chinese1", "rest_chinese2"],
+        "image": [
+          "rest_chinese",
+          "rest_chinese1",
+          "rest_chinese2"
+        ],
         "tour_option": [
           {
             "name": "Danau Biru Singkawang",
@@ -2374,7 +2470,9 @@
         "phone": "6281351999987",
         "email": "-",
         "list_vehicle": [
-          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+          "Honda Jazz",
+          "Honda Civic",
+          "Toyota Fortuner"
         ],
         "rating": "4.9",
         "review": 292,
@@ -2382,7 +2480,11 @@
         "price2": 5000000,
         "site": "https://rentalpontianak.com/",
         "sponsored": false,
-        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+        "image": [
+          "rental_hondajazz",
+          "rental_civic",
+          "rental_fortuner"
+        ]
       },
       {
         "name": "Anamas Rent Car",
@@ -2390,7 +2492,9 @@
         "phone": "081349445589",
         "email": "rentalmobilanamas@gmail.com",
         "list_vehicle": [
-          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+          "Honda Jazz",
+          "Honda Civic",
+          "Toyota Fortuner"
         ],
         "rating": "4.9",
         "review": 73,
@@ -2398,7 +2502,11 @@
         "price2": 28000000,
         "site": "https://anamasrentcar.com/",
         "sponsored": false,
-        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+        "image": [
+          "rental_hondajazz",
+          "rental_civic",
+          "rental_fortuner"
+        ]
       },
       {
         "name": "Jaya Raya Rental",
@@ -2406,7 +2514,9 @@
         "phone": "08115680809",
         "email": "-",
         "list_vehicle": [
-          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+          "Honda Jazz",
+          "Honda Civic",
+          "Toyota Fortuner"
         ],
         "rating": "4.9",
         "review": 470,
@@ -2414,7 +2524,11 @@
         "price2": 5000000,
         "site": "https://jayarayarent.com/",
         "sponsored": false,
-        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+        "image": [
+          "rental_hondajazz",
+          "rental_civic",
+          "rental_fortuner"
+        ]
       }
     ]
   },
@@ -2872,40 +2986,40 @@
     ],
     "hidden_gems": [
       {
-    "name": "Bintang Village",
-    "description": "Located on the east side of Dana Laut Tawar, Bintang Village often successfully attracts the attention of tourists because of the uniqueness offered. This area is a village where everyone has the opportunity to watch horses in action or even walk down the racetrack.",
-    "image": " bintang",
-    "rating": 4,
-    "review": 120,
-    "price": 120000,
-    "sponsored": false,
-    "type": "countryside",
-    "duration": "1 hours from city",
-    "address": "Kec Bintang, kab Aceh Tengah, Provinsi nanggroe aceh daarusalam",
-    "tour_option": [
-      {
-        "name": "tour 1",
-        "rating": 4,
-        "review": 394,
-        "price": 100000,
-        "image": "bintang 2"
-      },
-      {
-        "name": "tour 2",
+        "name": "Bintang Village",
+        "description": "Located on the east side of Dana Laut Tawar, Bintang Village often successfully attracts the attention of tourists because of the uniqueness offered. This area is a village where everyone has the opportunity to watch horses in action or even walk down the racetrack.",
+        "image": " bintang",
         "rating": 4,
         "review": 120,
-        "price": 50000,
-        "image": "bintang 1"
-      }
-    ]
-  },
+        "price": 120000,
+        "sponsored": false,
+        "type": "countryside",
+        "duration": "1 hours from city",
+        "address": "Kec Bintang, kab Aceh Tengah, Provinsi nanggroe aceh daarusalam",
+        "tour_option": [
+          {
+            "name": "tour 1",
+            "rating": 4,
+            "review": 394,
+            "price": 100000,
+            "image": "bintang_2"
+          },
+          {
+            "name": "tour 2",
+            "rating": 4,
+            "review": 120,
+            "price": 50000,
+            "image": "bintang_1"
+          }
+        ]
+      },
       {
         "name": "waterfall Rerebe Kolam Biru",
         "description": "One of them is the Rerebe Blue Pool Waterfall located in Rerebe Village, Tripe Jaya District, Gayo Lues Regency, Aceh Province with a distance of approximately 2 hours from Gayo Lues Regency. Blue Pool Rerebe Waterfall has a width of approximately 100 meters and a length of approximately 110 with a pool depth of 2-8 meters. The atmosphere is still very beautiful, but has adequate facilities that should not be missed",
         "image": [
-          "air terjun rerebe 1",
-          "air terjun rerebe 2",
-          "air terjun rerebe 3"
+          "air_terjun_rerebe_1",
+          "air_terjun_rerebe_2",
+          "air_terjun_rerebe_3"
         ],
         "rating": 4.3,
         "review": 4161,
@@ -2949,7 +3063,6 @@
           }
         ]
       }
-
     ],
     "hidden_tourism": [
       {
@@ -3001,72 +3114,44 @@
             "image": "camping_5"
           }
         ]
+      }
+    ],
+    "hidden_restaurant": [
+      {
+        "name": "Andalus Coffee And Kitchen",
+        "description": "This unique restaurant that serves typical foreign food in the middle of your city Aceh does not go unnoticed. Starting from a variety of rice, pizza, pasta, food from various other countries makes us do not need to go anywhere else",
+        "image": [
+          "andalus_coffee_and_kitchen_1",
+          "andalus_coffee_and_kitchen_2",
+          "andalus_coffee_and_kitchen_3"
+        ],
+        "rating": 4.4,
+        "review": 18.377,
+        "price1": 25000,
+        "price2": 35000,
+        "sponsored": true,
+        "type": "cafe",
+        "duration": "1 - 2 hours",
+        "address": "l. H Keuchik Leumik Lorong Utoh Ma'in No. 1, Lueng Bata, Banda Aceh"
       },
       {
-          "name": "Kulah dua",
-          "description": "Kulah Dua Tapos Cibedug. Beautiful, cool, quiet and very calming. Very suitable for you to hunt for beautiful sunrises and sunsets.",
-          "image": ["wisata_kulahdua", "wisata_kulahdua1", "wisata_kulahdua2"],
-          "rating": 4.4,
-          "review": 73,
-          "price": 0,
-          "sponsored": true,
-          "type": "Mountain, camp",
-          "duration": "2 day 1 night",
-          "address": "7W96+68X, Cileungsi, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720",
-          "tour_option": [
-            {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
-            },
-            {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
-            }
-          ]
-        }
-      ],
-    "hidden_restaurant": [
-        {
-          "name": "Andalus Coffee And Kitchen",
-          "description": "This unique restaurant that serves typical foreign food in the middle of your city Aceh does not go unnoticed. Starting from a variety of rice, pizza, pasta, food from various other countries makes us do not need to go anywhere else",
-          "image": [
-            "andalus_coffee_and_kitchen_1",
-            "andalus_coffee_and_kitchen_2",
-            "andalus_coffee_and_kitchen_3"
-          ],
-          "rating": 4.4,
-          "review": 18.377,
-          "price1": 25000,
-          "price2": 35000,
-          "sponsored": true,
-          "type": "cafe",
-          "duration": "1 - 2 hours",
-          "address": "l. H Keuchik Leumik Lorong Utoh Ma'in No. 1, Lueng Bata, Banda Aceh"
-        },
-        {
-          "name": "Dapuponu",
-          "description": "A culinary place that is hidden from the crowd, but still exudes its own characteristics. Provides katsu chicken rice, dapuponu-style yakimeshi, various ramen, and other Japanese-style snacks.",
-          "image": [
-            "dapuponu_1",
-            "dapuponu_2",
-            "dapuponu_3"
-          ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 15000,
-          "price2": 22000,
-          "sponsored": true,
-          "type": "Restaurant",
-          "duration": "1 - 2 hours",
-          "address": "Jl. Pattimura No. 109 (Blower) Kel. Sukaramai Kec. Baiturrahman Kota Banda Aceh. Provinsi Aceh"
-        },
-        {
+        "name": "Dapuponu",
+        "description": "A culinary place that is hidden from the crowd, but still exudes its own characteristics. Provides katsu chicken rice, dapuponu-style yakimeshi, various ramen, and other Japanese-style snacks.",
+        "image": [
+          "dapuponu_1",
+          "dapuponu_2",
+          "dapuponu_3"
+        ],
+        "rating": 4.7,
+        "review": 1.562,
+        "price1": 15000,
+        "price2": 22000,
+        "sponsored": true,
+        "type": "Restaurant",
+        "duration": "1 - 2 hours",
+        "address": "Jl. Pattimura No. 109 (Blower) Kel. Sukaramai Kec. Baiturrahman Kota Banda Aceh. Provinsi Aceh"
+      },
+      {
         "name": "Regarang Resto",
         "description": "Typical Nusantara culinary that serves a variety of typical Indonesian food. Starting from cahkangkung, stir-fried bean sprouts, grilled fish, grilled chicken. The beautiful surrounding scenery and refreshing cold air make a pleasant complement.",
         "image": [
@@ -3083,8 +3168,7 @@
         "duration": "1 - 2 hours",
         "address": "Jl. Pattimura No. 109 (Blower) Kel. Sukaramai Kec. Baiturrahman Kota Banda Aceh. Provinsi Aceh"
       }
-    ]
-    },
+    ],
     "hotel": [
       {
         "name": "Parkside Gayo Petro Hotel",
@@ -3414,3 +3498,5 @@
     ]
   }
 
+}
+}
