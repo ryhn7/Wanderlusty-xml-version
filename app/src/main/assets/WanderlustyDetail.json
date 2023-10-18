@@ -18,7 +18,30 @@
         "rating": 4.7,
         "review": 6.368,
         "type": "Mountain",
-        "location": "Bogor, Jawa Barat"
+        "location": "Bogor, Jawa Barat",
+        "tour_option": [
+          {
+            "name": "Dairyland Farm Theme Park Puncak",
+            "rating": 4.5,
+            "review": 12.777,
+            "price": 30000,
+            "image": "cimory_dairyland"
+          },
+          {
+            "name": "Dairyland Farm Theme Park Puncak",
+            "rating": 4.5,
+            "review": 12.777,
+            "price": 30000,
+            "image": "cimory_dairyland"
+          },
+          {
+            "name": "Dairyland Farm Theme Park Puncak",
+            "rating": 4.5,
+            "review": 12.777,
+            "price": 30000,
+            "image": "cimory_dairyland"
+          }
+        ]
       },
       {
         "name": "Kebun Raya Bogor",
@@ -31,7 +54,30 @@
         "rating": 4.7,
         "review": 93.847,
         "type": "Educational Tourism",
-        "location": "Bogor, Jawa Barat"
+        "location": "Bogor, Jawa Barat",
+        "tour_option": [
+          {
+            "name": "Curug Pangeran",
+            "rating": 4.5,
+            "review": 2095,
+            "price": 10000,
+            "image": "curug_pangeran"
+          },
+          {
+            "name": "Curug Ngumpet1",
+            "rating": 4.4,
+            "review": 2.300,
+            "price": 10000,
+            "image": "curug_ngumpet"
+          },
+          {
+            "name": "Curug Bidadari",
+            "rating": 4.3,
+            "review": 6.2,
+            "price": 10000,
+            "image": "curug_bidadari"
+          }
+        ]
       },
       {
         "name": "Taman Safari Bogor",
@@ -44,7 +90,30 @@
         "rating": 4.7,
         "review": 59.169,
         "type": "Zoo",
-        "location": "Bogor, Jawa Barat"
+        "location": "Bogor, Jawa Barat",
+        "tour_option": [
+          {
+            "name": "Curug Pangeran",
+            "rating": 4.5,
+            "review": 2095,
+            "price": 10000,
+            "image": "curug_pangeran"
+          },
+          {
+            "name": "Curug Ngumpet1",
+            "rating": 4.4,
+            "review": 2.300,
+            "price": 10000,
+            "image": "curug_ngumpet"
+          },
+          {
+            "name": "Curug Bidadari",
+            "rating": 4.3,
+            "review": 6.2,
+            "price": 10000,
+            "image": "curug_bidadari"
+          }
+        ]
       }
     ],
     "hidden_gems": {
@@ -106,18 +175,25 @@
           "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750",
           "tour_option": [
             {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
+              "name": "Curug Pangeran",
+              "rating": 4.5,
+              "review": 2095,
+              "price": 10000,
+              "image": "curug_pangeran"
             },
             {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
+              "name": "Curug Ngumpet1",
+              "rating": 4.4,
+              "review": 2.300,
+              "price": 10000,
+              "image": "curug_ngumpet"
+            },
+            {
+              "name": "Curug Bidadari",
+              "rating": 4.3,
+              "review": 6.2,
+              "price": 10000,
+              "image": "curug_bidadari"
             }
           ]
         },
@@ -138,18 +214,25 @@
           "address": "7W96+68X, Cileungsi, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720",
           "tour_option": [
             {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
+              "name": "Curug Pangeran",
+              "rating": 4.5,
+              "review": 2095,
+              "price": 10000,
+              "image": "curug_pangeran"
             },
             {
-              "name": "tour 1",
-              "rating": 4,
-              "review": 120,
-              "price": 120000,
-              "image": "tour1.png"
+              "name": "Curug Ngumpet1",
+              "rating": 4.4,
+              "review": 2.300,
+              "price": 10000,
+              "image": "curug_ngumpet"
+            },
+            {
+              "name": "Curug Bidadari",
+              "rating": 4.3,
+              "review": 6.2,
+              "price": 10000,
+              "image": "curug_bidadari"
             }
           ]
         }
@@ -173,18 +256,25 @@
         "address": "Pancawati, Kec. Caringin, Kabupaten Bogor, Jawa Barat",
         "tour_option": [
           {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "name": "Curug Pangeran",
+            "rating": 4.5,
+            "review": 2095,
+            "price": 10000,
+            "image": "curug_pangeran"
           },
           {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "name": "Curug Ngumpet1",
+            "rating": 4.4,
+            "review": 2.300,
+            "price": 10000,
+            "image": "curug_ngumpet"
+          },
+          {
+            "name": "Curug Bidadari",
+            "rating": 4.3,
+            "review": 6.2,
+            "price": 10000,
+            "image": "curug_bidadari"
           }
         ]
       },
@@ -1285,16 +1375,16 @@
     "hidden_gems": {
       "hidden_tourism": [
         {
-          "name": "Pantai Kura Kura",
-          "description": "deskripsi hotel",
-          "image": "lawangsewu.png",
+          "name": "Danau Biru Singkawang",
+          "description": "Danau Biru Singkawang is a lake made from former gold mining. Amazingly, this Pontianak tourist attraction in the form of a lake is said to be the best tourist location in the city of Singkawang, which was formed by accident.",
+          "image": ["wisata_singkawa", "wisata_singkawa1", "wisata_singkawa2"],
           "rating": 4,
-          "review": 120,
-          "price": 120000,
+          "review": 23,
+          "price": 5000,
           "sponsored": false,
-          "type": "Historic Sites",
+          "type": "Lake",
           "duration": "2 hours",
-          "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+          "address": "W28P+RG, Pajintan, Kec. Singkawang Tim., Kota Singkawang, Kalimantan Barat",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1313,16 +1403,16 @@
           ]
         },
         {
-          "name": "Lawang Sewu",
-          "description": "deskripsi hotel",
-          "image": "lawangsewu.png",
-          "rating": 4,
-          "review": 120,
-          "price": 120000,
+          "name": "Aloe Vera Center",
+          "description": "Aloe Vera Center is a center for cultivating aloe vera plants which is often a tourist attraction in the city of Pontianak. Apart from seeing the aloe vera garden, you can also peek at the process of processing Aloe Vera into various products such as dodol, candy, and various cosmetics.",
+          "image": ["wisata_aloevera", "wisata_aloevera1", "wisata_aloevera2"],
+          "rating": 4.2,
+          "review": 145,
+          "price": 5000,
           "sponsored": false,
-          "type": "Historic Sites",
+          "type": "Park",
           "duration": "2 hours",
-          "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+          "address": "Jl. Budi Utomo, Siantan Hulu, Pontianak.",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1341,16 +1431,17 @@
           ]
         },
         {
-          "name": "Lawang Sewu",
-          "description": "deskripsi hotel",
-          "image": "lawangsewu.png",
-          "rating": 4,
-          "review": 120,
-          "price": 120000,
+          "name": "Taman Burung Singkawang",
+          "description": "Singkawang Bird Park is a tourist destination and park icon in Singkawang, West Kalimantan. This location is a green open space which is a place to relax for tourists.",
+          "image": ["wisata_burung", "wisata_burung1", "wisata_burung2"],
+          "rating": 4.3,
+          "review": 2.710,
+          "price1": 10000,
+          "price2": 20000,
           "sponsored": false,
-          "type": "Historic Sites",
+          "type": "Park",
           "duration": "2 hours",
-          "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+          "address": "WX7R+35G, Jl. Merdeka, Tengah, Kec. Singkawang Bar., Kota Singkawang, Kalimantan Barat 79111",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1371,49 +1462,51 @@
       ],
       "hidden_restaurant": [
     {
-      "name": "Curug Balong Endah",
-      "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
+      "name": "Glass House 55",
+      "description": "Glass House 55 Hasanuddin is a restaurant in Pontianak. This restaurant serves a variety of western menus & pizza & pasta which are priced cheaply and friendly to your pocket.",
       "image": [
-        "wisata_curugbalongendah",
-        "wisata_curugbalongendah1",
-        "wisata_curugbalongendah2"
+        "rest_kaca",
+        "rest_kaca1",
+        "rest_kaca2"
       ],
-      "rating": 4.6,
-      "review": 608,
-      "price": 10000,
+      "rating": 4.4,
+      "review": 267,
+      "price1": 30000,
+      "price2": 185000,
       "sponsored": true,
-      "type": "Waterfall",
+      "type": "Cafe",
       "duration": "1 - 2 hours",
-      "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810"
+      "address": "Jl. Hasanuddin No. 55B-C, 4th & 5th Floor, Bar., Sungai Jawi Dalam, Pontianak Barat, Pontianak, West Kalimantan 78244"
     },
     {
-      "name": "Telaga Saat",
-      "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
+      "name": "Koffie-in eatery",
+      "description": "Koffie-in eatery located in the Pontianak area",
       "image": [
-        "wisata_telagasaat",
-        "wisata_telagasaat1",
-        "wisata_telagasaat2"
+        "rest_kopi",
+        "rest_kopi1",
+        "rest_kopi2"
       ],
-      "rating": 4.3,
-      "review": 4161,
-      "price1": 10000,
-      "price2": 25000,
+      "rating": 4.5,
+      "review": 206,
+      "price1": 5000,
+      "price2": 100000,
       "sponsored": true,
-      "type": "Lake",
+      "type": "Restaurant",
       "duration": "1 - 2 hours",
-      "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750"
+      "address": "Jalan Tanjung Pura No.423C\nBenua Melayu Darat\nKecamatan Pontianak Selatan\nKalimantan Barat 78122\nIndonesia"
     },
     {
-      "name": "Lawang Sewu",
-      "description": "deskripsi hotel",
-      "image": "lawangsewu.png",
-      "rating": 4,
-      "review": 120,
-      "price": 120000,
+      "name": "Terasky",
+      "description": "TeraSky is a restaurant located on the rooftop of the Transera Hotel Pontianak.",
+      "image": ["rest_sky", "rest_sky1", "rest_sky2"],
+      "rating": 4.5,
+      "review": 473,
+      "price1": 75000,
+      "price2": 121000,
       "sponsored": false,
-      "type": "Historic Sites",
+      "type": "Restaurant",
       "duration": "2 hours",
-      "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+      "address": "Transera Hotel, Jl. Gajah Mada No.21, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78243",
       "tour_option": [
         {
           "name": "tour 1",
@@ -1491,13 +1584,13 @@
         ]
       },
       {
-        "name": "The Grand Hill",
-        "description": "The Grand Hill is located in Puncak area, which is approximately 2 hours from Jakarta. The hotel is traditionally designed with Javanese and Balinese influence, with all the modern conveniences to make your stay both enjoyable and memorable. The hotel provides 89 luxury guests rooms, 6 villas and 5 function rooms.\n\n \n\nYour experience starts when you step into The Grand Hill hotel lobby. The open lobby area let the cool and fresh mountain air through and refreshes the senses. The friendly staff will help you with your check in process and the concierge will take you to your room so you can relax and get ready to explore the beautiful surroundings.\n\n \n\nThe hotel is situated on a hill which provides it with a spectacular view of Mount Salak. Feel the stress of daily life melts away as you relax in the infinity pool, explore the tranquil grounds surrounding the hotel, and enjoy the sunset view.\n\n \n\nThe Grand Hill also provides excellent dining experience with its two restaurants, The Grand Hill Bistro-Café and Kupu-Kupu. The Bistro offers a myriad of international cuisine, while Kupu-Kupu offers you an authentic Indonesian dining experience.\n\n \n\nThe fully equipped function rooms are ideal for company events and conferences. We can tailor-made a package to suit the needs of the company, including food and accommodation. If you are looking for a relaxing, stress free and tranquil experience, look no further.",
-        "phone": "+6285888296259",
+        "name": "Transera Hotel Pontianak",
+        "description": "Hotel Transera Pontianak is a hotel with a minimalist design located on the center of Pontianak with a rooftop restaurant as an icon of Hotel. Clean, safe and comfortable rooms that are ideal place for business travelers with modern conference and meeting facilities. Social and wedding events are also well served in our spacious ballrooms and meeting rooms.",
+        "phone": "+62895338009999",
         "email": "groupreservation@thegrandhill.com",
         "tag": [
-          "located in Bogor",
-          "Hotel in puncak bogor"
+          "located in Pontianak",
+          "Hotel in Jl Gajah Mada"
         ],
         "languages": [
           "English",
@@ -1508,14 +1601,14 @@
         ],
         "rating": 4.4,
         "review": 2.905,
-        "price1": 625000,
+        "price1": 210000,
         "price2": 701250,
-        "site": "https://thegrandhill.com",
+        "site": "https://transerahotelpontianak.com/",
         "sponsored": false,
         "image": [
-          "hotel_thegrandhill.jpeg",
-          "hotel_thegrandhill1.jpeg",
-          "hotel_thegrandhill2.jpeg"
+          "hotel_aston",
+          "hotel_aston1",
+          "hotel_aston2"
         ]
       }
     ],
@@ -1623,21 +1716,21 @@
       ],
       "restaurant": [
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "Bōtani Cafe & Resto",
+          "description": "Botani Cafe & Resto, S Parman is a place to eat in Pontianak. This restaurant serves a variety of pizza & pasta & various rice menus which are priced cheaply and friendly to your pocket.",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "rest_botani",
+            "rest_botani3",
+            "rest_botani4"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "rating": 4.3,
+          "review": 4161,
+          "price1": 5000,
+          "price2": 100000,
           "sponsored": true,
-          "type": "free flying sport",
+          "type": "Cafe and Resto",
           "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "address": "Jalan S. Parman AB1, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78121",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1725,26 +1818,27 @@
     },
     "restaurants": [
       {
-        "name": "Restoran 1",
-        "description": "deskripsi restoran",
+        "name": "Bōtani Cafe & Resto",
+        "description": "Botani Cafe & Resto, S Parman is a place to eat in Pontianak. This restaurant serves a variety of pizza & pasta & various rice menus which are priced cheaply and friendly to your pocket.",
         "tag": [
           "Cafe",
-          "Healthy"
+          "Restaurant"
         ],
         "feature": [
           "Delivery",
           "Takeouts"
         ],
-        "phone": "123 123",
-        "email": "harris@gmail.com",
-        "rating": "5",
-        "review": 120,
-        "price": 120000,
+        "phone": "+6281250342232",
+        "email": "-",
+        "rating": 4.3,
+        "review": 4161,
+        "price1": 5000,
+        "price2": 100000,
         "open": "8:00AM",
-        "close": "10:30AM",
-        "address": "alamat restoran",
+        "close": "10:00PM",
+        "address": "Jalan S. Parman AB1, Benua Melayu Darat, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78121",
         "sponsored": false,
-        "image": "haris.png"
+        "image": ["rest_botani", "rest_botani1", "rest_botani2"]
       },
       {
         "name": "Restoran 1",
