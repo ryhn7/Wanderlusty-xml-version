@@ -227,14 +227,15 @@ object TourismDataSource : LocalDataSource {
             (0 until recommendations.length()).map { i ->
                 recommendations.getJSONObject(i).run {
                     TourismSpot(
+                        getString("id"),
                         getString("name"),
                         getString("description"),
-                        getString("image").split(","),
-                        getDouble("rating"),
-                        getDouble("review"),
+                        getString("image").split(",").map { it.trim() },
+                        getString("rating").toDouble(),
+                        getString("review").toInt(),
                         getString("type"),
                         getString("location"),
-                        getTourOptionList(this.optJSONArray("tour_option"))
+                        getTourOptionList(optJSONArray("tour_option"))
                     )
                 }
             }

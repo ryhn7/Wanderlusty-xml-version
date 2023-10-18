@@ -25,9 +25,10 @@ class DetailCityActivity : AppCompatActivity() {
 
         setViewPager()
 
-//        intent.getStringExtra(EXTRA_CITY_ID)?.let {
-//            viewModel.getCityDetailOverview(it)
-//        }
+        intent.getStringExtra(EXTRA_CITY_ID)?.let {
+            viewModel.getCityDetailOverview(it)
+        }
+
     }
 
     private fun setViewPager() {

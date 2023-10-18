@@ -3,17 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:id="@+id/activity_community"
     android:layout_height="match_parent"
     tools:context=".feature_community.presentation.CommunityFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_community"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp">
 
         <android.widget.SearchView
-            android:id="@+id/section_sv_thread"
+            android:id="@+id/sv_thread"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="16dp"
@@ -25,21 +25,29 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/section_community_posts"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
+        <include
+            android:id="@+id/thread_one"
+            layout="@layout/item_community_post"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:theme="@style/EdgeColor"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/sv_thread"
-            tools:listitem="@layout/item_community_post" />
+            app:layout_constraintTop_toBottomOf="@id/sv_thread" />
+
+        <include
+            android:id="@+id/thread_two"
+            layout="@layout/item_community_post"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/thread_one" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="110dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/section_community_posts" />
+            app:layout_constraintTop_toBottomOf="@id/thread_two" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

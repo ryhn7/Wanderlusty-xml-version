@@ -55,8 +55,8 @@ data class TourismSpot(
     val name: String,
     val description: String,
     val image: List<String>,
-    val rating: Double,
-    val review: Double,
+    val rating: Number,
+    val review: Number,
     val type: String,
     val location: String,
     val tourOption: List<TourOption>

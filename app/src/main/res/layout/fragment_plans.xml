@@ -4,38 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/activity_community"
     tools:context=".feature_plans.presentation.PlansFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/activity_community"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="30dp">
 
         <include
-            android:id="@+id/section_btn_filter"
+            android:id="@+id/review_btn_filter"
             layout="@layout/item_btn_filter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/section_plan_card"
+        <include
+            android:id="@+id/call_card_plans_1"
+            layout="@layout/item_card_plans"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:theme="@style/EdgeColor"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/section_btn_filter"
-            tools:listitem="@layout/item_card_four" />
+            app:layout_constraintTop_toBottomOf="@id/review_btn_filter" />
+
+        <include
+            android:id="@+id/call_card_plans_2"
+            layout="@layout/item_card_plans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/call_card_plans_1" />
+
+        <include
+            android:id="@+id/call_card_plans_3"
+            layout="@layout/item_card_plans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/call_card_plans_2" />
+
+        <include
+            android:id="@+id/call_card_plans_4"
+            layout="@layout/item_card_plans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/call_card_plans_3" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="40dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/section_plan_card" />
+            app:layout_constraintTop_toBottomOf="@id/call_card_plans_4" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
