@@ -1615,19 +1615,19 @@
     "things_todo": {
       "tourism": [
         {
-          "name": "Eagle Hill Camp",
-          "description": "As a campground in the pristine nature of the Puncak mountains with its beauty and coolness, Eagle Hill provides services as a place for activities, lodging, food and outbound/training events.",
+          "name": "Pantai Pasir Panjang",
+          "description": "Pasir Panjang Beach is a natural tourist attraction in the form of a long, white sandy beach located in Seven Belas District, Singkawang City, West Kalimantan. This beach stretches for 3 kilometers, so it is called Pasir Panjang beach. This beach has beautiful white sand and calm waves.",
           "image": [
-            "camp_eaglehillcamp",
-            "camp_eaglehillcamp1",
-            "camp_eaglehillcamp2"
+            "suring_pantai",
+            "suring_pantai1",
+            "suring_pantai2"
           ],
-          "rating": 4.6,
-          "review": 457,
+          "rating": 4.3,
+          "review": 675,
           "price1": 159000,
           "price2": 195000,
           "sponsored": true,
-          "type": "Camp",
+          "type": "Beach",
           "duration": "2 days 1 night",
           "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
           "tour_option": [
