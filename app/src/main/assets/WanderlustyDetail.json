@@ -1479,8 +1479,8 @@
       "address": "Jl. Hasanuddin No. 55B-C, 4th & 5th Floor, Bar., Sungai Jawi Dalam, Pontianak Barat, Pontianak, West Kalimantan 78244"
     },
     {
-      "name": "Koffie-in eatery",
-      "description": "Koffie-in eatery located in the Pontianak area",
+      "name": "Koffie-in Eatery",
+      "description": "Koffie-in Eatery located in the Pontianak area.",
       "image": [
         "rest_kopi",
         "rest_kopi1",
@@ -1629,7 +1629,7 @@
           "sponsored": true,
           "type": "Beach",
           "duration": "2 days 1 night",
-          "address": "Jl Al Barokah, Megamendung, Kec. Megamendung, Kabupaten Bogor, Jawa Barat 16770",
+          "address": "Pontianak, Kalimantan Barat",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1648,21 +1648,21 @@
           ]
         },
         {
-          "name": "Rafting Cisadane",
-          "description": "Rafting on the Cisadane River is one of the fun and challenging tourist activities in Bogor, West Java. Rafters can enjoy beautiful natural views while rafting, such as tropical rainforests, plants and wildlife that live around the river. Apart from that, rafters can also enjoy the unique natural beauty of Mount Salak which is clearly visible in several spots on the Cisadane river.",
+          "name": "Zontep Adventure",
+          "description": "Zontep Adventure is a place for fun camping",
           "image": [
-            "rafting_raftcisadane",
-            "rafting_raftcisadane1",
-            "rafting_raftcisadane2"
+            "camp_eaglehillcamp",
+            "camp_eaglehillcamp1",
+            "camp_eaglehillcamp2"
           ],
           "rating": 4.9,
           "review": 60,
-          "price1": 200000,
-          "price2": 725000,
+          "price1": 15000,
+          "price2": 100000,
           "sponsored": true,
-          "type": "Rafting",
-          "duration": "2 hours",
-          "address": "Jl. Kolonel Bustomi No.16, Cimande Hilir, Kec. Caringin, Kabupaten Bogor, Jawa Barat 16730",
+          "type": "Camp",
+          "duration": "2 day 1 night",
+          "address": "Gg. Purwosari 3, Akcaya, Kec. Pontianak Sel., Kota Pontianak, Kalimantan Barat 78113",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1681,21 +1681,21 @@
           ]
         },
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "Borneo Outdoor",
+          "description": "Camping is an outdoor recreational activity. This activity is generally done to take a break from the hustle and bustle of cities, or from crowds in general, to enjoy the beauty.",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "wisata_campmawar",
+            "wisata_campmawar1",
+            "wisata_campmawar2"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "rating": 4.9,
+          "review": 9,
+          "price1": 15000,
+          "price2": 75000,
           "sponsored": true,
-          "type": "free flying sport",
+          "type": "Camp",
           "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "address": "Pontianak, Kalimantan",
           "tour_option": [
             {
               "name": "tour 1",
@@ -1749,21 +1749,21 @@
           ]
         },
         {
-          "name": "Paragliding Puncak Bogor",
-          "description": "Paragliding is a free flying sport using fabric wings (parachutes) that are taken off with the feet for recreation or competition purposes.",
+          "name": "Koffie-in Eatery",
+          "description": "Koffie-in Eatery located in the Pontianak area.",
           "image": [
-            "paralayang_puncakbogor",
-            "paralayang_puncakbogor1",
-            "paralayang_puncakbogor2"
+            "rest_kopi",
+            "rest_kopi1",
+            "rest_kopi2"
           ],
-          "rating": 4.7,
-          "review": 1.562,
-          "price1": 450000,
-          "price2": 750000,
+          "rating": 4.5,
+          "review": 206,
+          "price1": 5000,
+          "price2": 100000,
           "sponsored": true,
-          "type": "free flying sport",
+          "type": "Restaurant",
           "duration": "1 - 2 hours",
-          "address": "Jl. Raya Puncak Gadog, Tugu Sel., Kec. Cisarua, Kabupaten Bogor, Jawa Barat",
+          "address": "Jalan Tanjung Pura No.423C\nBenua Melayu Darat\nKecamatan Pontianak Selatan\nKalimantan Barat 78122\nIndonesia",
           "tour_option": [
             {
               "name": "tour 1",
