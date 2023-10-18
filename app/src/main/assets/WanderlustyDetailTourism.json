@@ -216,3 +216,409 @@
     ]
   }
 }
+"city_4": {
+"id": "4",
+"name": "Medan",
+"subtitle": "Tourism in Medan",
+"image": "Medan",
+"description": "The City of Medan, with all its uniqueness, is a city that reflects the diversity of Indonesia and is the center of economic and cultural activities in the North Sumatra region.",
+"map": "link google map",
+"recommendation": [
+{
+"name": "Bukit Lawang",
+"description": "Bukit Lawang is an attractive tourist destination for nature lovers and wildlife enthusiasts, providing unique experiences through encounters with orangutans and the natural beauty of tropical rainforests.",
+"image": [
+"bukit_lawang1, bukit_lawang2, bukit_lawang3"
+],
+"rating": 4.8,
+"review": 925,
+"type": "Rivers and Jungles",
+"location": "Langkat, Sumatera Utara"
+},
+{
+"name": "Danau Toba",
+"image": [
+"Danau_Toba1, Danau_Toba2, Danau_Toba3"
+],
+"rating": 4.7,
+"review": 868,
+"type": "Lake",
+"location": "Simalungun, Sumatera Utara"
+},
+{
+"name": "Pamah Simelir",
+"image": [
+"pamah_simelir1, pamah_simelir2, pamah_simelir3"
+],
+"rating": 4.6,
+"review": 450,
+"type": "Artifical Tourism",
+"location": "Langkat, Sumatera Utara"
+}
+],
+"hidden_gems": {
+"hidden_tourism": [
+{
+"name": "Pemandian Air Panas Pariban",
+"description": "This hot spring tourism is famous for its natural hot springs which offer beautiful views, comfort and fresh air",
+"image": [
+"Pariban1, Pariban2, Pariban3"
+],
+"rating": 4.6,
+"review": 450,
+"price": 100000,
+"sponsored": false,
+"type": "Pool",
+"duration": "2 hours",
+"address": "Desa Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153",
+"tour_option": [
+{
+"name": "Mata Air Pesona Sibayak",
+"rating": 4.3,
+"review": 465,
+"price": 120000,
+"image": "Sibayak.View1"
+},
+{
+"name": "Air Terjun Sikulikap",
+"rating": 4.7,
+"review": 575,
+"price": 120000,
+"image": "Sikulikap1"
+}
+]
+},
+{
+"name": "Kawasan Wisata Batu Katak",
+"description": "Wisata Batu Katak is a natural bathing spot located in Langkat, North Sumatra. It is situated in the Taman Nasional Gunung Leuser area, which is a conservation area for flora and fauna in North Sumatra and Aceh. The place is known for its beautiful river, caves, and forest with many trees. The area around the tourist attraction has a very cool and comfortable atmosphere due to the abundance of trees.",
+"image": [
+"Batu_Katak1, Batu_Katak2, Batu_Katak3"
+],
+"rating": "4,5",
+"price": "200000",
+"sponsored": "false",
+"type": "Rivers",
+"duration": "3 hours",
+"address": "Desa Batu Jonjong, Kec. Bahorok, Kabupaten Langkat, Sumatera Utara",
+"tour_option": [
+{
+"name": "Mata Air Pesona Sibayak",
+"rating": 4.3,
+"review": 465,
+"price": 120000,
+"image": "Sibayak.View1"
+},
+{
+"name": "Air Terjun Sikulikap",
+"rating": 4.7,
+"review": 575,
+"price": 120000,
+"image": "Sikulikap1"
+}
+]
+},
+{
+"name": "Air Panas Simolap",
+"description": "Air Panas Simolap Marike is a hot spring located in Langkat, North Sumatra, Indonesia. It is a popular tourist destination for families and offers a relaxing spot to unwind The hot spring has a temperature of around 40-60°C and is rich in sulfur, which is beneficial for the skin. The site is well-maintained and consists of a circular pool surrounded by green trees. The water temperature is not too hot, so visitors can soak in it comfortably.",
+"image": [
+"Simolap1, Simolap2, Simolap3"
+],
+"rating": "4,6",
+"price": "150000",
+"sponsored": "false",
+"type": "Pool",
+"duration": "2 hours",
+"address": "Desa Simolap, Marikey Langkat, 96RG+3HC, Kaperas, Kec. Kutambaru, Kabupaten Langkat, Sumatera Utara 20773,",
+"tour_option": [
+{
+"name": "Mata Air Pesona Sibayak",
+"rating": 4.3,
+"review": 465,
+"price": 120000,
+"image": "Sibayak.View1"
+},
+{
+"name": "Air Terjun Sikulikap",
+"rating": 4.7,
+"review": 575,
+"price": 120000,
+"image": "Sikulikap1"
+}
+]
+}
+],
+"hidden_restaurant": [
+{
+"name": "Kapal Bambu Restaurant",
+"description": "Kapal Bambu Restaurant is a restaurant located in Bukit Lawang, North Sumatra, Indonesia. It is part of the Ecolodge Bukit Lawang and was built in 2016. The restaurant is constructed from natural and sustainable harvested bamboo and clay, which are found in sufficient quantities in the local environment of Bukit Lawang . The restaurant offers a ground floor eating area with seating for 150 people and a Bamboo Lounge in the upper floor that offers space for conservation education, simple relax",
+"image": [
+"rest_kapalbambu1, rest_kapalbambu2, rest_kapalbambu3"
+],
+"rating": "4,6",
+"review": "475",
+"price1": "100000",
+"price2": "500000",
+"sponsored": "false",
+"type": "restaurant",
+"duration": "2 hours",
+"address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852",
+"tour_option": [
+{
+"name": "",
+"rating": "",
+"review": "",
+"price": "",
+"image": ""
+},
+{
+"name": "",
+"rating": "",
+"review": "",
+"price": "",
+"image": ""
+}
+]
+},
+{
+"name": "Wisata Kuliner Mangga Bridge",
+"description": "Wisata Kuliner Mangga Bridge is a culinary destination located in Jalan Besar Tangkahan, Namu Sialang, Kecamatan Batang Serangan, Kabupaten Langkat, Sumatera Utara. It offers a comfortable dining experience with a view of the surrounding nature.",
+"image": [
+"rest_manggabridge1, rest_manggabridge2, rest_manggabridge3"
+],
+"rating": "4,5",
+"review": "530",
+"price1": "150000",
+"price2": "250000",
+"sponsored": "false",
+"type": "restaurant",
+"duration": "3 hours",
+"address": "Unnamed Road, Namu Sialang, Kec. Batang Serangan, Kabupaten Langkat, Sumatera Utara 20852",
+"tour_option": [
+{
+"name": "",
+"rating": "",
+"review": "",
+"price": "",
+"image": ""
+},
+{
+"name": "",
+"rating": "",
+"review": "",
+"price": "",
+"image": ""
+}
+]
+},
+{
+"name": "Buddha's Cafe Samosir",
+"description": "This café has a classic theme and is decorated by beautiful ornaments of statues and Buddha statues. Vegetarian concoctions are the only food options you can order",
+"image": [
+"cafe_buddha1, cafe_buddha2, cafe_buddha3"
+],
+"rating": "4,7",
+"review": "400",
+"price1": "100000",
+"price2": "150000",
+"sponsored": "false",
+"type": "cafe",
+"duration": "3 hours",
+"address": "Martoba, Simanindo, Kabupaten Samosir, Sumatera Utara",
+"tour_option": [
+{
+"name": "",
+"rating": "",
+"review": "",
+"price": "",
+"image": ""
+},
+{
+"name": "",
+"rating": "",
+"review": "",
+"price": "",
+"image": ""
+}
+]
+}
+]
+},
+"hotel": [
+{
+"name": "Jungle Inn Hotel",
+"description": "The Jungle In Hotel in Bukit Lawang Hotel with 2-star accommodation in Bukit Lawang, offering free Wi-Fi, evening entertainment and bicycle/car rental services. Located 117 km from Kualanamu International Airport, with paid shuttle service.",
+"phone": "082276372436",
+"email": "junglebukitlawang@gmail.com",
+"tag": [
+"located in Langkat",
+"Hotel in Langkat"
+],
+"languages": [
+"English",
+"Indonesian"
+],
+"amenities": [
+"Airport Transportation, WIFI, Restaurant"
+],
+"rating": 4.7,
+"review": 2104,
+"price1": 1500000,
+"price2": 2000000,
+"site": "https://jungleinn-bukitlawang.com/",
+"sponsored": "false",
+"image": [
+"jungle_inn1, jungle_inn2, jungle_inn3"
+]
+},
+{
+"name": "Taman Simalem Resort",
+"description": "Taman Simalem Resort is one of the tourist destinations in Karo Regency. Located in the hilly area west of Lake Toba and is known as a magnificent and luxurious resort around Lake Toba.",
+"phone": "+62-811-6077-616",
+"email": "reservation@tamansimalem.com",
+"tag": [
+"located in Danau Toba",
+"Hotel in Danau Toba"
+],
+"languages": [
+"English",
+"Indonesian"
+],
+"amenities": [
+"SUN & MOON POOL"
+],
+"rating": 4.9,
+"review": 2.905,
+"price1": 1500000,
+"price2": 2500000,
+"site": "https://www.tamansimalem.com/contact-us/",
+"sponsored": "false",
+"image": [
+"taman_simalem1, taman_simalem2, taman_simalem3"
+]
+},
+{
+"name": "Indra Valy Inn Bukit Lawang",
+"description": "Indra Valley Inn Bukit Lawang is a riverside accommodation located in Bukit Lawang, North Sumatra, Indonesia. It is situated on the bank of the Bohorok River and is only a three-minute walk to the entrance of Gunung Leuser National Park .The inn offers 2 standard rooms and 4 new deluxe rooms with hot water showers, all of which have a beautiful view of the jungle and the river . The rooms are equipped with fan mosquito nets and some have private balconies",
+"phone": "081397375818",
+"email": "Obiwanvalley@gmail.com",
+"tag": [
+"Located In Langkat",
+"Hotel In Langkat"
+],
+"Languages": [
+"English",
+"Indonesia"
+],
+"ameneties": [
+"POOL"
+],
+"rating": "4,8",
+"review": "680",
+"price1": "1500000",
+"price2": "2000000",
+"site": "https://indravalleyinnbukitlawang.com/",
+"sponsored": "false",
+"image": [
+"valley_hotel1, valley_hotel2, valley_hotel3"
+]
+}
+],
+"things_todo": {
+"tourism": [
+{
+"name": "Camping Ground Air Terjun Sikulikap",
+"description": "The waterfall tourist area also provides a special area for camping (camping ground).\n\nIn this area, you can set up a tent to spend the night and rest.\n\nCamping activities at this tourist location are quite popular with visiting tourists, considering that the atmosphere provided is very calming and refreshing.",
+"image": "Sikulikap1",
+"rating": 4.3,
+"review": 320,
+"price": 120000,
+"sponsored": "false",
+"type": "WaterFall",
+"duration": "2 hours",
+"address": "Desa Doulu Kabupaten Tanah Berastagi, Martelu, Kec. Sibolangit, Kabupaten Karo, Sumatera Utara 20357.",
+"tour_option": [
+{
+"name": "Rifting river in Binjai ",
+"rating": 4.3,
+"review": 200,
+"price": 120000,
+"image": "rifting1"
+},
+{
+"name": "Sumatera Orangutan Explore",
+"rating": 4.8,
+"review": 350,
+"price": 150000,
+"image": "Orangutan_Explore"
+}
+]
+}
+],
+"restaurant": [
+{
+"name": "Vhi-Vhi Resto",
+"description": "Restoran yang menyediakan aneka ragam seafood",
+"tag": [
+"Restaurant",
+"Healthy"
+],
+"feature": [
+"Delivery",
+"Dine In"
+],
+"phone": "0821-6663-5425",
+"email": "vhivhiresto@gmail.com",
+"rating": "5",
+"review": 350,
+"price": 120000,
+"open": "8:00AM",
+"close": "20:30PM",
+"address": "Jalan Lumban Hasahatan, Tongging, Kec. Merek, Kabupaten Karo, Sumatera Utara 22173",
+"sponsored": "false",
+"image": "Vhi_Vhi_Resto"
+}
+]
+},
+"restaurants": [
+{
+"name": "Vhi-Vhi Resto",
+"description": "Restoran yang menyediakan aneka ragam seafood",
+"tag": [
+"Restaurant",
+"Healthy"
+],
+"feature": [
+"Delivery",
+"Dine In"
+],
+"phone": "0821-6663-5425",
+"email": "vhivhiresto@gmail.com",
+"rating": "5",
+"review": 350,
+"price": 120000,
+"open": "8:00AM",
+"close": "20:30PM",
+"address": "Jalan Lumban Hasahatan, Tongging, Kec. Merek, Kabupaten Karo, Sumatera Utara 22173",
+"sponsored": "false",
+"image": "Vhi_Vhi_Resto"
+}
+],
+"rental": [
+{
+"name": "Armada Car Rental",
+"description": "ArmadaCarRental, the number 1 car rental service provider in Medan! With a fleet of the latest and highest quality cars, we are ready to provide a comfortable and safe driving experience for customers. With affordable and transparent costs and a friendly and professional team ready to help customers choose a car that suits their needs",
+"phone": "0811-6191-987",
+"email": "info@armadacarrental.com",
+"list_vehicle": [
+"Toyota Hiace",
+"Innova Reborn"
+],
+"rating": "5",
+"review": 350,
+"price": 600000,
+"site": "https://www.armadacarrental.com/index",
+"sponsored": "false",
+"image": "armada_car_rental"
+}
+]
+},
