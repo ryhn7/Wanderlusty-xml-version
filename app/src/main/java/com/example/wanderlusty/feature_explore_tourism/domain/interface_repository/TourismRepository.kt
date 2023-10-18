@@ -12,4 +12,5 @@ interface TourismRepository {
     suspend fun getHiddenGems(): LiveData<ResultState<List<TourismEntity>>>
     suspend fun getAllTourismCategories(): LiveData<ResultState<List<CategoryEntity>>>
     suspend fun getAllSectionCitiesOne(): LiveData<ResultState<List<CityEntity>>>
+    suspend fun getTourismDetail(id: String): LiveData<ResultState<TourismEntity>>
 }

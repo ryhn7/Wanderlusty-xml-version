@@ -75,7 +75,7 @@
             style="@style/ReviewCardOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="(1000)" />
+            android:text="@string/card_one_review_value" />
     </LinearLayout>
 
     <TextView

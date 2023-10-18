@@ -2,116 +2,214 @@
   "tourism": {
     "section_one": [
       {
-        "name": "Lawang Sewu",
+        "id": "1",
+        "image": "nusa_penida",
+        "title": "Kelingking Beach",
+        "rating": 4.8,
+        "review": 2000,
+        "type": "Beach",
+        "location": "Nusa Penida, Bali",
         "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": true,
-        "type": "Historic Sites",
-        "duration": "2 hours",
+        "duration": "1-2 hours",
         "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       },
       {
-        "name": "Lawang Sewu",
+        "id": "2",
+        "image": "korod",
+        "title": "Korod Rice Field",
+        "rating": 4.5,
+        "review": 700,
+        "type": "Rice Field",
+        "location": "Bogor, West Java",
         "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": true,
-        "type": "Historic Sites",
-        "duration": "2 hours",
+        "duration": "1-2 hours",
         "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "image": "samosir_island",
+        "title": "Samosir Island",
+        "rating": 4.7,
+        "review": 2300,
+        "type": "Island",
+        "location": "Lake Toba, North Sumatera",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       }
     ],
     "section_two": [
       {
-        "name": "Lawang Sewu",
+        "id": "4",
+        "image": "wisata_curugbalongendah",
+        "title": "Balong Endah Waterfall",
+        "rating": 4.7,
+        "review": 1070,
+        "type": "Waterfall",
+        "location": "Bogor, West Java",
         "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": true,
-        "type": "Historic Sites",
-        "duration": "2 hours",
+        "duration": "1-2 hours",
         "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       },
       {
-        "name": "Lawang Sewu",
+        "id": "5",
+        "image": "brown_canyon",
+        "title": "Brown Canyon",
+        "rating": 4.5,
+        "review": 1700,
+        "type": "Canyon",
+        "location": "Semarang, Central Java",
         "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": true,
-        "type": "Historic Sites",
-        "duration": "2 hours",
+        "duration": "1-2 hours",
         "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "tour 1",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "image": "skuleskogen",
+        "title": "Mudal River Park",
+        "rating": 4.7,
+        "review": 2300,
+        "type": "River Park",
+        "location": "Yogya, DIY Yogyakarta",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
+        "tour_option": [
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
+          },
+          {
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       }
