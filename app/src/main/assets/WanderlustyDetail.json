@@ -737,36 +737,209 @@
         ]
       }
     ],
-    "things_todo": [
-      {
-        "name": "Lawang Sewu",
-        "description": "deskripsi hotel",
-        "image": "lawangsewu.png",
-        "rating": 4,
-        "review": 120,
-        "price": 120000,
-        "sponsored": false,
-        "type": "Historic Sites",
-        "duration": "2 hours",
-        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
-        "tour_option": [
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          },
-          {
-            "name": "tour 1",
-            "rating": 4,
-            "review": 120,
-            "price": 120000,
-            "image": "tour1.png"
-          }
-        ]
-      }
-    ],
+    "things_todo": {
+      "tourism": [
+        {
+          "name": "Mawar Camp",
+          "description": "A highly recommended camping spot because of its natural beauty",
+          "image": [
+            "wisata_campmawar",
+            "wisata_campmawar1",
+            "wisata_campmawar2"
+          ],
+          "rating": 4.7,
+          "review": 1.800,
+          "price1": 7000,
+          "price2": 550000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 days 1 night",
+          "address": "Jl. Goa Jepang No.KM.5, Kluwihan, Sidomukti, Bandungan, Kabupaten Semarang, Jawa Tengah 50661",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Umbul Sidomukti",
+          "description": "Enjoy the night at Umbul Sidomukti and the cool slopes of Mount Ungaran. Suitable for children, teenagers and the elderly. Spend the night building friendships while teaching children to love nature.\nWhen else can you go camping and have a campfire together without any hassle, the Ra'Gentar field team is ready to provide all the activity facilities. Swimming, hiking or experiencing adrenaline rides are all tailored to your time.",
+          "image": [
+            "wisata_umbul",
+            "wisata_umbul1",
+            "wisata_umbul2"
+          ],
+          "rating": 4.6,
+          "review": 6.505,
+          "price1": 18000,
+          "price2": 350000,
+          "sponsored": true,
+          "type": "Camp, Outbound",
+          "duration": "2 hours, 2 day 1 night",
+          "address": "Kawasan Wisata Umbul Sidomukti, Desa Sidomukti, Kec. Bandungan, Kab. Semarang, Jawa Tengah.",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Camping Ground Pinus Cunthel",
+          "description": "Pinus Cuntel Camping Ground is a highly recommended camping area. This place is in Getasan, Semarang, Central Java. This campsite shows the attractiveness of beautiful nature and cool mountain air. So you can enjoy the natural beauty that is there. This place provides you with a camping area and camping equipment for those of you who don't want to bother bringing your own equipment.",
+          "image": [
+            "camp_groundpinus",
+            "camp_groundpinus1",
+            "camp_groundpinus2"
+          ],
+          "rating": 4.7,
+          "review": 172,
+          "price": 75000,
+          "sponsored": true,
+          "type": "Camp",
+          "duration": "2 day 1 night",
+          "address": "Unnamed Road, Sundel, Kopeng, Kec. Getasan, Kabupaten Semarang, Jawa Tengah 50774",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ],
+      "restaurant": [
+        {
+          "name": "Pesta Keboen Restoran",
+          "description": "A restaurant that provides a comfortable atmosphere and has very large land but not all of it is spent on restaurants, Resto Gili-Gili with the tagline \"Quality Authentic Sundanese\" is one of Bogor's culinary icons that can represent what typical Sundanese cuisine really is. But make no mistake, this restaurant also serves a variety of other dishes to pamper its customers who come from Jakarta on weekends.",
+          "image": [
+            "rest_giligili",
+            "rest_giligili1",
+            "rest_giligili2"
+          ],
+          "rating": 4.4,
+          "review": 3.600,
+          "price1": 52000,
+          "price2": 145000,
+          "sponsored": true,
+          "type": "Restaurant",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Pajajaran No.69, RT.01/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "De' Leuit Resto",
+          "description": "de'Leuit and Leuit Ageung are places where family, friends and relations can gather together to enjoy typical Indonesian food and Oriental cuisine in a comfortable, typical Sundanese atmosphere with the best service.",
+          "image": [
+            "rest_deleuit",
+            "rest_deleuit1",
+            "rest_deleuit2"
+          ],
+          "rating": 4.4,
+          "review": 9.630,
+          "price1": 50000,
+          "price2": 100000,
+          "sponsored": true,
+          "type": "Restaurant",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Pakuan No.3, RT.04/RW.11, Baranangsiang, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16143",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        },
+        {
+          "name": "Fat Bubble",
+          "description": "Fat Bubble, established since 2012. Come with a new concept that mix Dessert House and Cafe. For now we serve variants of Drinks, Desserts, Foods and also Coffee. With playful and fun concept, we create a cozy and fun place to hang out and spend your time with your lovely one. We have a favorite quote for Fat Bubble, \"you can never get a cup large enough to suit me\"",
+          "image": [
+            "rest_fatbubble",
+            "rest_fatbubble1",
+            "rest_fatbubble2"
+          ],
+          "rating": 4.5,
+          "review": 4.700,
+          "price1": 17000,
+          "price2": 42000,
+          "sponsored": true,
+          "type": "Dessert house and cafe",
+          "duration": "1 - 2 hours",
+          "address": "Jl. Raya Pajajaran No.24, RT.01/RW.04, Babakan, Kecamatan Bogor Tengah, Kota Bogor, Jawa Barat 16128",
+          "tour_option": [
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            },
+            {
+              "name": "tour 1",
+              "rating": 4,
+              "review": 120,
+              "price": 120000,
+              "image": "tour1.png"
+            }
+          ]
+        }
+      ]
+    },
     "restaurants": [
       {
         "name": "Restoran 1",
