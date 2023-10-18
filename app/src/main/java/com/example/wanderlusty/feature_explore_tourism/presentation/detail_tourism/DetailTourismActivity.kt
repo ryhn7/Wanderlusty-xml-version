@@ -1,5 +1,6 @@
 package com.example.wanderlusty.feature_explore_tourism.presentation.detail_tourism
 
+import android.content.ContentValues.TAG
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.style.UnderlineSpan
@@ -99,43 +100,92 @@ class DetailTourismActivity : AppCompatActivity() {
         val star5 = binding.icStar5
         val halfStar = binding.icHalfStar
 
-        // Round the rating to the nearest integer
-        val roundedRating = rating.toInt()
+        val starTotal = 5;
 
-        // Set the stars based on the rounded rating
-        when (roundedRating) {
-            1 -> {
-                star1.visibility = View.VISIBLE
-                halfStar.visibility = View.INVISIBLE
+        val starPercentage = (rating.toFloat() / starTotal.toFloat()) * 100
+        val starPercentageRounded = starPercentage.toInt()
+        Log.d(TAG, "setRatingStars:   $starPercentageRounded")
+
+        star1.visibility = View.INVISIBLE
+        star2.visibility = View.INVISIBLE
+        star3.visibility = View.INVISIBLE
+        star4.visibility = View.INVISIBLE
+        star5.visibility = View.INVISIBLE
+        halfStar.visibility = View.INVISIBLE
+
+        when (starPercentageRounded) {
+            in 0 until 10 -> {
+                // Show 0 star
             }
 
-            2 -> {
+            in 10 until 20 -> {
+                // Show 0.5 star
+                halfStar.visibility = View.VISIBLE
+            }
+
+            in 20 until 30 -> {
+                // Show 1 star
+                star1.visibility = View.VISIBLE
+            }
+
+            in 30 until 40 -> {
+                // Show 1.5 stars
+                star1.visibility = View.VISIBLE
+                halfStar.visibility = View.VISIBLE
+            }
+
+            in 40 until 50 -> {
+                // Show 2 stars
                 star1.visibility = View.VISIBLE
                 star2.visibility = View.VISIBLE
-                halfStar.visibility = View.INVISIBLE
             }
 
-            3 -> {
+            in 50 until 60 -> {
+                // Show 2.5 stars
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                halfStar.visibility = View.VISIBLE
+            }
+
+            in 60 until 70 -> {
+                // Show 3 stars
                 star1.visibility = View.VISIBLE
                 star2.visibility = View.VISIBLE
                 star3.visibility = View.VISIBLE
-                halfStar.visibility = View.INVISIBLE
             }
 
-            4 -> {
+            in 70 until 80 -> {
+                // Show 3.5 stars
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                star3.visibility = View.VISIBLE
+                halfStar.visibility = View.VISIBLE
+            }
+
+            in 80 until 90 -> {
+                // Show 4 stars
                 star1.visibility = View.VISIBLE
                 star2.visibility = View.VISIBLE
                 star3.visibility = View.VISIBLE
                 star4.visibility = View.VISIBLE
-                halfStar.visibility = View.INVISIBLE
             }
 
-            5 -> {
+            in 90 until 100 -> {
+                // Show 4.5 stars
                 star1.visibility = View.VISIBLE
                 star2.visibility = View.VISIBLE
                 star3.visibility = View.VISIBLE
                 star4.visibility = View.VISIBLE
                 halfStar.visibility = View.VISIBLE
+            }
+
+            100 -> {
+                // Show 5 stars
+                star1.visibility = View.VISIBLE
+                star2.visibility = View.VISIBLE
+                star3.visibility = View.VISIBLE
+                star4.visibility = View.VISIBLE
+                star5.visibility = View.VISIBLE
             }
         }
     }
