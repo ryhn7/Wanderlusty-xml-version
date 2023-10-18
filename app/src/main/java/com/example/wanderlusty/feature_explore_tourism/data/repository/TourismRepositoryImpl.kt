@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.example.wanderlusty.feature_explore_tourism.data.datasource.TourismDataSource
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.interface_repository.TourismRepository
@@ -61,6 +62,18 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
             emit(ResultState.Error(e.message.toString()))
         }
     }
+
+    override suspend fun getCityDetail(id: String): LiveData<ResultState<CityDetailEntity>> =
+        liveData {
+            try {
+                val response = TourismDataSource.getCityDetail(id)
+                response?.let {
+                    emit(ResultState.Success(it))
+                } ?: emit(ResultState.Error("Data not found"))
+            } catch (e: Exception) {
+                emit(ResultState.Error(e.message.toString()))
+            }
+        }
 
     companion object {
         @Volatile

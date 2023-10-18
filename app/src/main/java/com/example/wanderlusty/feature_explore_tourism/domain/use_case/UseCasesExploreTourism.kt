@@ -5,5 +5,6 @@ data class UseCasesExploreTourism (
     val getHiddenGems: GetHiddenGems,
     val getAllTourismCategories: GetAllTourismCategories,
     val getAllSectionCitiesOne: GetAllSectionCitiesOne,
-    val getTourismDetail: GetTourismDetail
+    val getTourismDetail: GetTourismDetail,
+    val getCityDetail: GetCityDetail
 )

@@ -5,6 +5,7 @@ import com.example.wanderlusty.feature_explore_tourism.domain.interface_reposito
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetAllFavoritePlace
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetAllSectionCitiesOne
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetAllTourismCategories
+import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetCityDetail
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetHiddenGems
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.GetTourismDetail
 import com.example.wanderlusty.feature_explore_tourism.domain.use_case.UseCasesExploreTourism
@@ -32,7 +33,8 @@ object TourismModule {
             getHiddenGems = GetHiddenGems(repository),
             getAllTourismCategories = GetAllTourismCategories(repository),
             getAllSectionCitiesOne = GetAllSectionCitiesOne(repository),
-            getTourismDetail = GetTourismDetail(repository)
+            getTourismDetail = GetTourismDetail(repository),
+            getCityDetail = GetCityDetail(repository)
         )
     }
 }
