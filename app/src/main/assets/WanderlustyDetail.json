@@ -8,6 +8,7 @@
     "map": "https://maps.app.goo.gl/fV58q7wBPoAfHQrUA",
     "recommendation": [
       {
+        "id": "13",
         "name": "Mountain Mas",
         "description": "Mountain Mas Agro Puncak Tea Garden tourism is a sensation that continues to grow with complete facilities and accommodation including the Gunung Mas Cluster Camping Ground model location on the edge of the tea walk tourist route with a cool atmosphere with cold air up to 18% Celsius at night. so that the atmosphere and campfire are the best friends to accompany your togetherness. Gunung Mas is a wise and effective choice with extraordinary benefits.",
         "image": [
@@ -44,6 +45,7 @@
         ]
       },
       {
+        "id": "14",
         "name": "Kebun Raya Bogor",
         "description": "Bogor Botanical Gardens or Bogor Botanical Gardens is a large botanical garden located in Bogor City, Indonesia. This garden is operated by the National Research and Innovation Agency. This garden is located in the center of Bogor city and adjacent to the Bogor Palace presidential palace complex.",
         "image": [
@@ -80,6 +82,7 @@
         ]
       },
       {
+        "id": "15",
         "name": "Taman Safari Bogor",
         "description": "Taman Safari Indonesia - Bogor is a world-class Conservation Center and was named the best conservation site by the Indonesian Ministry of Forestry.",
         "image": [
@@ -960,12 +963,13 @@
     "map": "https://maps.app.goo.gl/mZtKJADC43U6V5V57",
     "recommendation": [
       {
+        "id": "10",
         "name": "Saloka Park",
         "description": "SALOKA is present as one of the Pesona Indonesia tourist destinations in the form of a family thematic recreation park in Central Java which carries the concept of local wisdom. Located at the intersection between the cities of Semarang, Salatiga, Surakarta and the Special Region of Yogyakarta.",
         "image": [
-          "wisata_salokapark.jpg",
-          "wisata_salokapark1.jpg",
-          "wisata_salokapark2.jgp"
+          "wisata_salokapark",
+          "wisata_salokapark1",
+          "wisata_salokapark2"
         ],
         "rating": 4.4,
         "review": 17.111,
@@ -996,6 +1000,7 @@
         ]
       },
       {
+        "id": "11",
         "name": "Sam Poo Kong",
         "description": "The Sam Poo Kong Ancient Building Temple is the former place of transit and first landing of a Muslim Chinese Admiral named Zheng He/Cheng Ho, also known as Sam Poo. Not all of the ship's crew were Muslim.",
         "image": [
@@ -1032,6 +1037,7 @@
         ]
       },
       {
+        "id": "12",
         "name": "Pagoda Avalokitesvara",
         "description": "Avalokitesvara Pagoda is the highest pagoda in Indonesia, reaching 45 meters high. This pagoda is one of the two main buildings at the Buddhagaya Watugong Vihara - the other main building is the Dhammasala Pagoda. However, between the two, the Avalokitesvara Pagoda is much more famous and iconic.",
         "image": [
@@ -1679,6 +1685,7 @@
     "map": "https://maps.app.goo.gl/eehdvCQpy3GaJwBD7",
     "recommendation": [
       {
+        "id": "16",
         "name": "Taman Nasional Gunung Palung",
         "description": "Gunung Palung National Park is a national park located in North Kayong Regency and Ketapang Regency, West Kalimantan",
         "image": [
@@ -1715,6 +1722,7 @@
         ]
       },
       {
+        "id": "17",
         "name": "Pantai Pasir Panjang",
         "description": "Pasir Panjang Beach is a natural tourist attraction in the form of a long, white sandy beach located in Seven Belas District, Singkawang City, West Kalimantan. This beach stretches for 3 kilometers, so it is called Pasir Panjang beach. This beach has beautiful white sand and calm waves.",
         "image": [
@@ -1751,6 +1759,7 @@
         ]
       },
       {
+        "id": "18",
         "name": "Tugu Digulis",
         "description": "The Eleven Digulis Monument in West Kalimantan, also known as the Digulis Monument or the Sharp Bamboo Monument or the Untan Roundabout Monument by local residents, is a monument located at the Tanjungpura University Roundabout, Jalan Jend. Ahmad Yani, Bansir Laut Village, Southeast Pontianak District, Pontianak City",
         "image": [
@@ -2541,6 +2550,7 @@
     "map": "https://maps.app.goo.gl/HZVqXxeoZxMYvFKM7",
     "recommendation": [
       {
+        "id": "19",
         "name": "Bukit Lawang",
         "description": "Bukit Lawang is an attractive tourist destination for nature lovers and wildlife enthusiasts, providing unique experiences through encounters with orangutans and the natural beauty of tropical rainforests.",
         "image": [
@@ -2552,6 +2562,7 @@
         "location": "Langkat, Sumatera Utara"
       },
       {
+        "id": "20",
         "name": "Danau Toba",
         "image": [
           "danau_toba1, danau_toba2, danau_toba3"
@@ -2562,6 +2573,7 @@
         "location": "Simalungun, Sumatera Utara"
       },
       {
+        "id": "21",
         "name": "Pamah Simelir",
         "image": [
           "pamah_simelir1, pamah_simelir2, pamah_simelir3"
@@ -3035,6 +3047,7 @@
     "map": "https://maps.app.goo.gl/VCqUPVawMEvv6muX7",
     "recommendation": [
       {
+        "id": "22",
         "name": "Laut Tawar Lake",
         "description": "Laut Tawar Lake in Takengon is not only a natural wonder but also a cultural and recreational hub in the Gayo Highlands. Its serene environment and the opportunity to explore local culture and traditions make it a lovely destination for those who appreciate nature and cultural experiences",
         "image": [
@@ -3071,6 +3084,7 @@
         ]
       },
       {
+        "id": "23",
         "name": "Pantai Menye",
         "image": [
           "pantai_menye_1",
@@ -3106,6 +3120,7 @@
         ]
       },
       {
+        "id": "24",
         "name": "Goa Loyang Koro",
         "image": [
           "gua_loyang_koro_1",
@@ -3645,7 +3660,11 @@
           "close": "10:30AM",
           "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
           "sponsored": false,
-          "image": ["galeri_kopi", "galeri_kopi1", "galeri_kopi2"],
+          "image": [
+            "galeri_kopi",
+            "galeri_kopi1",
+            "galeri_kopi2"
+          ],
           "tour_option": [
             {
               "name": "Pantai Menye",
@@ -3733,7 +3752,11 @@
         "close": "10:30AM",
         "address": "desa kayu kul, kec pegasing, kab aceh tengah, aceh",
         "sponsored": false,
-        "image": ["galeri_kopi", "galeri_kopi1", "galeri_kopi2"],
+        "image": [
+          "galeri_kopi",
+          "galeri_kopi1",
+          "galeri_kopi2"
+        ],
         "tour_option": [
           {
             "name": "Pantai Menye",
@@ -3848,14 +3871,13 @@
           "avanza reborn",
           "genio",
           "Vario"
-
         ],
         "rating": "5",
         "review": 120,
         "price": 300000,
         "site": "http://haris.com",
         "sponsored": false,
-        "image":[
+        "image": [
           "rental_1",
           "rental_2"
         ]
@@ -3870,14 +3892,13 @@
           "avanza reborn",
           "genio",
           "Vario"
-
         ],
         "rating": "5",
         "review": 120,
         "price": 300000,
         "site": "http://haris.com",
         "sponsored": false,
-        "image":[
+        "image": [
           "rental_1",
           "rental_2"
         ]
@@ -3892,14 +3913,13 @@
           "avanza reborn",
           "genio",
           "Vario"
-
         ],
         "rating": "5",
         "review": 120,
         "price": 300000,
         "site": "http://haris.com",
         "sponsored": false,
-        "image":[
+        "image": [
           "rental_1",
           "rental_2"
         ]
