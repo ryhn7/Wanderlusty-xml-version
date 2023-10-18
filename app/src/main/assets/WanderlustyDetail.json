@@ -2554,7 +2554,7 @@
       {
         "name": "Danau Toba",
         "image": [
-          "Danau_Toba1, Danau_Toba2, Danau_Toba3"
+          "danau_toba1, danau_toba2, danau_toba3"
         ],
         "rating": 4.7,
         "review": 868,
@@ -2578,12 +2578,12 @@
           "name": "Pemandian Air Panas Pariban",
           "description": "This hot spring tourism is famous for its natural hot springs which offer beautiful views, comfort and fresh air",
           "image": [
-            "Pariban1, Pariban2, Pariban3"
+            "pariban1, pariban2, pariban3"
           ],
           "rating": 4.6,
           "review": 450,
           "price": 100000,
-          "sponsored": false,
+          "sponsored": "false",
           "type": "Pool",
           "duration": "2 hours",
           "address": "Desa Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153",
@@ -2593,14 +2593,14 @@
               "rating": 4.3,
               "review": 465,
               "price": 120000,
-              "image": "Sibayak.View1"
+              "image": "sibayak_view1"
             },
             {
               "name": "Air Terjun Sikulikap",
               "rating": 4.7,
               "review": 575,
               "price": 120000,
-              "image": "Sikulikap1"
+              "image": "sikulikap2"
             }
           ]
         },
@@ -2608,7 +2608,7 @@
           "name": "Kawasan Wisata Batu Katak",
           "description": "Wisata Batu Katak is a natural bathing spot located in Langkat, North Sumatra. It is situated in the Taman Nasional Gunung Leuser area, which is a conservation area for flora and fauna in North Sumatra and Aceh. The place is known for its beautiful river, caves, and forest with many trees. The area around the tourist attraction has a very cool and comfortable atmosphere due to the abundance of trees.",
           "image": [
-            "Batu_Katak1, Batu_Katak2, Batu_Katak3"
+            "batu_katak1, batu_katak2, batu_katak3"
           ],
           "rating": "4,5",
           "price": "200000",
@@ -2622,14 +2622,14 @@
               "rating": 4.3,
               "review": 465,
               "price": 120000,
-              "image": "Sibayak.View1"
+              "image": "sibayak.view1"
             },
             {
               "name": "Air Terjun Sikulikap",
               "rating": 4.7,
               "review": 575,
               "price": 120000,
-              "image": "Sikulikap1"
+              "image": "sikulikap1"
             }
           ]
         },
@@ -2637,7 +2637,7 @@
           "name": "Air Panas Simolap",
           "description": "Air Panas Simolap Marike is a hot spring located in Langkat, North Sumatra, Indonesia. It is a popular tourist destination for families and offers a relaxing spot to unwind The hot spring has a temperature of around 40-60°C and is rich in sulfur, which is beneficial for the skin. The site is well-maintained and consists of a circular pool surrounded by green trees. The water temperature is not too hot, so visitors can soak in it comfortably.",
           "image": [
-            "Simolap1, Simolap2, Simolap3"
+            "simolap1, simolap2, simolap3"
           ],
           "rating": "4,6",
           "price": "150000",
@@ -2651,14 +2651,14 @@
               "rating": 4.3,
               "review": 465,
               "price": 120000,
-              "image": "Sibayak.View1"
+              "image": "sibayak.view1"
             },
             {
               "name": "Air Terjun Sikulikap",
               "rating": 4.7,
               "review": 575,
               "price": 120000,
-              "image": "Sikulikap1"
+              "image": "sikulikap1"
             }
           ]
         }
@@ -2668,7 +2668,7 @@
           "name": "Kapal Bambu Restaurant",
           "description": "Kapal Bambu Restaurant is a restaurant located in Bukit Lawang, North Sumatra, Indonesia. It is part of the Ecolodge Bukit Lawang and was built in 2016. The restaurant is constructed from natural and sustainable harvested bamboo and clay, which are found in sufficient quantities in the local environment of Bukit Lawang . The restaurant offers a ground floor eating area with seating for 150 people and a Bamboo Lounge in the upper floor that offers space for conservation education, simple relax",
           "image": [
-            "rest_kapalbambu1, rest_kapalbambu2, rest_kapalbambu3"
+            "rest_kapalbambu1, rest_kapalbambuu2, rest_kapalbambu3"
           ],
           "rating": "4,6",
           "review": "475",
@@ -2680,18 +2680,18 @@
           "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852",
           "tour_option": [
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Rilex Seafood",
+              "rating": "5",
+              "review": "120",
+              "price": "100000",
+              "image": "rilex_seafood1"
             },
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Pondok Surya Binjai",
+              "rating": "5",
+              "review": "150",
+              "price": "100000",
+              "image": "pondok_surya_binjai"
             }
           ]
         },
@@ -2711,18 +2711,18 @@
           "address": "Unnamed Road, Namu Sialang, Kec. Batang Serangan, Kabupaten Langkat, Sumatera Utara 20852",
           "tour_option": [
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Rilex Seafood",
+              "rating": "5",
+              "review": "120",
+              "price": "100000",
+              "image": "rilex_seafood"
             },
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Pondok Surya Binjai",
+              "rating": "5",
+              "review": "150",
+              "price": "100000",
+              "image": "pondok_surya_binjai"
             }
           ]
         },
@@ -2742,18 +2742,18 @@
           "address": "Martoba, Simanindo, Kabupaten Samosir, Sumatera Utara",
           "tour_option": [
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Rilex Seafood",
+              "rating": "5",
+              "review": "120",
+              "price": "100000",
+              "image": "rilex_seafood"
             },
             {
-              "name": "",
-              "rating": "",
-              "review": "",
-              "price": "",
-              "image": ""
+              "name": "Pondok Surya Binjai",
+              "rating": "5",
+              "review": "150",
+              "price": "100000",
+              "image": "pondok_surya_binjai"
             }
           ]
         }
@@ -2800,7 +2800,7 @@
           "Indonesian"
         ],
         "amenities": [
-          "SUN & MOON POOL"
+          "BREAKFEAST & MOON POOL"
         ],
         "rating": 4.9,
         "review": 2.905,
@@ -2826,7 +2826,7 @@
           "Indonesia"
         ],
         "ameneties": [
-          "POOL"
+          "POOL & BREAKFEAST"
         ],
         "rating": "4,8",
         "review": "680",
@@ -2844,7 +2844,7 @@
         {
           "name": "Camping Ground Air Terjun Sikulikap",
           "description": "The waterfall tourist area also provides a special area for camping (camping ground).\n\nIn this area, you can set up a tent to spend the night and rest.\n\nCamping activities at this tourist location are quite popular with visiting tourists, considering that the atmosphere provided is very calming and refreshing.",
-          "image": "Sikulikap1",
+          "image": "sikulikap1",
           "rating": 4.3,
           "review": 320,
           "price": 120000,
@@ -2865,7 +2865,63 @@
               "rating": 4.8,
               "review": 350,
               "price": 150000,
-              "image": "Orangutan_Explore"
+              "image": "orangutan_explore"
+            }
+          ]
+        },
+        {
+          "name": "Activities of a thousand tents on Lake Toba",
+          "description": "This activity, which was initiated by the Rumah Karya Indonesia (RKI) community, was originally aimed at fostering solidarity between members of this community, but it turns out that the general public is increasingly interested in it.",
+          "image": "seribu_tenda",
+          "rating": "4.8",
+          "review": "430",
+          "price": "50000",
+          "sponsored": "false",
+          "type": "Lake",
+          "duration": "2 hours",
+          "address": "Desa Meat, Kabupaten Toba, Sumatera Utara",
+          "tour_option": [
+            {
+              "name": "Rifting river in Binjai ",
+              "rating": 4.3,
+              "review": 200,
+              "price": 120000,
+              "image": "rifting1"
+            },
+            {
+              "name": "Sumatera Orangutan Explore",
+              "rating": 4.8,
+              "review": 350,
+              "price": 150000,
+              "image": "orangutan_explore"
+            }
+          ]
+        },
+        {
+          "name": "Jungle Trekking Sumatera",
+          "description": "Jungle trekking Bukit Lawang is a family owned local business offering ecotourism in the Gunung Leuser National Park area. We are different: unlike other providers in Bukit Lawang, our sustainable jungle trekking tours focus on quality and safety rather than quantity. This is why our team has been awarded several times over the past few years. All team members are are locals of this region, our guides are certified by the local ITGA-HPI and have excellent knowledge of plants and animals living in the Sumatran rainforest. For the safety of our guests we are working with a regular guiding team on a steady basis, we strictly follow the rules of the national park. Please find an overview of our well selected Sumatra jungle trekking tours, our Bukit Lawang jungle trekking prices and basic information about Sumatra jungle trekking by our EcoTravel team.",
+          "image": "jungle_trekking",
+          "rating": "4.8",
+          "review": "550",
+          "price": "200000",
+          "sponsored": "false",
+          "type": "Forest",
+          "duration": "3 hours",
+          "address": "Jln Besar Orangutan,Bukit Lawang Bohorok, Kab. Langkat, North Sumatra, 20774 Indonesia",
+          "tour_option": [
+            {
+              "name": "Rifting river in Binjai ",
+              "rating": 4.3,
+              "review": 200,
+              "price": 120000,
+              "image": "rifting1"
+            },
+            {
+              "name": "Sumatera Orangutan Explore",
+              "rating": 4.8,
+              "review": 350,
+              "price": 150000,
+              "image": "orangutan_explore"
             }
           ]
         }
@@ -2885,20 +2941,20 @@
           "phone": "0821-6663-5425",
           "email": "vhivhiresto@gmail.com",
           "rating": "5",
-          "review": 350,
-          "price": 120000,
+          "review": "350",
+          "price": "120000",
           "open": "8:00AM",
           "close": "20:30PM",
           "address": "Jalan Lumban Hasahatan, Tongging, Kec. Merek, Kabupaten Karo, Sumatera Utara 22173",
           "sponsored": "false",
-          "image": "Vhi_Vhi_Resto"
+          "image": "vhi_vhi_resto1, vhi_vhi_resto2, vhi_vhi_resto3"
         }
       ]
     },
     "restaurants": [
       {
-        "name": "Vhi-Vhi Resto",
-        "description": "Restoran yang menyediakan aneka ragam seafood",
+        "name": "Lawang Inn Restaurant",
+        "description": "Lawang Inn Restaurant is a restaurant located in Bukit Lawang, North Sumatra. This restaurant offers Indonesian, International and Asian cuisine. This restaurant is suitable for families, couples, individuals, businesses and friends. This restaurant has a comfortable atmosphere and facilities designed for tourists. This restaurant has a rating of 4.5 out of 5 on Tripadvisor and is number 1 of 17 restaurants in Bukit Lawang",
         "tag": [
           "Restaurant",
           "Healthy"
@@ -2907,16 +2963,16 @@
           "Delivery",
           "Dine In"
         ],
-        "phone": "0821-6663-5425",
-        "email": "vhivhiresto@gmail.com",
+        "phone": "0813-6410-8007",
+        "email": "junglesumatra@gmail.com",
         "rating": "5",
-        "review": 350,
-        "price": 120000,
+        "review": "350",
+        "price": "100000",
         "open": "8:00AM",
         "close": "20:30PM",
-        "address": "Jalan Lumban Hasahatan, Tongging, Kec. Merek, Kabupaten Karo, Sumatera Utara 22173",
+        "address": "Jalan Eco, Bukit Lawang, Kec. Bahorok, Kab. Langkat, Sumatera Utara",
         "sponsored": "false",
-        "image": "Vhi_Vhi_Resto"
+        "image": "lawang_inn1, lawang_inn2, lawang_inn3"
       }
     ],
     "rental": [
@@ -2935,6 +2991,38 @@
         "site": "https://www.armadacarrental.com/index",
         "sponsored": "false",
         "image": "armada_car_rental"
+      },
+      {
+        "name": "Tutoba Travel",
+        "description": "Providing cheap transportation services from Silangit International Airport, North Sumatra. There are no additional costs if you come to visit North Sumatra with family or friends for the purpose of Lake Toba tourism or for sightseeing. as well as serving with comfort and clean cars, facilities include Wi-Fi and free drinks,",
+        "phone": "0813-7065-2582",
+        "email": "tutoba@travel.com",
+        "list_vehicle": [
+          "Toyota Avanza",
+          "Innova Reborn"
+        ],
+        "rating": "5",
+        "review": "270",
+        "price": "70000",
+        "site": "https://tutobatravel.com/#autopopup",
+        "sponsored": "false",
+        "image": "tutoba_travel"
+      },
+      {
+        "name": "Ican Rentacar",
+        "description": "Ican Rentacar provides car rental needs in Medan by providing various types of cars that can be rented off the key or with a professional driver.",
+        "phone": "0813-7042-3078",
+        "email": "icanrent@acar.com",
+        "List_Vehicle": [
+          "Xenia",
+          "New Expander"
+        ],
+        "rating": "5",
+        "review": "170",
+        "price": "500000",
+        "site": "https://www.icanrentacar.com/rental-medan/",
+        "sponsored": "false",
+        "image": "ican_rentacar"
       }
     ]
   },
