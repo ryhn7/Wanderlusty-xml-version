@@ -6,10 +6,14 @@ import android.text.SpannableString
 import android.text.style.UnderlineSpan
 import android.util.Log
 import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.wanderlusty.R
 import com.example.wanderlusty.databinding.ActivityDetailTourismBinding
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourOption
 import dagger.hilt.android.AndroidEntryPoint
@@ -94,10 +98,6 @@ class DetailTourismActivity : AppCompatActivity() {
 
     private fun setRatingStars(rating: Number) {
         val star1 = binding.icStar1
-        val star2 = binding.icStar2
-        val star3 = binding.icStar3
-        val star4 = binding.icStar4
-        val star5 = binding.icStar5
         val halfStar = binding.icHalfStar
 
         val starTotal = 5;
@@ -107,11 +107,10 @@ class DetailTourismActivity : AppCompatActivity() {
         Log.d(TAG, "setRatingStars:   $starPercentageRounded")
 
         star1.visibility = View.INVISIBLE
-        star2.visibility = View.INVISIBLE
-        star3.visibility = View.INVISIBLE
-        star4.visibility = View.INVISIBLE
-        star5.visibility = View.INVISIBLE
         halfStar.visibility = View.INVISIBLE
+
+        val parentLayout = binding.llContainerStarReview
+        parentLayout.removeAllViews()
 
         when (starPercentageRounded) {
             in 0 until 10 -> {
@@ -119,74 +118,71 @@ class DetailTourismActivity : AppCompatActivity() {
             }
 
             in 10 until 20 -> {
-                // Show 0.5 star
-                halfStar.visibility = View.VISIBLE
+                addStars(parentLayout, 0, 1)
             }
 
             in 20 until 30 -> {
-                // Show 1 star
-                star1.visibility = View.VISIBLE
+                addStars(parentLayout, 1, 0)
             }
 
             in 30 until 40 -> {
-                // Show 1.5 stars
-                star1.visibility = View.VISIBLE
-                halfStar.visibility = View.VISIBLE
+                addStars(parentLayout, 1, 1)
             }
 
             in 40 until 50 -> {
-                // Show 2 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
+                addStars(parentLayout, 2, 0)
             }
 
             in 50 until 60 -> {
-                // Show 2.5 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
-                halfStar.visibility = View.VISIBLE
+                addStars(parentLayout, 2, 1)
             }
 
             in 60 until 70 -> {
-                // Show 3 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
-                star3.visibility = View.VISIBLE
+                addStars(parentLayout, 3, 0)
             }
 
             in 70 until 80 -> {
-                // Show 3.5 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
-                star3.visibility = View.VISIBLE
-                halfStar.visibility = View.VISIBLE
+                addStars(parentLayout, 3, 1)
             }
 
             in 80 until 90 -> {
-                // Show 4 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
-                star3.visibility = View.VISIBLE
-                star4.visibility = View.VISIBLE
+                addStars(parentLayout, 4, 0)
             }
 
             in 90 until 100 -> {
-                // Show 4.5 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
-                star3.visibility = View.VISIBLE
-                star4.visibility = View.VISIBLE
-                halfStar.visibility = View.VISIBLE
+                addStars(parentLayout, 4, 1)
             }
 
             100 -> {
-                // Show 5 stars
-                star1.visibility = View.VISIBLE
-                star2.visibility = View.VISIBLE
-                star3.visibility = View.VISIBLE
-                star4.visibility = View.VISIBLE
-                star5.visibility = View.VISIBLE
+                addStars(parentLayout, 5, 0)
             }
+        }
+    }
+
+
+    private fun addStars(parentLayout: LinearLayout, fullStars: Int, halfStar: Int) {
+        for (i in 0 until fullStars) {
+            val newStar = ImageView(this)
+            val params = LinearLayout.LayoutParams(
+                resources.getDimensionPixelSize(R.dimen.star_size),
+                resources.getDimensionPixelSize(R.dimen.star_size)
+            )
+            newStar.layoutParams = params
+            newStar.setImageResource(R.drawable.ic_star_fill)
+            newStar.contentDescription = getString(R.string.icon)
+            parentLayout.addView(newStar)
+        }
+
+        if (halfStar == 1) {
+            val newHalfStar = ImageView(this)
+            val params = LinearLayout.LayoutParams(
+                resources.getDimensionPixelSize(R.dimen.star_size), // Set the size here
+                resources.getDimensionPixelSize(R.dimen.star_size)
+            )
+            newHalfStar.layoutParams = params
+            newHalfStar.setImageResource(R.drawable.ic_half_star_fill)
+            newHalfStar.contentDescription = getString(R.string.icon)
+            parentLayout.addView(newHalfStar)
         }
     }
 
