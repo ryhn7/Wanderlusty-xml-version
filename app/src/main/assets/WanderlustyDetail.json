@@ -563,7 +563,7 @@
       }
     ]
   },
-  "city_4": {
+  "ccity_4": {
     "id": "4",
     "name": "Medan",
     "subtitle": "Tourism in Medan",
@@ -587,21 +587,50 @@
         "review": 868,
         "type": "Lake",
         "location": "Simalungun, Sumatera Utara"
+      },
+      {
+        "name": "Pamah Simelir",
+        "image": ["Pamah_Simelir1, Pamah_Simelir2, Pamah_Simelir3"],
+        "rating": 4.6,
+        "review": 450,
+        "type": "Artifical Tourism",
+        "location": "Langkat, Sumatera Utara"
+
       }
     ],
     "hidden_gems": [
       {
         "name": "Pemandian Air Panas Pariban",
         "description": "This hot spring tourism is famous for its natural hot springs which offer beautiful views, comfort and fresh air",
-        "image":["Pariban1, Pariban2, Pariban3"],
+        "image": ["Pariban1, Pariban2, Pariban3"],
         "rating": 4,6
         "review": 450,
         "price": 100000,
         "sponsored": false,
         "type": "Pool",
         "duration": "2 hours",
-        "address": "Desa, Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153",
-        "tour_option": [
+        "address": "Desa Semangat Gunung, Kec. Merdeka, Kabupaten Karo, Sumatera Utara 22153"},
+      {
+        "name": "Kawasan Wisata Batu Katak",
+        "description": "Wisata Batu Katak is a natural bathing spot located in Langkat, North Sumatra. It is situated in the Taman Nasional Gunung Leuser area, which is a conservation area for flora and fauna in North Sumatra and Aceh. The place is known for its beautiful river, caves, and forest with many trees. The area around the tourist attraction has a very cool and comfortable atmosphere due to the abundance of trees.",
+        "image":["Batu_Katak1, Batu_Katak2, Batu_Katak3"],
+        "rating": "4,5",
+        "price": "200000",
+        "sponsored": "false",
+        "type": "Rivers",
+        "duration": "3 hours",
+        "address": "Desa Batu Jonjong, Kec. Bahorok, Kabupaten Langkat, Sumatera Utara"},
+      {
+        "name": "Air Panas Simolap",
+        "description": "Air Panas Simolap Marike is a hot spring located in Langkat, North Sumatra, Indonesia. It is a popular tourist destination for families and offers a relaxing spot to unwind The hot spring has a temperature of around 40-60°C and is rich in sulfur, which is beneficial for the skin. The site is well-maintained and consists of a circular pool surrounded by green trees. The water temperature is not too hot, so visitors can soak in it comfortably.",
+        "image": ["Simolap1, Simolap2, Simolap3"],
+        "rating": "4,6",
+        "price": "150000",
+        "sponsored": "false",
+        "type": "Pool",
+        "duration": "2 hours",
+        "address": "Desa Simolap, Marikey Langkat, 96RG+3HC, Kaperas, Kec. Kutambaru, Kabupaten Langkat, Sumatera Utara 20773,",
+      "tour_option": [
           {
             "name": "Mata Air Pesona Sibayak",
             "rating": 4,3,
@@ -615,6 +644,61 @@
             "review": 575,
             "price": 120000,
             "image": "Sikulikap1"
+          }
+        ]
+      }
+    ],
+    "hidden_restaurant": [
+      {
+        "name": "Kapal Bambu Restaurant",
+        "description": "Kapal Bambu Restaurant is a restaurant located in Bukit Lawang, North Sumatra, Indonesia. It is part of the Ecolodge Bukit Lawang and was built in 2016. The restaurant is constructed from natural and sustainable harvested bamboo and clay, which are found in sufficient quantities in the local environment of Bukit Lawang . The restaurant offers a ground floor eating area with seating for 150 people and a Bamboo Lounge in the upper floor that offers space for conservation education, simple relax",
+        "image": ["rest_kapalbambu1, rest_kapalbambu2, rest_kapalbambu3"],
+        "rating": "4,6",
+        "review": "475",
+        "price1": "100000",
+        "price2": "500000",
+        "sponsored": "false",
+        "type": "restaurant",
+        "duration": "2 hours",
+        "address": "Sampe Raya, Kec. Bohorok, Kabupaten Langkat, Sumatera Utara 20852",}
+      {
+        "name": "Wisata Kuliner Mangga Bridge",
+        "description": "Wisata Kuliner Mangga Bridge is a culinary destination located in Jalan Besar Tangkahan, Namu Sialang, Kecamatan Batang Serangan, Kabupaten Langkat, Sumatera Utara. It offers a comfortable dining experience with a view of the surrounding nature.",
+        "image": ["rest_manggabridge1, rest_manggabridge2, rest_manggabridge3"],
+        "rating": "4,5",
+        "review": "530",
+        "price1": "150000",
+        "price2": "250000",
+        "sponsored": "false",
+        "type": "restaurant",
+        "duration": "3 hours",
+        "addres": "Unnamed Road, Namu Sialang, Kec. Batang Serangan, Kabupaten Langkat, Sumatera Utara 20852"}
+      {
+        "name": "Buddha's Cafe Samosir",
+        "description": "This café has a classic theme and is decorated by beautiful ornaments of statues and Buddha statues. Vegetarian concoctions are the only food options you can order",
+        "image": ["cafe_buddha1, cafe_buddha2, cafe_buddha3"],
+        "rating": "4,7",
+        "review": "400",
+        "price1": "100000",
+        "price2": "150000",
+        "sponsored": "false",
+        "type": "cafe",
+        "duration": "3 hours",
+        "address": "Martoba, Simanindo, Kabupaten Samosir, Sumatera Utara",
+        "tour_option": [
+          {
+            "name": "",
+            "rating": "",
+            "review": "",
+            "price": "",
+            "image": ""
+          },
+          {
+            "name": "",
+            "rating": "",
+            "review": "",
+            "price": "",
+            "image": ""
           }
         ]
       }
@@ -669,8 +753,9 @@
         "sponsored": false,
         "image": ["taman_simalem1, taman_simalem2, taman_simalem3"]
         ]
-      }
-    ],
+      },
+      {
+        
     "things_todo": [
       {
         "name": "Camping Ground Air Terjun Sikulikap",
@@ -703,8 +788,8 @@
     ],
     "restaurants": [
       {
-        "name": "Restoran 1",
-        "description": "deskripsi restoran",
+        "name": "Vhi-Vhi Resto",
+        "description": "Restoran yang menyediakan aneka seafood",
         "tag": [
           "Cafe",
           "Healthy"
