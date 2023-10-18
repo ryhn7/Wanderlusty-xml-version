@@ -78,6 +78,10 @@ Kota,\n Kota Pontianak, Kalimantan Barat 78243</u></string>
     <string name="card_one_review_value">(%1$s)</string>
     <string name="txt_rental">vehicle rental places available, sorted by <u>best value</u></string>
     <string name="top_restaurants">Top Restaurants</string>
+    <string name="rate_your_experience">Rate your experience</string>
+    <string name="subtitle_review">How did you like the food or drink from The Hills Dining restaurant?</string>
+    <string name="et_hint">Tell people about the restaurant</string>
+    <string name="submit">Submit</string>
 
 
 </resources>
