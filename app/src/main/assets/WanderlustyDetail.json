@@ -481,8 +481,39 @@
         "site": "https://sewamobilandi.com/",
         "sponsored": true,
         "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+      },
+      {
+        "name": "Rain City Rent Car",
+        "description": "Quality car rental solutions at cheaper prices, easier processes, and guarantee your satisfaction.  ",
+        "phone": "081316923486",
+        "email": "-",
+        "list_vehicle": [
+          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+        ],
+        "rating": "5",
+        "review": 218,
+        "price1": 150000,
+        "price2": 2500000,
+        "site": "https://raincityrent.id/",
+        "sponsored": true,
+        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
+      },
+      {
+        "name": "Pandawa Rental",
+        "description": "Pandawa Car Rental is a Bogor car rental service both inside and outside the city at affordable prices but still prioritizing service and quality.",
+        "phone": "085659344043",
+        "email": "-",
+        "list_vehicle": [
+          "Honda Jazz", "Honda Civic", "Toyota Fortuner"
+        ],
+        "rating": "4.7",
+        "review": 135,
+        "price1": 350000,
+        "price2": 1500000,
+        "site": "https://www.pandawarentalmobil.com/",
+        "sponsored": true,
+        "image": ["rental_hondajazz", "rental_civic", "rental_fortuner"]
       }
-      
     ]
   },
   "city2": {
