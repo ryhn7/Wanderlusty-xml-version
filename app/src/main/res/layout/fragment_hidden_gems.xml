@@ -1,112 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature_explore_tourism.presentation.detail_city.HiddenGemsFragment"
-    >
-    <androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".feature_explore_tourism.presentation.detail_city.HiddenGemsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp">
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
 
-        <include
-            android:id="@+id/section_hidden_tourism"
-            layout="@layout/text_section"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_hidden_tourism"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
-            android:theme="@style/EdgeColor"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/section_hidden_tourism"
-            tools:listitem="@layout/item_card_one" />
-
-        <include
-            android:id="@+id/section_hidden_restaurant"
-            layout="@layout/text_section"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/rv_hidden_tourism" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_hidden_restaurant"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
-            android:theme="@style/EdgeColor"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/section_hidden_restaurant"
-            tools:listitem="@layout/item_card_one" />
-
-        <include
-            android:id="@+id/section_top_hidden"
-            layout="@layout/text_section"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/rv_hidden_restaurant" />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_top_hidden"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
-            android:theme="@style/EdgeColor"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/section_top_hidden"
-            tools:listitem="@layout/item_card_four" />
-
-
-
-        <!--    <TextView-->
-        <!--        android:id="@+id/detail_city_hiddengem_txt_subheading_three"-->
-        <!--        android:layout_width="wrap_content"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:layout_marginHorizontal="16dp"-->
-        <!--        android:layout_marginTop="64dp"-->
-        <!--        android:fontFamily="@font/poppins_medium"-->
-        <!--        android:text="Top hidden"-->
-        <!--        android:textColor="@color/black"-->
-        <!--        android:textSize="22sp"-->
-        <!--        app:layout_constraintStart_toStartOf="parent"-->
-        <!--        app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_card_two" />-->
-
-        <!--    <include-->
-        <!--        android:id="@+id/detail_city_hiddengem_card_three"-->
-        <!--        layout="@layout/item_card_four"-->
-        <!--        android:layout_width="wrap_content"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:layout_marginHorizontal="16dp"-->
-        <!--        android:layout_marginTop="8dp"-->
-        <!--        app:layout_constraintStart_toStartOf="parent"-->
-        <!--        app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_txt_subheading_three" />-->
-
-
-        <!--    <Space-->
-        <!--        android:layout_width="match_parent"-->
-        <!--        android:layout_height="40dp"-->
-        <!--        app:layout_constraintStart_toStartOf="parent"-->
-        <!--        app:layout_constraintTop_toBottomOf="@id/detail_city_hiddengem_card_three" />-->
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</ScrollView>
-
+</FrameLayout>
