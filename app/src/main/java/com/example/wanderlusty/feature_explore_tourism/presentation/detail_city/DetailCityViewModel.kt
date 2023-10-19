@@ -19,33 +19,7 @@ class DetailCityViewModel @Inject constructor(
 
     private val _detailCityState = MutableStateFlow(DetailCityState())
     val detailCityState = _detailCityState.asStateFlow()
-
-    fun getDetailCity(id: String) {
-        viewModelScope.launch {
-            useCases.getCityDetail(id).asFlow().collect() {
-                when (it) {
-                    is ResultState.Loading -> _detailCityState.value = _detailCityState.value.copy(
-                        isLoading = true,
-                        error = null,
-                        city = null,
-                    )
-
-                    is ResultState.Success -> _detailCityState.value = _detailCityState.value.copy(
-                        isLoading = false,
-                        error = null,
-                        city = it.data,
-                    )
-
-                    is ResultState.Error -> _detailCityState.value = _detailCityState.value.copy(
-                        isLoading = false,
-                        error = it.error,
-                        city = null,
-                    )
-                }
-            }
-        }
-    }
-
+    
     fun getCityDetailOverview(id: String) {
         viewModelScope.launch {
             useCases.getCityDetailOverview(id).asFlow().collect() {

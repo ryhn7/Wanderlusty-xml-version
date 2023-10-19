@@ -19,7 +19,6 @@ interface LocalDataSource {
     fun getAllTourismCategories(): List<CategoryEntity>?
     fun getAllSectionCitiesOne(): List<CityEntity>?
     fun getTourismDetail(id: String): TourismEntity?
-    fun getCityDetail(id: String): CityDetailEntity?
     fun getCityDetailOverview(id: String): CityDetailOverview?
 }
 
@@ -200,14 +199,6 @@ object TourismDataSource : LocalDataSource {
             }
         }
         return null
-    }
-
-    override fun getCityDetail(id: String): CityDetailEntity {
-//        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
-//        val jsonObject = JSONObject(jsonString)
-//
-//        return null
-        TODO()
     }
 
     override fun getCityDetailOverview(id: String): CityDetailOverview? {

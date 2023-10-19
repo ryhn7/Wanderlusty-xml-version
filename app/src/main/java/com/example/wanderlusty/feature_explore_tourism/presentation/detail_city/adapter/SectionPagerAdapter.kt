@@ -17,7 +17,7 @@ class SectionsPagerAdapter(activity: FragmentActivity, private val cityId: Strin
     override fun createFragment(position: Int): Fragment {
         return when (position) {
             0 -> OverviewFragment.newInstance(cityId) // Pass the cityId to the OverviewFragment
-            1 -> HiddenGemsFragment()
+            1 -> HiddenGemsFragment.newInstance(cityId)
             2 -> ThingsToDoFragment()
             3 -> HotelsFragment()
             4 -> RestaurantsFragment()

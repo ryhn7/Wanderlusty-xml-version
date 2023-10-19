@@ -15,6 +15,5 @@ interface TourismRepository {
     suspend fun getAllTourismCategories(): LiveData<ResultState<List<CategoryEntity>>>
     suspend fun getAllSectionCitiesOne(): LiveData<ResultState<List<CityEntity>>>
     suspend fun getTourismDetail(id: String): LiveData<ResultState<TourismEntity>>
-    suspend fun getCityDetail(id: String): LiveData<ResultState<CityDetailEntity>>
     suspend fun getCityDetailOverview(id: String): LiveData<ResultState<CityDetailOverview>>
 }
