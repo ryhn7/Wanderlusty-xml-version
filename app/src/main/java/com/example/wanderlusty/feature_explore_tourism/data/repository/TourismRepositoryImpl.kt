@@ -64,16 +64,6 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
         }
     }
 
-    override suspend fun getCityDetail(id: String): LiveData<ResultState<CityDetailEntity>> =
-        liveData {
-            try {
-                val response = TourismDataSource.getCityDetail(id)
-                emit(ResultState.Success(response)) ?: emit(ResultState.Error("Data not found"))
-            } catch (e: Exception) {
-                emit(ResultState.Error(e.message.toString()))
-            }
-        }
-
     override suspend fun getCityDetailOverview(id: String): LiveData<ResultState<CityDetailOverview>>  =
         liveData {
             try {

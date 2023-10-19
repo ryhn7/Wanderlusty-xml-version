@@ -10,7 +10,6 @@ import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismSpot
 data class DetailCityState(
     val isLoading: Boolean = true,
     val error: String? = null,
-    val city: CityDetailEntity? = null,
     val overviewCity: CityDetailOverview? = null,
     val cardTourism: List<TourismSpot>? = null,
     val cardRestaurant : List<Restaurant>? = null,

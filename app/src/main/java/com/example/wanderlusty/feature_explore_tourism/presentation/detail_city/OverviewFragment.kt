@@ -34,8 +34,6 @@ class OverviewFragment : Fragment() {
         // Inflate the layout for this fragment
         _binding = FragmentOverviewBinding.inflate(inflater, container, false)
         val id = arguments?.getString(ARG_CITY_ID) ?: ""
-
-        Log.d(TAG, "onCreateView:  $id")
         return binding.root
     }
 
