@@ -28,7 +28,7 @@ class RecommendationAdapter : BaseAdapter<TourismSpot, ItemCardOneBinding>(diffC
         ItemCardOneBinding.inflate(inflater, container, false)
 
     override fun bind(binding: ItemCardOneBinding, item: TourismSpot, position: Int, count: Int) {
-        val firstImage = item.image[0]
+        val firstImage = item.image[1]
         val imageResource = binding.root.context.resources.getIdentifier(
             firstImage,
             "drawable",

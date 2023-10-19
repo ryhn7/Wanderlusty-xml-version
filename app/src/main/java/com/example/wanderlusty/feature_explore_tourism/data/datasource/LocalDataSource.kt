@@ -226,11 +226,16 @@ object TourismDataSource : LocalDataSource {
         val recommendationList = cityData.optJSONArray("recommendation")?.let { recommendations ->
             (0 until recommendations.length()).map { i ->
                 recommendations.getJSONObject(i).run {
+
+                    val imagesString = getString("image")
+                    val imageList = Regex("\"(\\w+)\"").findAll(imagesString).map { it.groupValues[1] }.toList()
+
+
                     TourismSpot(
                         getString("id"),
                         getString("name"),
                         getString("description"),
-                        getString("image").split(",").map { it.trim() },
+                        imageList,
                         getString("rating").toDouble(),
                         getString("review").toDouble(),
                         getString("type"),
