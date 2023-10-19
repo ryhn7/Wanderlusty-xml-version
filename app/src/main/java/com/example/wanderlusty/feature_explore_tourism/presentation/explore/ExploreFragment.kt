@@ -119,9 +119,7 @@ class ExploreFragment : Fragment() {
         val subtitleCityOne = binding.sectionCityOne.tvSubtitleSection
         titleCityOne.text = getString(R.string.section_city_one)
         subtitleCityOne.text = getString(R.string.subtitle_city_one)
-
 //        End Section City Config
-
 
 //        Section Add Tourism Config
         val btnAddTourism = binding.btnAddTourism
@@ -131,11 +129,14 @@ class ExploreFragment : Fragment() {
         }
 //        End Section Add Tourism Config
 
-//        val avatar = binding.ivUserPicture
-//        avatar.setOnClickListener {
-//            val intent = Intent(requireContext(), DetailCityActivity::class.java)
-//            startActivity(intent)
-//        }
+//        Section Add City Config
+        val searchView = binding.svWanderlusty
+        searchView.clearFocus()
+//        make searchview disable auto keyboard
+        searchView.setOnClickListener {
+            searchView.isFocusable = true
+            searchView.isFocusableInTouchMode = true
+        }
     }
 
     private fun initAdapter() {
