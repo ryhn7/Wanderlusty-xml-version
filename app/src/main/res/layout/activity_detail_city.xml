@@ -63,9 +63,11 @@
             android:layout_height="match_parent"
             android:paddingHorizontal="16dp"
             app:tabMode="scrollable"
+            app:tabIndicatorColor="@color/black"
             app:tabSelectedTextColor="@color/black"
+            app:tabIndicatorFullWidth="true"
             app:tabTextAppearance="@style/TabStyle"
-            app:tabTextColor="@color/black" />
+            app:tabTextColor="@color/tabColor" />
 
 
     </com.google.android.material.appbar.AppBarLayout>
