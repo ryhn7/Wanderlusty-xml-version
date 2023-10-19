@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.wanderlusty.databinding.FragmentOverviewBinding
+import com.example.wanderlusty.feature_explore_tourism.presentation.detail_city.DetailCityActivity.Companion.EXTRA_CITY_ID
 import com.example.wanderlusty.feature_explore_tourism.presentation.detail_city.adapter.RecommendationAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -18,7 +19,6 @@ class OverviewFragment : Fragment() {
     private var _binding: FragmentOverviewBinding? = null
 
     private val binding get() = _binding!!
-    private var id: String = ""
 
     private val viewModel: DetailCityViewModel by viewModels()
 
@@ -33,10 +33,21 @@ class OverviewFragment : Fragment() {
     ): View {
         // Inflate the layout for this fragment
         _binding = FragmentOverviewBinding.inflate(inflater, container, false)
+        val id = arguments?.getString(ARG_CITY_ID) ?: ""
 
-        arguments?.let {
-            id = it.getString(DetailCityActivity.EXTRA_CITY_ID) ?: ""
-        }
+        Log.d(TAG, "onCreateView:  $id")
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        initAdapter()
+
+        val id = arguments?.getString(ARG_CITY_ID) ?: ""
+        Log.d(TAG, "onViewCreated:  $id")
+        viewModel.getCityDetailOverview(id)
+
 
         val state = viewModel.detailCityState.value
 
@@ -47,18 +58,19 @@ class OverviewFragment : Fragment() {
         } else {
             state.cardTourism?.let {
                 recommendationAdapter.setItems(it)
-                Log.d(TAG, "onCreateView:   ${it}")
+            }
+            state.overviewCity?.let {
+                val imageResource = binding.root.context.resources.getIdentifier(
+                    state.overviewCity.image,
+                    "drawable",
+                    binding.root.context.packageName
+                )
+                binding.imgTourism.setImageResource(imageResource)
+                binding.tvTitleCity.text = it.name
+                binding.tvSubtitleCity.text = it.subtitle
+                binding.tvOverviewCity.text = it.description
             }
         }
-
-        return binding.root
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        initAdapter()
-//        configScreen()
     }
 
     private fun initAdapter() {
@@ -70,6 +82,14 @@ class OverviewFragment : Fragment() {
     }
 
     companion object {
-        const val EXTRA_CITY_ID = "CITY_ID"
+        const val ARG_CITY_ID = "city_id"
+
+        fun newInstance(cityId: String): OverviewFragment {
+            val args = Bundle()
+            args.putString(ARG_CITY_ID, cityId)
+            val fragment = OverviewFragment()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

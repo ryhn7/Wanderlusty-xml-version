@@ -114,6 +114,14 @@ class ExploreFragment : Fragment() {
         }
 //        End Section Promotion Config
 
+//        Section City Config
+        val titleCityOne = binding.sectionCityOne.tvTitleSection
+        val subtitleCityOne = binding.sectionCityOne.tvSubtitleSection
+        titleCityOne.text = getString(R.string.section_city_one)
+        subtitleCityOne.text = getString(R.string.subtitle_city_one)
+
+//        End Section City Config
+
 
 //        Section Add Tourism Config
         val btnAddTourism = binding.btnAddTourism
@@ -123,11 +131,11 @@ class ExploreFragment : Fragment() {
         }
 //        End Section Add Tourism Config
 
-        val avatar = binding.ivUserPicture
-        avatar.setOnClickListener {
-            val intent = Intent(requireContext(), DetailCityActivity::class.java)
-            startActivity(intent)
-        }
+//        val avatar = binding.ivUserPicture
+//        avatar.setOnClickListener {
+//            val intent = Intent(requireContext(), DetailCityActivity::class.java)
+//            startActivity(intent)
+//        }
     }
 
     private fun initAdapter() {

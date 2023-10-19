@@ -232,7 +232,7 @@ object TourismDataSource : LocalDataSource {
                         getString("description"),
                         getString("image").split(",").map { it.trim() },
                         getString("rating").toDouble(),
-                        getString("review").toInt(),
+                        getString("review").toDouble(),
                         getString("type"),
                         getString("location"),
                         getTourOptionList(optJSONArray("tour_option"))

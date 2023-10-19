@@ -68,9 +68,7 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
         liveData {
             try {
                 val response = TourismDataSource.getCityDetail(id)
-                response?.let {
-                    emit(ResultState.Success(it))
-                } ?: emit(ResultState.Error("Data not found"))
+                emit(ResultState.Success(response)) ?: emit(ResultState.Error("Data not found"))
             } catch (e: Exception) {
                 emit(ResultState.Error(e.message.toString()))
             }

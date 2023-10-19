@@ -1,8 +1,10 @@
 package com.example.wanderlusty.feature_explore_tourism.presentation.detail_city
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.ContentValues.TAG
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.example.wanderlusty.R
 import com.example.wanderlusty.databinding.ActivityDetailCityBinding
@@ -25,14 +27,19 @@ class DetailCityActivity : AppCompatActivity() {
 
         setViewPager()
 
-        intent.getStringExtra(EXTRA_CITY_ID)?.let {
-            viewModel.getCityDetailOverview(it)
-        }
+
+        Log.d(TAG, "onCreate:   ${intent.getStringExtra(EXTRA_CITY_ID)}")
+
+//        val iconBack = binding.icBack
+//        iconBack.setOnClickListener {
+//            onBackPressed()
+//        }
 
     }
 
     private fun setViewPager() {
-        val sectionsPagerAdapter = SectionsPagerAdapter(this)
+        val sectionsPagerAdapter =
+            intent.getStringExtra(EXTRA_CITY_ID)?.let { SectionsPagerAdapter(this, it) }
         val viewPager: ViewPager2 = binding.viewPager
         viewPager.adapter = sectionsPagerAdapter
         val tabs: TabLayout = binding.tabLayout
