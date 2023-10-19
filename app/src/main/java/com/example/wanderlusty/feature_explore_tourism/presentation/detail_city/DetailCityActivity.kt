@@ -9,6 +9,7 @@ import androidx.viewpager2.widget.ViewPager2
 import com.example.wanderlusty.R
 import com.example.wanderlusty.databinding.ActivityDetailCityBinding
 import com.example.wanderlusty.feature_explore_tourism.presentation.detail_city.adapter.SectionsPagerAdapter
+import com.example.wanderlusty.feature_explore_tourism.presentation.detail_tourism.DetailTourismActivity
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import dagger.hilt.android.AndroidEntryPoint
@@ -27,13 +28,26 @@ class DetailCityActivity : AppCompatActivity() {
 
         setViewPager()
 
+        val iconBack = binding.icBack
+        iconBack.setOnClickListener {
+            onBackPressed()
+        }
 
-        Log.d(TAG, "onCreate:   ${intent.getStringExtra(EXTRA_CITY_ID)}")
+        intent.getStringExtra(EXTRA_CITY_ID)?.let {
+            viewModel.getCityDetailOverview(it)
+        }
 
-//        val iconBack = binding.icBack
-//        iconBack.setOnClickListener {
-//            onBackPressed()
-//        }
+        val state = viewModel.detailCityState.value
+
+        if (state.isLoading) {
+            Log.d("DetailCity", "Loading")
+        } else if (state.error != null) {
+            Log.d("DetailCity", "Error: ${state.error}")
+        } else {
+            state.overviewCity?.let {
+                binding.tvTitleToolbar.text = it.name
+            }
+        }
 
     }
 
@@ -42,6 +56,7 @@ class DetailCityActivity : AppCompatActivity() {
             intent.getStringExtra(EXTRA_CITY_ID)?.let { SectionsPagerAdapter(this, it) }
         val viewPager: ViewPager2 = binding.viewPager
         viewPager.adapter = sectionsPagerAdapter
+        viewPager.isUserInputEnabled = false
         val tabs: TabLayout = binding.tabLayout
 
 
