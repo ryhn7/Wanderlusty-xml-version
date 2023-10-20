@@ -122,6 +122,7 @@
     "hidden_gems": {
       "hidden_tourism": [
         {
+          "id" : "100",
           "name": "Curug Balong Endah",
           "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
           "image": [
@@ -135,6 +136,7 @@
           "sponsored": true,
           "type": "Waterfall",
           "duration": "1 - 2 hours",
+          "location": "Bogor, Central Java",
           "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810",
           "tour_option": [
             {
@@ -161,6 +163,7 @@
           ]
         },
         {
+          "id" : "101",
           "name": "Telaga Saat",
           "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
           "image": [
@@ -175,6 +178,7 @@
           "sponsored": true,
           "type": "Lake",
           "duration": "1 - 2 hours",
+          "location": "Bogor, Central Java",
           "address": "Cibulao, RT.02/RW.06, Tugu Utara, Kec. Cisarua, Kabupaten Bogor, Jawa Barat 16750",
           "tour_option": [
             {
@@ -201,6 +205,7 @@
           ]
         },
         {
+          "id" : "102",
           "name": "Kulah dua",
           "description": "Kulah Dua Tapos Cibedug. Beautiful, cool, quiet and very calming. Very suitable for you to hunt for beautiful sunrises and sunsets.",
           "image": [
@@ -214,6 +219,7 @@
           "sponsored": true,
           "type": "Mountain, camp",
           "duration": "2 day 1 night",
+          "location": "Bogor, Central Java",
           "address": "7W96+68X, Cileungsi, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720",
           "tour_option": [
             {
