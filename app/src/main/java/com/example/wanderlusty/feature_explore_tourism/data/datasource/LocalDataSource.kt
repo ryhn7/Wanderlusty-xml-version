@@ -206,9 +206,8 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getCityDetailOverview(id: String): CityDetailOverview? {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
-        val jsonObject = JSONObject(jsonString)
-        val cityData = jsonObject.optJSONObject("city_$id") ?: return null
+        val j = parseJ()
+        val cityData = j.optJSONObject("city_$id") ?: return null
 
         // Extract city details
         val cityId = cityData.optString("id", "")
@@ -252,12 +251,11 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getCityDetailHiddenGems(id: String): CityDetailHiddenGems? {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
-        val jsonObject = JSONObject(jsonString)
-        val cityData = jsonObject.optJSONObject("city_$id") ?: return null
+        val j = parseJ()
+        val cityData = j.optJSONObject("city_1") ?: return null
 
         // Extract city details
-        val cityId = cityData.optString("id", "")
+//        val cityId = cityData.optString("id", "")
         val hiddenGemsData = cityData.optJSONObject("hidden_gems") ?: return null
 
         val hiddenTourismArray = hiddenGemsData.optJSONArray("hidden_tourism")
@@ -266,7 +264,7 @@ object TourismDataSource : LocalDataSource {
         val hiddenRestaurantArray = hiddenGemsData.optJSONArray("hidden_restaurant")
         val hiddenRestaurantList = getHiddenRestaurantList(hiddenRestaurantArray)
 
-        return CityDetailHiddenGems(cityId, HiddenGems(hiddenTourismList, hiddenRestaurantList))
+        return CityDetailHiddenGems(id, HiddenGems(hiddenTourismList, hiddenRestaurantList))
     }
 
     private fun getHiddenTourismList(tourismArray: JSONArray?): List<TourismSpot> {
@@ -343,6 +341,13 @@ object TourismDataSource : LocalDataSource {
         } catch (e: JSONException) {
             this.getInt(key)
         }
+    }
+
+    private fun parseJ(): JSONObject {
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
+        val jsonObject = JSONObject(jsonString)
+
+        return jsonObject
     }
 }
 
