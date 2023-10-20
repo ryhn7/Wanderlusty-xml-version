@@ -52,26 +52,26 @@
             app:layout_constraintTop_toBottomOf="@+id/section_hidden_restaurant"
             tools:listitem="@layout/item_card_one" />
 
-        <include
-            android:id="@+id/section_top_hidden"
-            layout="@layout/text_section"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="36dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/rv_hidden_restaurant" />
+<!--        <include-->
+<!--            android:id="@+id/section_top_hidden"-->
+<!--            layout="@layout/text_section"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="36dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/rv_hidden_restaurant" />-->
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rv_top_hidden"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="12dp"
-            android:theme="@style/EdgeColor"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/section_top_hidden"
-            tools:listitem="@layout/item_card_four" />
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/rv_top_hidden"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:theme="@style/EdgeColor"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/section_top_hidden"-->
+<!--            tools:listitem="@layout/item_card_four" />-->
 
 
         <!--    <TextView-->

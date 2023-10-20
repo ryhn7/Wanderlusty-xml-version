@@ -2,7 +2,7 @@ package com.example.wanderlusty.feature_explore_tourism.domain.interface_reposit
 
 import androidx.lifecycle.LiveData
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailHiddenGems
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailOverview
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
@@ -16,4 +16,5 @@ interface TourismRepository {
     suspend fun getAllSectionCitiesOne(): LiveData<ResultState<List<CityEntity>>>
     suspend fun getTourismDetail(id: String): LiveData<ResultState<TourismEntity>>
     suspend fun getCityDetailOverview(id: String): LiveData<ResultState<CityDetailOverview>>
+    suspend fun getCityDetailHiddenGems(id: String): LiveData<ResultState<CityDetailHiddenGems>>
 }

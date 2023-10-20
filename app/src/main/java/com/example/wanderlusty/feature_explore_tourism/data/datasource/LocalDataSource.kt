@@ -2,8 +2,11 @@ package com.example.wanderlusty.feature_explore_tourism.data.datasource
 
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailHiddenGems
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailOverview
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.HiddenGems
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.Restaurant
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourOption
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismSpot
@@ -20,6 +23,7 @@ interface LocalDataSource {
     fun getAllSectionCitiesOne(): List<CityEntity>?
     fun getTourismDetail(id: String): TourismEntity?
     fun getCityDetailOverview(id: String): CityDetailOverview?
+    fun getCityDetailHiddenGems(id: String): CityDetailHiddenGems?
 }
 
 object TourismDataSource : LocalDataSource {
@@ -245,6 +249,76 @@ object TourismDataSource : LocalDataSource {
             cityDescription,
             recommendationList
         )
+    }
+
+    override fun getCityDetailHiddenGems(id: String): CityDetailHiddenGems? {
+        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
+        val jsonObject = JSONObject(jsonString)
+        val cityData = jsonObject.optJSONObject("city_$id") ?: return null
+
+        // Extract city details
+        val cityId = cityData.optString("id", "")
+        val hiddenGemsData = cityData.optJSONObject("hidden_gems") ?: return null
+
+        val hiddenTourismArray = hiddenGemsData.optJSONArray("hidden_tourism")
+        val hiddenTourismList = getHiddenTourismList(hiddenTourismArray)
+
+        val hiddenRestaurantArray = hiddenGemsData.optJSONArray("hidden_restaurant")
+        val hiddenRestaurantList = getHiddenRestaurantList(hiddenRestaurantArray)
+
+        return CityDetailHiddenGems(cityId, HiddenGems(hiddenTourismList, hiddenRestaurantList))
+    }
+
+    private fun getHiddenTourismList(tourismArray: JSONArray?): List<TourismSpot> {
+        return tourismArray?.let {
+            (0 until it.length()).map { i ->
+                it.getJSONObject(i).run {
+
+                    val imagesString = getString("image")
+                    val imageList = Regex("\"(\\w+)\"").findAll(imagesString).map { it.groupValues[1] }.toList()
+
+                    TourismSpot(
+                        getString("id"),
+                        getString("name"),
+                        getString("description"),
+                        imageList,
+                        getString("rating").toDouble(),
+                        getString("review").toDouble(),
+                        getString("type"),
+                        getString("location"),
+                        getTourOptionList(optJSONArray("tour_option"))
+                    )
+                }
+            }
+        } ?: emptyList()
+    }
+
+    private fun getHiddenRestaurantList(restaurantArray: JSONArray?): List<Restaurant> {
+        return restaurantArray?.let {
+            (0 until it.length()).map { i ->
+                it.getJSONObject(i).run {
+                    Restaurant(
+                        getString("name"),
+                        getString("description"),
+                        getStringArray("image"),
+                        getDouble("rating"),
+                        getDouble("review"),
+                        getInt("price1"),
+                        getInt("price2"),
+                        getBoolean("sponsored"),
+                        getString("type"),
+                        getString("duration"),
+                        getString("address"),
+                        getTourOptionList(optJSONArray("tour_option"))
+                    )
+                }
+            }
+        } ?: emptyList()
+    }
+
+    private fun JSONObject.getStringArray(key: String): List<String> {
+        val jsonArray = getJSONArray(key)
+        return (0 until jsonArray.length()).map { jsonArray.getString(it) }
     }
 
     private fun getTourOptionList(tourOptionArray: JSONArray?): List<TourOption> {

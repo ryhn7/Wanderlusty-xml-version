@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import com.example.wanderlusty.feature_explore_tourism.data.datasource.TourismDataSource
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailEntity
+import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailHiddenGems
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailOverview
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.TourismEntity
@@ -64,10 +64,22 @@ class TourismRepositoryImpl private constructor() : TourismRepository {
         }
     }
 
-    override suspend fun getCityDetailOverview(id: String): LiveData<ResultState<CityDetailOverview>>  =
+    override suspend fun getCityDetailOverview(id: String): LiveData<ResultState<CityDetailOverview>> =
         liveData {
             try {
                 val response = TourismDataSource.getCityDetailOverview(id)
+                response?.let {
+                    emit(ResultState.Success(it))
+                } ?: emit(ResultState.Error("Data not found"))
+            } catch (e: Exception) {
+                emit(ResultState.Error(e.message.toString()))
+            }
+        }
+
+    override suspend fun getCityDetailHiddenGems(id: String): LiveData<ResultState<CityDetailHiddenGems>> =
+        liveData {
+            try {
+                val response = TourismDataSource.getCityDetailHiddenGems(id)
                 response?.let {
                     emit(ResultState.Success(it))
                 } ?: emit(ResultState.Error("Data not found"))

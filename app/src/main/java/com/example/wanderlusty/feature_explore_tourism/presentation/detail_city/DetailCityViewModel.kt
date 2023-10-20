@@ -8,6 +8,7 @@ import com.example.wanderlusty.utils.ResultState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -19,7 +20,7 @@ class DetailCityViewModel @Inject constructor(
 
     private val _detailCityState = MutableStateFlow(DetailCityState())
     val detailCityState = _detailCityState.asStateFlow()
-    
+
     fun getCityDetailOverview(id: String) {
         viewModelScope.launch {
             useCases.getCityDetailOverview(id).asFlow().collect() {
@@ -43,6 +44,35 @@ class DetailCityViewModel @Inject constructor(
                         error = it.error,
                         overviewCity = null,
                         cardTourism = null
+                    )
+                }
+            }
+        }
+    }
+
+    fun getCityDetailHiddenGems(id: String) {
+        viewModelScope.launch {
+            useCases.getCityDetailHiddenGems(id).asFlow().collect() {
+                when (it) {
+                    is ResultState.Loading -> _detailCityState.value = _detailCityState.value.copy(
+                        isLoading = true,
+                        error = null,
+                        cardTourism = null,
+                        cardRestaurant = null,
+                    )
+
+                    is ResultState.Success -> _detailCityState.value = _detailCityState.value.copy(
+                        isLoading = false,
+                        error = null,
+                        cardTourism = it.data.hiddenGems.hiddenTourism,
+                        cardRestaurant = it.data.hiddenGems.hiddenRestaurant,
+                    )
+
+                    is ResultState.Error -> _detailCityState.value = _detailCityState.value.copy(
+                        isLoading = false,
+                        error = it.error,
+                        cardTourism = null,
+                        cardRestaurant = null,
                     )
                 }
             }
