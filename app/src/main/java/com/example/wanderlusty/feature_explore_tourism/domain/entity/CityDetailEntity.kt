@@ -51,7 +51,7 @@ data class CityDetailRentals(
 )
 
 data class TourismSpot(
-    val id: String?,
+    val id: String? = null,
     val name: String,
     val description: String,
     val image: List<String>,

@@ -122,7 +122,7 @@
     "hidden_gems": {
       "hidden_tourism": [
         {
-          "id" : "100",
+          "id": "100",
           "name": "Curug Balong Endah",
           "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
           "image": [
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "id" : "101",
+          "id": "101",
           "name": "Telaga Saat",
           "description": "This lake is called a hidden gem because it has beautiful views, but it is hidden behind tea plantations and green hills. Apart from that, Telaga Saat is equipped with various tourist facilities, such as camping grounds, villas and rides.",
           "image": [
@@ -205,7 +205,7 @@
           ]
         },
         {
-          "id" : "102",
+          "id": "102",
           "name": "Kulah dua",
           "description": "Kulah Dua Tapos Cibedug. Beautiful, cool, quiet and very calming. Very suitable for you to hunt for beautiful sunrises and sunsets.",
           "image": [
@@ -1083,6 +1083,7 @@
     "hidden_gems": {
       "hidden_tourism": [
         {
+          "id": "105",
           "name": "Bukit Diponegoro Hillside Park",
           "description": "Diponegoro Hill is one of the hidden gem tourist destinations in Semarang which is currently being sought after by young people in the city of Semarang. For those who want to unwind from the tiredness of activities, Diponegoro Hill is the right destination to visit. Here you will be presented with a stretch of green grass.",
           "image": [
@@ -1096,6 +1097,7 @@
           "sponsored": false,
           "type": "Hill",
           "duration": "1 - 2 hours",
+          "location": "Semarang, Central Java",
           "address": "Taman Kota Diponegoro - Bukit Senja, Tembalang, Kota Semarang, Jawa Tengah 50275",
           "tour_option": [
             {
@@ -1122,6 +1124,7 @@
           ]
         },
         {
+          "id": "106",
           "name": "Desa Wisata Lembah Kalipancur",
           "description": "If planes are usually at the airport or in a hangar, you can find an unusual view in a green and beautiful valley located in the Ngaliyan area, Semarang.",
           "image": [
@@ -1135,6 +1138,7 @@
           "sponsored": false,
           "type": "Photo Shoot, Park",
           "duration": "2 hours",
+          "location": "Semarang, Central Java",
           "address": "X9HG+Q5W, Jl. Raya Kalipancur Manyaran, Kalipancur, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50183",
           "tour_option": [
             {
@@ -1161,6 +1165,7 @@
           ]
         },
         {
+          "id": "107",
           "name": "Dusun Semilir",
           "description": "The development of Dusun Semilir seems to carry the theme of \"one stop destination\" where visitors will be pampered with various rides and super complete facilities. Starting from playgrounds, photo spots, culinary delights, shopping, mini zoo, European village miniatures, outbound areas, to accommodation, everything will be available here.",
           "image": [
@@ -1174,6 +1179,7 @@
           "sponsored": false,
           "type": "Park",
           "duration": "2 hours",
+          "location": "Semarang, Central Java",
           "address": "Jl. Soekarno - Hatta No.49, Ngemple, Bawen, Ngemplak, Kabupaten Semarang, Jawa Tengah 50661",
           "tour_option": [
             {
@@ -1805,6 +1811,7 @@
     "hidden_gems": {
       "hidden_tourism": [
         {
+          "id": "108",
           "name": "Danau Biru Singkawang",
           "description": "Danau Biru Singkawang is a lake made from former gold mining. Amazingly, this Pontianak tourist attraction in the form of a lake is said to be the best tourist location in the city of Singkawang, which was formed by accident.",
           "image": [
@@ -1818,6 +1825,7 @@
           "sponsored": false,
           "type": "Lake",
           "duration": "2 hours",
+          "location": "Pontianak, Kalimantan Barat",
           "address": "W28P+RG, Pajintan, Kec. Singkawang Tim., Kota Singkawang, Kalimantan Barat",
           "tour_option": [
             {
@@ -1844,6 +1852,7 @@
           ]
         },
         {
+          "id": "109",
           "name": "Aloe Vera Center",
           "description": "Aloe Vera Center is a center for cultivating aloe vera plants which is often a tourist attraction in the city of Pontianak. Apart from seeing the aloe vera garden, you can also peek at the process of processing Aloe Vera into various products such as dodol, candy, and various cosmetics.",
           "image": [
@@ -1857,6 +1866,7 @@
           "sponsored": false,
           "type": "Park",
           "duration": "2 hours",
+          "location": "Pontianak, Kalimantan Barat",
           "address": "Jl. Budi Utomo, Siantan Hulu, Pontianak.",
           "tour_option": [
             {
@@ -1883,6 +1893,7 @@
           ]
         },
         {
+            "id": "110",
           "name": "Taman Burung Singkawang",
           "description": "Singkawang Bird Park is a tourist destination and park icon in Singkawang, West Kalimantan. This location is a green open space which is a place to relax for tourists.",
           "image": [
@@ -1897,6 +1908,7 @@
           "sponsored": false,
           "type": "Park",
           "duration": "2 hours",
+            "location": "Pontianak, Kalimantan Barat",
           "address": "WX7R+35G, Jl. Merdeka, Tengah, Kec. Singkawang Bar., Kota Singkawang, Kalimantan Barat 79111",
           "tour_option": [
             {

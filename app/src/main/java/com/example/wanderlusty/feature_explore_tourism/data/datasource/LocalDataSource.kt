@@ -1,7 +1,6 @@
 package com.example.wanderlusty.feature_explore_tourism.data.datasource
 
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CategoryEntity
-import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailEntity
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailHiddenGems
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityDetailOverview
 import com.example.wanderlusty.feature_explore_tourism.domain.entity.CityEntity
@@ -28,11 +27,11 @@ interface LocalDataSource {
 
 object TourismDataSource : LocalDataSource {
     override fun getAllFavoritePlaces(): List<TourismEntity> {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
-        val jsonObject = JSONObject(jsonString)
+        val file = "WanderlustyDetailTourism.json"
+        val jsonObj = parseJson(file)
         val favoritePlaceList = mutableListOf<TourismEntity>()
         val tourOptionList = mutableListOf<TourOption>()
-        val tourismArray = jsonObject.getJSONObject("tourism").getJSONArray("section_two")
+        val tourismArray = jsonObj.getJSONObject("tourism").getJSONArray("section_two")
 
         for (i in 0 until tourismArray.length()) {
             val favoritePlaceData = tourismArray.getJSONObject(i)
@@ -82,12 +81,12 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getHiddenGems(): List<TourismEntity> {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
-        val jsonObject = JSONObject(jsonString)
+        val file = "WanderlustyDetailTourism.json"
+        val jsonObj = parseJson(file)
         val hiddenGemsList = mutableListOf<TourismEntity>()
         val tourOptionList = mutableListOf<TourOption>()
 
-        val tourismArray = jsonObject.getJSONObject("tourism").getJSONArray("section_one")
+        val tourismArray = jsonObj.getJSONObject("tourism").getJSONArray("section_one")
 
         for (i in 0 until tourismArray.length()) {
             val hiddenGemsData = tourismArray.getJSONObject(i)
@@ -141,12 +140,13 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getAllSectionCitiesOne(): List<CityEntity> {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
-        val jsonObject = JSONObject(jsonString)
+        val file = "WanderlustyDetail.json"
+        val jsonObj = parseJson(file)
+
         val cityList = mutableListOf<CityEntity>()
 
-        for (key in jsonObject.keys()) {
-            val cityData = jsonObject.getJSONObject(key)
+        for (key in jsonObj.keys()) {
+            val cityData = jsonObj.getJSONObject(key)
 
             val id = cityData.getString("id")
             val name = cityData.getString("name")
@@ -159,11 +159,11 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getTourismDetail(id: String): TourismEntity? {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetailTourism.json")
-        val jsonObject = JSONObject(jsonString)
+        val file = "WanderlustyDetailTourism.json"
+        val jsonObj = parseJson(file)
 
 
-        val tourismArray = jsonObject.getJSONObject("tourism")
+        val tourismArray = jsonObj.getJSONObject("tourism")
 
         for (sectionKey in tourismArray.keys()) {
             val section = tourismArray.getJSONArray(sectionKey)
@@ -206,8 +206,9 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getCityDetailOverview(id: String): CityDetailOverview? {
-        val j = parseJ()
-        val cityData = j.optJSONObject("city_$id") ?: return null
+        val file = "WanderlustyDetail.json"
+        val jsonObj = parseJson(file)
+        val cityData = jsonObj.optJSONObject("city_$id") ?: return null
 
         // Extract city details
         val cityId = cityData.optString("id", "")
@@ -222,7 +223,8 @@ object TourismDataSource : LocalDataSource {
                 recommendations.getJSONObject(i).run {
 
                     val imagesString = getString("image")
-                    val imageList = Regex("\"(\\w+)\"").findAll(imagesString).map { it.groupValues[1] }.toList()
+                    val imageList =
+                        Regex("\"(\\w+)\"").findAll(imagesString).map { it.groupValues[1] }.toList()
 
 
                     TourismSpot(
@@ -251,11 +253,12 @@ object TourismDataSource : LocalDataSource {
     }
 
     override fun getCityDetailHiddenGems(id: String): CityDetailHiddenGems? {
-        val j = parseJ()
-        val cityData = j.optJSONObject("city_1") ?: return null
+        val file = "WanderlustyDetail.json"
+        val jsonObj = parseJson(file)
+        val cityData = jsonObj.optJSONObject("city_$id") ?: return null
 
         // Extract city details
-//        val cityId = cityData.optString("id", "")
+        val cityId = cityData.optString("id", "")
         val hiddenGemsData = cityData.optJSONObject("hidden_gems") ?: return null
 
         val hiddenTourismArray = hiddenGemsData.optJSONArray("hidden_tourism")
@@ -264,7 +267,7 @@ object TourismDataSource : LocalDataSource {
         val hiddenRestaurantArray = hiddenGemsData.optJSONArray("hidden_restaurant")
         val hiddenRestaurantList = getHiddenRestaurantList(hiddenRestaurantArray)
 
-        return CityDetailHiddenGems(id, HiddenGems(hiddenTourismList, hiddenRestaurantList))
+        return CityDetailHiddenGems(cityId, HiddenGems(hiddenTourismList, hiddenRestaurantList))
     }
 
     private fun getHiddenTourismList(tourismArray: JSONArray?): List<TourismSpot> {
@@ -273,7 +276,8 @@ object TourismDataSource : LocalDataSource {
                 it.getJSONObject(i).run {
 
                     val imagesString = getString("image")
-                    val imageList = Regex("\"(\\w+)\"").findAll(imagesString).map { it.groupValues[1] }.toList()
+                    val imageList =
+                        Regex("\"(\\w+)\"").findAll(imagesString).map { it.groupValues[1] }.toList()
 
                     TourismSpot(
                         getString("id"),
@@ -343,8 +347,8 @@ object TourismDataSource : LocalDataSource {
         }
     }
 
-    private fun parseJ(): JSONObject {
-        val jsonString = GetJson.getJsonFromAssets("WanderlustyDetail.json")
+    private fun parseJson(file: String): JSONObject {
+        val jsonString = GetJson.getJsonFromAssets(file)
         val jsonObject = JSONObject(jsonString)
 
         return jsonObject
