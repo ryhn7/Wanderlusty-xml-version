@@ -3,106 +3,106 @@
     "section_one": [
       {
         "id": "1",
-        "image": "wisata_curugbalongendah2",
-        "title": "Curug Balong Endah",
-        "rating": 4.6,
-        "review": 608,
-        "type": "Waterfall",
-        "location": "Bogor, West Java",
-        "description": "Balong Endah Waterfall is open to the public every day from 7 am to 5 pm. It's best if you come to visit when it's not the rainy season. That way, the volume of the waterfall will be more stable and the water will tend to be clearer.",
-        "duration": "1 - 2 hours",
-        "address": "Kawasan Wisata Gunung Salak Endah Pasir Lenyit, Jl. Curug Pangeran, Kec. Pamijahan, Kabupaten Bogor, Jawa Barat 16810",
+        "image": "nusa_penida",
+        "title": "Kelingking Beach",
+        "rating": 4.8,
+        "review": 2000,
+        "type": "Beach",
+        "location": "Nusa Penida, Bali",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "Curug Pangeran",
-            "rating": 4.5,
-            "review": 2095,
-            "price": 10000,
-            "image": "curug_pangeran"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Curug Ngumpet",
-            "rating": 4.4,
-            "review": 23,
-            "price": 10000,
-            "image": "curug_ngumpet"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Curug Bidadari",
-            "rating": 4.3,
-            "review": 62,
-            "price": 10000,
-            "image": "curug_bidadari"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       },
       {
         "id": "2",
-        "image": "wisata_bukitdipenogoro1",
-        "title": "Bukit Diponegoro Hillside Park",
+        "image": "korod",
+        "title": "Korod Rice Field",
         "rating": 4.5,
-        "review": 467,
-        "type": "Hill",
-        "location": "Semarang, Central Java",
-        "description": "Diponegoro Hill is one of the hidden gem tourist destinations in Semarang which is currently being sought after by young people in the city of Semarang. For those who want to unwind from the tiredness of activities, Diponegoro Hill is the right destination to visit. Here you will be presented with a stretch of green grass.",
-        "duration": "1 - 2 hours",
-        "address": "Taman Kota Diponegoro - Bukit Senja, Tembalang, Kota Semarang, Jawa Tengah 50275",
+        "review": 700,
+        "type": "Rice Field",
+        "location": "Bogor, West Java",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "Desa Wisata Lembah Kalipancur",
-            "rating": 3.9,
-            "review": 2032,
-            "price": 20000,
-            "image": "wisata_kalipacur"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Desa Wisata Lembah Kalipancur",
-            "rating": 3.9,
-            "review": 2032,
-            "price": 20000,
-            "image": "wisata_kalipacur"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Desa Wisata Lembah Kalipancur",
-            "rating": 3.9,
-            "review": 2032,
-            "price": 20000,
-            "image": "wisata_kalipacur"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       },
       {
         "id": "3",
-        "image": "wisata_tugu",
-        "title": "Tugu Digulis",
-        "rating": 4.6,
-        "review": 662,
-        "type": "Monument",
-        "location": "Pontianak, West Kalimantan",
-        "description": "The Eleven Digulis Monument in West Kalimantan, also known as the Digulis Monument or the Sharp Bamboo Monument or the Untan Roundabout Monument by local residents, is a monument located at the Tanjungpura University Roundabout, Jalan Jend. Ahmad Yani, Bansir Laut Village, Southeast Pontianak District, Pontianak City",
-        "duration": "1 - 2 hours",
-        "address": "W8VX+VQ7, Jl. Jenderal Ahmad Yani, Bansir Laut, Kec. Pontianak Tenggara, Kota Pontianak, Kalimantan Barat 78115",
+        "image": "samosir_island",
+        "title": "Samosir Island",
+        "rating": 4.7,
+        "review": 2300,
+        "type": "Island",
+        "location": "Lake Toba, North Sumatera",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "Danau Biru Singkawang",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 23,
-            "price": 5000,
-            "image": "wisata_singkawa"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Danau Biru Singkawang",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 23,
-            "price": 5000,
-            "image": "wisata_singkawa"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Danau Biru Singkawang",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 23,
-            "price": 5000,
-            "image": "wisata_singkawa"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       }
@@ -110,106 +110,106 @@
     "section_two": [
       {
         "id": "4",
-        "image": "wisata_palung1",
-        "title": "Taman Nasional Gunung Palung",
-        "rating": 4.3,
-        "review": 190,
-        "type": "Mountain",
-        "location": "Pontianak, West Kalimantan",
-        "description": "Gunung Palung National Park is a national park located in North Kayong Regency and Ketapang Regency, West Kalimantan",
-        "duration": "1 - 2 hours",
-        "address": "4XJF+88Q, Padu Banjar, Kec. Simpang Hilir, Kabupaten Ketapang, Kalimantan Barat 78857",
+        "image": "wisata_curugbalongendah",
+        "title": "Balong Endah Waterfall",
+        "rating": 4.7,
+        "review": 1070,
+        "type": "Waterfall",
+        "location": "Bogor, West Java",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "Danau Biru Singkawang",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 23,
-            "price": 5000,
-            "image": "wisata_singkawa"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Danau Biru Singkawang",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 23,
-            "price": 5000,
-            "image": "wisata_singkawa"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Danau Biru Singkawang",
+            "name": "Mawar Camp",
             "rating": 4,
-            "review": 23,
-            "price": 5000,
-            "image": "wisata_singkawa"
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       },
       {
         "id": "5",
-        "image": "wisata_kebunraya1",
-        "title": "Kebun Raya Bogor",
-        "rating": 4.7,
-        "review": 93847,
-        "type": "Educational Tourism",
-        "location": "Bogor, West Java",
-        "description": "Bogor Botanical Gardens or Bogor Botanical Gardens is a large botanical garden located in Bogor City, Indonesia. This garden is operated by the National Research and Innovation Agency. This garden is located in the center of Bogor city and adjacent to the Bogor Palace presidential palace complex.",
+        "image": "brown_canyon",
+        "title": "Brown Canyon",
+        "rating": 4.5,
+        "review": 1700,
+        "type": "Canyon",
+        "location": "Semarang, Central Java",
+        "description": "deskripsi hotel",
         "duration": "1-2 hours",
         "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "Curug Pangeran",
-            "rating": 4.5,
-            "review": 2095,
-            "price": 10000,
-            "image": "curug_pangeran"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Curug Ngumpet",
-            "rating": 4.4,
-            "review": 23,
-            "price": 10000,
-            "image": "curug_ngumpet"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Curug Bidadari",
-            "rating": 4.3,
-            "review": 62,
-            "price": 10000,
-            "image": "curug_bidadari"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       },
       {
         "id": "6",
-        "image": "wisata_salokapark",
-        "title": "Saloka Park",
-        "rating": 4.4,
-        "review": 17111,
-        "type": "Amusement Parks",
-        "location": "Semarang, Central Java",
-        "description": "SALOKA is present as one of the Pesona Indonesia tourist destinations in the form of a family thematic recreation park in Central Java which carries the concept of local wisdom. Located at the intersection between the cities of Semarang, Salatiga, Surakarta and the Special Region of Yogyakarta.",
-        "duration": "1 - 2 hours",
-        "address": "Jl. Fatmawati No.154, Gumuksari, Lopait, Kec. Tuntang, Kabupaten Semarang, Jawa Tengah 50773",
+        "image": "skuleskogen",
+        "title": "Mudal River Park",
+        "rating": 4.7,
+        "review": 2300,
+        "type": "River Park",
+        "location": "Yogya, DIY Yogyakarta",
+        "description": "deskripsi hotel",
+        "duration": "1-2 hours",
+        "address": "Jl. Rahadi Usman, Tengah, Kec. Pontianak",
         "tour_option": [
           {
-            "name": "Desa Wisata Lembah Kalipancur",
-            "rating": 3.9,
-            "review": 2032,
-            "price": 20000,
-            "image": "wisata_kalipacur"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Desa Wisata Lembah Kalipancur",
-            "rating": 3.9,
-            "review": 2032,
-            "price": 20000,
-            "image": "wisata_kalipacur"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           },
           {
-            "name": "Desa Wisata Lembah Kalipancur",
-            "rating": 3.9,
-            "review": 2032,
-            "price": 20000,
-            "image": "wisata_kalipacur"
+            "name": "Mawar Camp",
+            "rating": 4,
+            "review": 1200,
+            "price": 50000,
+            "image": "dummy_tour"
           }
         ]
       }
